@@ -1,0 +1,53 @@
+{
+  "accounting_note": "AGS uses conservative generic PLDs; coordinates are composed before one WOR amplification.",
+  "config": {
+    "accountant_search_iterations": 5,
+    "ags_delta_fraction": 0.5,
+    "ags_mechanism": "cauchy",
+    "arms": [
+      "ags_gs"
+    ],
+    "batch_size": 2000,
+    "beta_epsilon_ratio": 0.16666666666666666,
+    "coordinate_clip": 0.1,
+    "epochs": 1,
+    "experiment": "logistic_mnist_cauchy_gs_eps100_b2000",
+    "gradient_chunk_size": 256,
+    "l2_clip": 1.0,
+    "learning_rate": 0.1,
+    "model": "logistic",
+    "pld_interval": 0.001,
+    "seed": 0,
+    "target_delta": 0.1,
+    "target_epsilon": 100.0
+  },
+  "created_utc": "2026-08-25T19:56:29.062571+00:00",
+  "results": [
+    {
+      "arm": "ags_gs",
+      "coordinate_clipping_rate": 0.04875162420382164,
+      "layers": {},
+      "peak_rss_mb": 1371.4921875,
+      "privacy": {
+        "accountant": "generic-pld-conservative",
+        "accounting_runtime_seconds": 0.5594382919371128,
+        "delta": 0.1,
+        "epsilon": 91.1961486313369,
+        "mechanism_parameter": 0.028,
+        "q": 0.03333333333333333,
+        "steps": 30
+      },
+      "runtime_seconds": 1.202928819693625,
+      "steps": 30,
+      "test_accuracy": 0.1809,
+      "test_loss": 4.298174896240234
+    }
+  ],
+  "schema": 1,
+  "versions": {
+    "dp-accounting": "0.6.0",
+    "opacus": "1.6.0",
+    "torch": "2.9.1+cu128",
+    "torchvision": "0.24.1"
+  }
+}

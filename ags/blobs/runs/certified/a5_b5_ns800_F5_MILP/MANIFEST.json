@@ -1,0 +1,23 @@
+{
+ "run_id": "a5_b5_ns800_F5_MILP",
+ "status": "completed",
+ "error": null,
+ "finished": "2026-08-20 06:03:47",
+ "wall_s": 32071.51183986664,
+ "steps_written": 640,
+ "steps_expected": 640,
+ "models_written": 640,
+ "solves_written": 11520,
+ "solves_expected": 11520,
+ "counts": {
+  "optimal": 11515,
+  "time_limit": 5,
+  "infeasible": 0,
+  "other": 0,
+  "dual_fallback": 13,
+  "no_solution": 0
+ },
+ "steps_complete": true,
+ "solves_complete": true,
+ "solves_sha256": "fc074e46ef475fb062be969ebcce597a0d888713d9c493a2b262daf66b243606"
+}

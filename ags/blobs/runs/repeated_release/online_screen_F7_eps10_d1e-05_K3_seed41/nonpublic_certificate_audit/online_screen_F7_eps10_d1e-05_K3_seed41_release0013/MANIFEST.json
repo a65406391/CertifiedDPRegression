@@ -1,0 +1,23 @@
+{
+ "run_id": "online_screen_F7_eps10_d1e-05_K3_seed41_release0013",
+ "status": "completed",
+ "error": null,
+ "finished": "2026-08-26 01:21:20",
+ "wall_s": 32.82540774345398,
+ "steps_written": 4,
+ "steps_expected": 4,
+ "models_written": 4,
+ "solves_written": 72,
+ "solves_expected": 72,
+ "counts": {
+  "optimal": 72,
+  "time_limit": 0,
+  "infeasible": 0,
+  "other": 0,
+  "dual_fallback": 0,
+  "no_solution": 0
+ },
+ "steps_complete": true,
+ "solves_complete": true,
+ "solves_sha256": "b43c7c76874c6e74282c2100198b5fa51b7449b22db3373e16d8c36243fa40d7"
+}

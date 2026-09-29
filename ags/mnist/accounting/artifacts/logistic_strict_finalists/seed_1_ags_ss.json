@@ -1,0 +1,119 @@
+{
+  "result": {
+    "arm": "ags_ss",
+    "config": {
+      "accountant_search_iterations": 24,
+      "ags_delta_fraction": 0.9,
+      "ags_mechanism": "laplace",
+      "ags_release_mode": "coordinate",
+      "arms": [
+        "ags_ss"
+      ],
+      "batch_size": 1000,
+      "beta_epsilon_ratio": 0.001,
+      "coordinate_clip": 0.1,
+      "coordinate_clip_bias": 0.03,
+      "coordinate_clip_weight": 0.3,
+      "epochs": 1,
+      "experiment": "logistic_strict_finalists",
+      "gradient_chunk_size": 1000,
+      "l2_clip": 1.0,
+      "learning_rate": 0.3,
+      "model": "logistic",
+      "pld_interval": 0.0001,
+      "seed": 1,
+      "sensitivity_method": "direct_clipped_mean",
+      "target_delta": 0.1,
+      "target_epsilon": 100.0
+    },
+    "coordinate_clipping_rate": 0.01223212314225053,
+    "layers": {
+      "certificate": {
+        "beta": 2.61e-05,
+        "exp_minus_beta": 0.9999739003406021,
+        "method": "direct_clipped_mean"
+      },
+      "linear.bias": {
+        "cap_reached_fraction": 1.0,
+        "local_over_gs_quantiles": [
+          1.0000001192092896,
+          1.0000001192092896,
+          1.0000001192092896,
+          1.0000001192092896,
+          1.0000001192092896
+        ],
+        "local_term_selected_fraction": 1.0,
+        "noise_scale_quantiles": [
+          0.0013793105026707053,
+          0.0013793105026707053,
+          0.0013793105026707053,
+          0.0013793105026707053,
+          0.0013793105026707053
+        ],
+        "s_over_gs_quantiles": [
+          1.0000001192092896,
+          1.0000001192092896,
+          1.0000001192092896,
+          1.0000001192092896,
+          1.0000001192092896
+        ],
+        "signal_over_noise_quantiles": [
+          1.4258008003234863,
+          2.2170350551605225,
+          2.37603759765625,
+          2.60583233833313,
+          3.017399311065674
+        ]
+      },
+      "linear.weight": {
+        "cap_reached_fraction": 0.5315051020408164,
+        "local_over_gs_quantiles": [
+          0.5000000596046448,
+          0.5036354660987854,
+          1.0000001192092896,
+          1.0000001192092896,
+          1.0000001192092896
+        ],
+        "local_term_selected_fraction": 0.5315051020408164,
+        "noise_scale_quantiles": [
+          0.01379274483770132,
+          0.01379274483770132,
+          0.013793104328215122,
+          0.013793104328215122,
+          0.013793104328215122
+        ],
+        "s_over_gs_quantiles": [
+          0.9999740719795227,
+          0.9999740719795227,
+          1.0000001192092896,
+          1.0000001192092896,
+          1.0000001192092896
+        ],
+        "signal_over_noise_quantiles": [
+          0.0,
+          5.596135451924056e-05,
+          0.009938995353877544,
+          0.059412404894828796,
+          0.37376147508621216
+        ]
+      }
+    },
+    "peak_rss_mb": 5236.39453125,
+    "privacy": {
+      "accountant": "generic-pld-conservative",
+      "accounting_runtime_seconds": 9.227983579970896,
+      "delta": 0.1,
+      "epsilon": 99.6188385621799,
+      "mechanism_parameter": 0.0261,
+      "q": 0.016666666666666666,
+      "steps": 60
+    },
+    "runtime_seconds": 0.5833516381680965,
+    "seed": 1,
+    "steps": 60,
+    "strict_arm": "ags_ss",
+    "test_accuracy": 0.7855,
+    "test_loss": 0.7384933441162109
+  },
+  "schema": 1
+}

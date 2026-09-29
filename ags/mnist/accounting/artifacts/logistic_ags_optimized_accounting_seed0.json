@@ -1,0 +1,126 @@
+{
+  "accounting_note": "AGS uses conservative generic PLDs; coordinates are composed before one WOR amplification.",
+  "config": {
+    "accountant_search_iterations": 5,
+    "ags_delta_fraction": 0.9,
+    "ags_mechanism": "laplace",
+    "arms": [
+      "ags_ss"
+    ],
+    "batch_size": 1000,
+    "beta_epsilon_ratio": 0.001,
+    "coordinate_clip": 0.1,
+    "coordinate_clip_bias": 0.03,
+    "coordinate_clip_weight": 0.3,
+    "epochs": 1,
+    "experiment": "logistic_ags_optimized_public_accounting",
+    "gradient_chunk_size": 1000,
+    "l2_clip": 1.0,
+    "learning_rate": 0.3,
+    "model": "logistic",
+    "pld_interval": 0.0005,
+    "seed": 0,
+    "sensitivity_method": "direct_clipped_mean",
+    "target_delta": 0.1,
+    "target_epsilon": 100.0
+  },
+  "created_utc": "2026-08-25T20:27:13.669318+00:00",
+  "results": [
+    {
+      "arm": "ags_ss",
+      "coordinate_clipping_rate": 0.012241016985138003,
+      "layers": {
+        "certificate": {
+          "beta": 2.6000000000000002e-05,
+          "exp_minus_beta": 0.9999740003379971,
+          "method": "direct_clipped_mean"
+        },
+        "linear.bias": {
+          "cap_reached_fraction": 1.0,
+          "local_over_gs_quantiles": [
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896
+          ],
+          "local_term_selected_fraction": 1.0,
+          "noise_scale_quantiles": [
+            0.0013846155488863587,
+            0.0013846155488863587,
+            0.0013846155488863587,
+            0.0013846155488863587,
+            0.0013846155488863587
+          ],
+          "s_over_gs_quantiles": [
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896
+          ],
+          "signal_over_noise_quantiles": [
+            1.0238021612167358,
+            1.8107717037200928,
+            2.152461051940918,
+            2.8424253463745117,
+            3.0126278400421143
+          ]
+        },
+        "linear.weight": {
+          "cap_reached_fraction": 0.5183673469387755,
+          "local_over_gs_quantiles": [
+            0.5000000596046448,
+            0.5024140477180481,
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896
+          ],
+          "local_term_selected_fraction": 0.5183673469387755,
+          "noise_scale_quantiles": [
+            0.013845794834196568,
+            0.013845794834196568,
+            0.013846154324710369,
+            0.013846154324710369,
+            0.013846154324710369
+          ],
+          "s_over_gs_quantiles": [
+            0.9999741315841675,
+            0.9999741315841675,
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896
+          ],
+          "signal_over_noise_quantiles": [
+            0.0,
+            3.2947147701634094e-05,
+            0.009464678354561329,
+            0.05112601816654205,
+            0.4000893831253052
+          ]
+        }
+      },
+      "peak_rss_mb": 1685.7265625,
+      "privacy": {
+        "accountant": "generic-pld-conservative",
+        "accounting_runtime_seconds": 1.208528259769082,
+        "delta": 0.1,
+        "epsilon": 97.84457625702417,
+        "mechanism_parameter": 0.026000000000000002,
+        "q": 0.016666666666666666,
+        "steps": 60
+      },
+      "runtime_seconds": 1.277384934015572,
+      "steps": 60,
+      "test_accuracy": 0.7797,
+      "test_loss": 0.7168810745239258
+    }
+  ],
+  "schema": 1,
+  "versions": {
+    "dp-accounting": "0.6.0",
+    "opacus": "1.6.0",
+    "torch": "2.9.1+cu128",
+    "torchvision": "0.24.1"
+  }
+}

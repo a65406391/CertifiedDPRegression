@@ -1,0 +1,322 @@
+{
+  "proof_basis": "For every coordinate, normalized output x, admissible shift, and continuous scale ratio, rectangle arithmetic upper-bounds the privacy loss. Exact standard-Laplace bin mass is assigned to the rounded-up bound and truncated tails to infinite privacy loss. Independent sums of these coupled upper variables dominate coordinate composition. The symmetric log-ratio domain also covers the reverse direction.",
+  "rows": [
+    {
+      "matched_fixed_cyclic_dpsgd": {
+        "ags_median": 0.49566666666666664,
+        "ags_trials": 101,
+        "dpsgd_median": 0.5766666666666667,
+        "dpsgd_trials": 101,
+        "mean_difference": -0.09322112211221123,
+        "unpaired_bootstrap_mean_difference_ci95": [
+          -0.11218820132013216,
+          -0.07501980198019809
+        ]
+      },
+      "poisson_dpsgd_stress_test": {
+        "ags_median": 0.49566666666666664,
+        "ags_trials": 101,
+        "dpsgd_median": 0.7583333333333333,
+        "dpsgd_trials": 101,
+        "mean_difference": -0.24744224422442251,
+        "unpaired_bootstrap_mean_difference_ci95": [
+          -0.2692509900990098,
+          -0.2249928217821785
+        ]
+      },
+      "selected_accountant": "analytic_interval_rdp",
+      "selected_achieved_epsilon_upper": 0.9999973928365327,
+      "selected_parameter_factor_over_rdp": 1.0,
+      "target_epsilon": 1
+    },
+    {
+      "matched_fixed_cyclic_dpsgd": {
+        "ags_median": 0.495,
+        "ags_trials": 101,
+        "dpsgd_median": 0.6786666666666666,
+        "dpsgd_trials": 101,
+        "mean_difference": -0.17924092409240933,
+        "unpaired_bootstrap_mean_difference_ci95": [
+          -0.20079216171617137,
+          -0.15740915841584166
+        ]
+      },
+      "poisson_dpsgd_stress_test": {
+        "ags_median": 0.495,
+        "ags_trials": 101,
+        "dpsgd_median": 0.8356666666666667,
+        "dpsgd_trials": 101,
+        "mean_difference": -0.31479207920792096,
+        "unpaired_bootstrap_mean_difference_ci95": [
+          -0.3340531353135315,
+          -0.29570899339933987
+        ]
+      },
+      "selected_accountant": "analytic_interval_rdp",
+      "selected_achieved_epsilon_upper": 1.9999951100209659,
+      "selected_parameter_factor_over_rdp": 1.0,
+      "target_epsilon": 2
+    },
+    {
+      "matched_fixed_cyclic_dpsgd": {
+        "ags_median": 0.538,
+        "ags_trials": 101,
+        "dpsgd_median": 0.7926666666666666,
+        "dpsgd_trials": 101,
+        "mean_difference": -0.24956765676567672,
+        "unpaired_bootstrap_mean_difference_ci95": [
+          -0.27159414191419134,
+          -0.2271681518151813
+        ]
+      },
+      "poisson_dpsgd_stress_test": {
+        "ags_median": 0.538,
+        "ags_trials": 101,
+        "dpsgd_median": 0.8856666666666667,
+        "dpsgd_trials": 101,
+        "mean_difference": -0.334983498349835,
+        "unpaired_bootstrap_mean_difference_ci95": [
+          -0.3523598184818484,
+          -0.31722755775577566
+        ]
+      },
+      "selected_accountant": "analytic_interval_rdp",
+      "selected_achieved_epsilon_upper": 4.999989106319816,
+      "selected_parameter_factor_over_rdp": 1.0,
+      "target_epsilon": 5
+    },
+    {
+      "matched_fixed_cyclic_dpsgd": {
+        "ags_median": 0.6963333333333334,
+        "ags_trials": 101,
+        "dpsgd_median": 0.8523333333333334,
+        "dpsgd_trials": 101,
+        "mean_difference": -0.14086138613861388,
+        "unpaired_bootstrap_mean_difference_ci95": [
+          -0.15958432343234327,
+          -0.12200651815181472
+        ]
+      },
+      "poisson_dpsgd_stress_test": {
+        "ags_median": 0.6963333333333334,
+        "ags_trials": 101,
+        "dpsgd_median": 0.895,
+        "dpsgd_trials": 101,
+        "mean_difference": -0.18348514851485154,
+        "unpaired_bootstrap_mean_difference_ci95": [
+          -0.19994397689768975,
+          -0.16652466996699686
+        ]
+      },
+      "selected_accountant": "continuous_pointwise_envelope_native_pld",
+      "selected_achieved_epsilon_upper": 9.999783246557518,
+      "selected_parameter_factor_over_rdp": 1.0039209802913664,
+      "target_epsilon": 10
+    },
+    {
+      "matched_fixed_cyclic_dpsgd": {
+        "ags_median": 0.8753333333333333,
+        "ags_trials": 101,
+        "dpsgd_median": 0.8763333333333333,
+        "dpsgd_trials": 101,
+        "mean_difference": -0.0013201320132010252,
+        "unpaired_bootstrap_mean_difference_ci95": [
+          -0.011419224422442396,
+          0.008709735973597537
+        ]
+      },
+      "poisson_dpsgd_stress_test": {
+        "ags_median": 0.8753333333333333,
+        "ags_trials": 101,
+        "dpsgd_median": 0.8983333333333333,
+        "dpsgd_trials": 101,
+        "mean_difference": -0.02502640264026379,
+        "unpaired_bootstrap_mean_difference_ci95": [
+          -0.03326402640264037,
+          -0.01695041254125415
+        ]
+      },
+      "selected_accountant": "continuous_pointwise_envelope_native_pld",
+      "selected_achieved_epsilon_upper": 14.99966618680516,
+      "selected_parameter_factor_over_rdp": 1.0242347906208038,
+      "target_epsilon": 15
+    },
+    {
+      "matched_fixed_cyclic_dpsgd": {
+        "ags_median": 0.8966666666666666,
+        "ags_trials": 101,
+        "dpsgd_median": 0.8853333333333333,
+        "dpsgd_trials": 101,
+        "mean_difference": 0.01329372937293749,
+        "unpaired_bootstrap_mean_difference_ci95": [
+          0.00672277227722784,
+          0.01997359735973614
+        ]
+      },
+      "poisson_dpsgd_stress_test": {
+        "ags_median": 0.8966666666666666,
+        "ags_trials": 101,
+        "dpsgd_median": 0.899,
+        "dpsgd_trials": 101,
+        "mean_difference": -0.0006435643564356441,
+        "unpaired_bootstrap_mean_difference_ci95": [
+          -0.005802062706270414,
+          0.004531353135313609
+        ]
+      },
+      "selected_accountant": "continuous_pointwise_envelope_native_pld",
+      "selected_achieved_epsilon_upper": 19.999567895102967,
+      "selected_parameter_factor_over_rdp": 1.0267541093587875,
+      "target_epsilon": 20
+    },
+    {
+      "matched_fixed_cyclic_dpsgd": {
+        "ags_median": 0.9,
+        "ags_trials": 101,
+        "dpsgd_median": 0.889,
+        "dpsgd_trials": 101,
+        "mean_difference": 0.01205610561056114,
+        "unpaired_bootstrap_mean_difference_ci95": [
+          0.006831683168316835,
+          0.017277227722771966
+        ]
+      },
+      "poisson_dpsgd_stress_test": {
+        "ags_median": 0.9,
+        "ags_trials": 101,
+        "dpsgd_median": 0.8993333333333333,
+        "dpsgd_trials": 101,
+        "mean_difference": 0.0032574257425743713,
+        "unpaired_bootstrap_mean_difference_ci95": [
+          -0.000947194719472022,
+          0.007528052805280352
+        ]
+      },
+      "selected_accountant": "continuous_pointwise_envelope_native_pld",
+      "selected_achieved_epsilon_upper": 24.99945781319043,
+      "selected_parameter_factor_over_rdp": 1.0311652416849135,
+      "target_epsilon": 25
+    },
+    {
+      "matched_fixed_cyclic_dpsgd": {
+        "ags_median": 0.9016666666666666,
+        "ags_trials": 101,
+        "dpsgd_median": 0.8913333333333333,
+        "dpsgd_trials": 101,
+        "mean_difference": 0.010115511551155199,
+        "unpaired_bootstrap_mean_difference_ci95": [
+          0.005884405940593996,
+          0.014458745874587401
+        ]
+      },
+      "poisson_dpsgd_stress_test": {
+        "ags_median": 0.9016666666666666,
+        "ags_trials": 101,
+        "dpsgd_median": 0.8993333333333333,
+        "dpsgd_trials": 101,
+        "mean_difference": 0.004415841584158531,
+        "unpaired_bootstrap_mean_difference_ci95": [
+          0.0007358910891088422,
+          0.008240924092409178
+        ]
+      },
+      "selected_accountant": "continuous_pointwise_envelope_native_pld",
+      "selected_achieved_epsilon_upper": 29.99910306747286,
+      "selected_parameter_factor_over_rdp": 1.0370216385316848,
+      "target_epsilon": 30
+    },
+    {
+      "matched_fixed_cyclic_dpsgd": {
+        "ags_median": 0.902,
+        "ags_trials": 101,
+        "dpsgd_median": 0.895,
+        "dpsgd_trials": 101,
+        "mean_difference": 0.007227722772277456,
+        "unpaired_bootstrap_mean_difference_ci95": [
+          0.003900907590758865,
+          0.010561138613861565
+        ]
+      },
+      "poisson_dpsgd_stress_test": {
+        "ags_median": 0.902,
+        "ags_trials": 101,
+        "dpsgd_median": 0.8996666666666666,
+        "dpsgd_trials": 101,
+        "mean_difference": 0.005429042904290249,
+        "unpaired_bootstrap_mean_difference_ci95": [
+          0.002264026402640007,
+          0.008834983498349883
+        ]
+      },
+      "selected_accountant": "continuous_pointwise_envelope_native_pld",
+      "selected_achieved_epsilon_upper": 39.99889764122223,
+      "selected_parameter_factor_over_rdp": 1.0402323573207855,
+      "target_epsilon": 40
+    },
+    {
+      "matched_fixed_cyclic_dpsgd": {
+        "ags_median": 0.902,
+        "ags_trials": 101,
+        "dpsgd_median": 0.8973333333333333,
+        "dpsgd_trials": 101,
+        "mean_difference": 0.00544884488448838,
+        "unpaired_bootstrap_mean_difference_ci95": [
+          0.002722689768977124,
+          0.00822112211221138
+        ]
+      },
+      "poisson_dpsgd_stress_test": {
+        "ags_median": 0.902,
+        "ags_trials": 101,
+        "dpsgd_median": 0.9,
+        "dpsgd_trials": 101,
+        "mean_difference": 0.005709570957095789,
+        "unpaired_bootstrap_mean_difference_ci95": [
+          0.0027028877887786715,
+          0.008858168316831972
+        ]
+      },
+      "selected_accountant": "continuous_pointwise_envelope_native_pld",
+      "selected_achieved_epsilon_upper": 49.99840373669014,
+      "selected_parameter_factor_over_rdp": 1.0470347801685334,
+      "target_epsilon": 50
+    },
+    {
+      "matched_fixed_cyclic_dpsgd": {
+        "ags_median": 0.9023333333333333,
+        "ags_trials": 101,
+        "dpsgd_median": 0.8993333333333333,
+        "dpsgd_trials": 101,
+        "mean_difference": 0.0023036303630361576,
+        "unpaired_bootstrap_mean_difference_ci95": [
+          0.0005940594059404836,
+          0.004033003300330074
+        ]
+      },
+      "poisson_dpsgd_stress_test": {
+        "ags_median": 0.9023333333333333,
+        "ags_trials": 101,
+        "dpsgd_median": 0.9003333333333333,
+        "dpsgd_trials": 101,
+        "mean_difference": 0.0055346534653463175,
+        "unpaired_bootstrap_mean_difference_ci95": [
+          0.002907590759075762,
+          0.008392739273927478
+        ]
+      },
+      "selected_accountant": "continuous_pointwise_envelope_native_pld",
+      "selected_achieved_epsilon_upper": 99.99602749211616,
+      "selected_parameter_factor_over_rdp": 1.079959489016533,
+      "target_epsilon": 100
+    }
+  ],
+  "schema": 1,
+  "selection_caveat": "chosen during exploratory method development",
+  "source_sha256": {
+    "ags": "ae90926d22c9e120db3883514c0e5c7a28d868fbe3a90ab8d791190ae358e12b",
+    "matched_dp": "cc9f37cd38a28f80c2e8dfa0b55eb02fa09e15459ca983ccc10ec2b0a1c027d7",
+    "poisson_dp": "94c2e8fc1f69003cf838f8f60843f9758d24fba1524919f4350f1f2782c0ffad"
+  },
+  "statistical_note": "Intervals independently bootstrap mechanism trials and are descriptive, not confirmatory. The Poisson arm is an algorithmically unmatched stress test.",
+  "status": "complete_certified_native_pld_envelope_comparison"
+}

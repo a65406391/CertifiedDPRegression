@@ -1,0 +1,44 @@
+{
+ "dataset": "california",
+ "shard_grid": [
+  16,
+  32,
+  64,
+  128,
+  256,
+  512
+ ],
+ "epsilons": [
+  0.1,
+  0.2,
+  0.5,
+  1.0,
+  2.0,
+  5.0,
+  10.0
+ ],
+ "best_fixed_S": 512,
+ "best_fixed_rule": "min geometric-mean MSE over the epsilon grid",
+ "arithmetic_mean_S": 512,
+ "envelope_S": [
+  512,
+  512,
+  512,
+  512,
+  512,
+  512,
+  512
+ ],
+ "noiseless_mse": {
+  "16": 0.35187405347824097,
+  "32": 0.3567727605501811,
+  "64": 0.36245571573575336,
+  "128": 0.3697190284729004,
+  "256": 0.3861074149608612,
+  "512": 0.39315932989120483
+ },
+ "seeds": 3,
+ "n_test": 4128,
+ "accounting": "composed: epsilon split across the n_test released predictions (basic composition)",
+ "best_fixed_S_per_query": 512
+}

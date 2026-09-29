@@ -1,0 +1,57 @@
+{
+  "accounting_note": "AGS uses conservative generic PLDs; coordinates are composed before one WOR amplification.",
+  "config": {
+    "accountant_search_iterations": 5,
+    "ags_delta_fraction": 0.9,
+    "ags_mechanism": "laplace",
+    "ags_release_mode": "tensor_l1",
+    "arms": [
+      "ags_gs"
+    ],
+    "batch_size": 1000,
+    "beta_epsilon_ratio": 0.001,
+    "coordinate_clip": 0.1,
+    "coordinate_clip_bias": 0.03,
+    "coordinate_clip_weight": 0.3,
+    "epochs": 1,
+    "experiment": "logistic_ags_gs_tensor_l1",
+    "gradient_chunk_size": 1000,
+    "l2_clip": 1.0,
+    "learning_rate": 0.3,
+    "model": "logistic",
+    "pld_interval": 0.0005,
+    "seed": 0,
+    "sensitivity_method": "direct_clipped_mean",
+    "target_delta": 0.1,
+    "target_epsilon": 100.0
+  },
+  "created_utc": "2026-08-25T20:30:35.985990+00:00",
+  "results": [
+    {
+      "arm": "ags_gs",
+      "coordinate_clipping_rate": 0.026918764331210192,
+      "layers": {},
+      "peak_rss_mb": 1435.61328125,
+      "privacy": {
+        "accountant": "generic-pld-conservative",
+        "accounting_runtime_seconds": 0.6246796892955899,
+        "delta": 0.1,
+        "epsilon": 99.95430553815022,
+        "mechanism_parameter": 2.945,
+        "q": 0.016666666666666666,
+        "steps": 60
+      },
+      "runtime_seconds": 1.4256444936618209,
+      "steps": 60,
+      "test_accuracy": 0.1156,
+      "test_loss": 109.1359361328125
+    }
+  ],
+  "schema": 1,
+  "versions": {
+    "dp-accounting": "0.6.0",
+    "opacus": "1.6.0",
+    "torch": "2.9.1+cu128",
+    "torchvision": "0.24.1"
+  }
+}

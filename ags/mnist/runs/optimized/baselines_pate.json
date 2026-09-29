@@ -1,0 +1,2462 @@
+{
+ "pure": {
+  "grid": {
+   "1": {
+    "{\"teachers\": 5, \"queries\": 100}": {
+     "select": 0.1012,
+     "test": 0.1044,
+     "mechanism": 0.01
+    },
+    "{\"teachers\": 5, \"queries\": 250}": {
+     "select": 0.1064,
+     "test": 0.1012,
+     "mechanism": 0.004
+    },
+    "{\"teachers\": 5, \"queries\": 500}": {
+     "select": 0.1132,
+     "test": 0.1128,
+     "mechanism": 0.002
+    },
+    "{\"teachers\": 5, \"queries\": 1000}": {
+     "select": 0.0932,
+     "test": 0.0928,
+     "mechanism": 0.001
+    },
+    "{\"teachers\": 5, \"queries\": 2500}": {
+     "select": 0.096,
+     "test": 0.0941,
+     "mechanism": 0.0004
+    },
+    "{\"teachers\": 10, \"queries\": 100}": {
+     "select": 0.1012,
+     "test": 0.1044,
+     "mechanism": 0.01
+    },
+    "{\"teachers\": 10, \"queries\": 250}": {
+     "select": 0.1068,
+     "test": 0.0997,
+     "mechanism": 0.004
+    },
+    "{\"teachers\": 10, \"queries\": 500}": {
+     "select": 0.1132,
+     "test": 0.1128,
+     "mechanism": 0.002
+    },
+    "{\"teachers\": 10, \"queries\": 1000}": {
+     "select": 0.0932,
+     "test": 0.094,
+     "mechanism": 0.001
+    },
+    "{\"teachers\": 10, \"queries\": 2500}": {
+     "select": 0.096,
+     "test": 0.0941,
+     "mechanism": 0.0004
+    },
+    "{\"teachers\": 20, \"queries\": 100}": {
+     "select": 0.1028,
+     "test": 0.1058,
+     "mechanism": 0.01
+    },
+    "{\"teachers\": 20, \"queries\": 250}": {
+     "select": 0.1068,
+     "test": 0.0997,
+     "mechanism": 0.004
+    },
+    "{\"teachers\": 20, \"queries\": 500}": {
+     "select": 0.1132,
+     "test": 0.113,
+     "mechanism": 0.002
+    },
+    "{\"teachers\": 20, \"queries\": 1000}": {
+     "select": 0.0932,
+     "test": 0.094,
+     "mechanism": 0.001
+    },
+    "{\"teachers\": 20, \"queries\": 2500}": {
+     "select": 0.094,
+     "test": 0.0936,
+     "mechanism": 0.0004
+    },
+    "{\"teachers\": 50, \"queries\": 100}": {
+     "select": 0.1084,
+     "test": 0.1105,
+     "mechanism": 0.01
+    },
+    "{\"teachers\": 50, \"queries\": 250}": {
+     "select": 0.1124,
+     "test": 0.1097,
+     "mechanism": 0.004
+    },
+    "{\"teachers\": 50, \"queries\": 500}": {
+     "select": 0.1132,
+     "test": 0.113,
+     "mechanism": 0.002
+    },
+    "{\"teachers\": 50, \"queries\": 1000}": {
+     "select": 0.0996,
+     "test": 0.1016,
+     "mechanism": 0.001
+    },
+    "{\"teachers\": 50, \"queries\": 2500}": {
+     "select": 0.094,
+     "test": 0.0936,
+     "mechanism": 0.0004
+    },
+    "{\"teachers\": 100, \"queries\": 100}": {
+     "select": 0.118,
+     "test": 0.1216,
+     "mechanism": 0.01
+    },
+    "{\"teachers\": 100, \"queries\": 250}": {
+     "select": 0.1224,
+     "test": 0.1165,
+     "mechanism": 0.004
+    },
+    "{\"teachers\": 100, \"queries\": 500}": {
+     "select": 0.1188,
+     "test": 0.1201,
+     "mechanism": 0.002
+    },
+    "{\"teachers\": 100, \"queries\": 1000}": {
+     "select": 0.0996,
+     "test": 0.1018,
+     "mechanism": 0.001
+    },
+    "{\"teachers\": 100, \"queries\": 2500}": {
+     "select": 0.0964,
+     "test": 0.095,
+     "mechanism": 0.0004
+    }
+   },
+   "2": {
+    "{\"teachers\": 5, \"queries\": 100}": {
+     "select": 0.1012,
+     "test": 0.1044,
+     "mechanism": 0.02
+    },
+    "{\"teachers\": 5, \"queries\": 250}": {
+     "select": 0.1068,
+     "test": 0.0997,
+     "mechanism": 0.008
+    },
+    "{\"teachers\": 5, \"queries\": 500}": {
+     "select": 0.1132,
+     "test": 0.1128,
+     "mechanism": 0.004
+    },
+    "{\"teachers\": 5, \"queries\": 1000}": {
+     "select": 0.0932,
+     "test": 0.094,
+     "mechanism": 0.002
+    },
+    "{\"teachers\": 5, \"queries\": 2500}": {
+     "select": 0.096,
+     "test": 0.0941,
+     "mechanism": 0.0008
+    },
+    "{\"teachers\": 10, \"queries\": 100}": {
+     "select": 0.1024,
+     "test": 0.1058,
+     "mechanism": 0.02
+    },
+    "{\"teachers\": 10, \"queries\": 250}": {
+     "select": 0.1092,
+     "test": 0.1008,
+     "mechanism": 0.008
+    },
+    "{\"teachers\": 10, \"queries\": 500}": {
+     "select": 0.1132,
+     "test": 0.113,
+     "mechanism": 0.004
+    },
+    "{\"teachers\": 10, \"queries\": 1000}": {
+     "select": 0.0932,
+     "test": 0.094,
+     "mechanism": 0.002
+    },
+    "{\"teachers\": 10, \"queries\": 2500}": {
+     "select": 0.094,
+     "test": 0.0936,
+     "mechanism": 0.0008
+    },
+    "{\"teachers\": 20, \"queries\": 100}": {
+     "select": 0.1084,
+     "test": 0.1105,
+     "mechanism": 0.02
+    },
+    "{\"teachers\": 20, \"queries\": 250}": {
+     "select": 0.1136,
+     "test": 0.1059,
+     "mechanism": 0.008
+    },
+    "{\"teachers\": 20, \"queries\": 500}": {
+     "select": 0.1132,
+     "test": 0.113,
+     "mechanism": 0.004
+    },
+    "{\"teachers\": 20, \"queries\": 1000}": {
+     "select": 0.0996,
+     "test": 0.1013,
+     "mechanism": 0.002
+    },
+    "{\"teachers\": 20, \"queries\": 2500}": {
+     "select": 0.094,
+     "test": 0.0936,
+     "mechanism": 0.0008
+    },
+    "{\"teachers\": 50, \"queries\": 100}": {
+     "select": 0.1188,
+     "test": 0.1216,
+     "mechanism": 0.02
+    },
+    "{\"teachers\": 50, \"queries\": 250}": {
+     "select": 0.1236,
+     "test": 0.1185,
+     "mechanism": 0.008
+    },
+    "{\"teachers\": 50, \"queries\": 500}": {
+     "select": 0.114,
+     "test": 0.1175,
+     "mechanism": 0.004
+    },
+    "{\"teachers\": 50, \"queries\": 1000}": {
+     "select": 0.102,
+     "test": 0.102,
+     "mechanism": 0.002
+    },
+    "{\"teachers\": 50, \"queries\": 2500}": {
+     "select": 0.0964,
+     "test": 0.0943,
+     "mechanism": 0.0008
+    },
+    "{\"teachers\": 100, \"queries\": 100}": {
+     "select": 0.1424,
+     "test": 0.1474,
+     "mechanism": 0.02
+    },
+    "{\"teachers\": 100, \"queries\": 250}": {
+     "select": 0.1284,
+     "test": 0.1327,
+     "mechanism": 0.008
+    },
+    "{\"teachers\": 100, \"queries\": 500}": {
+     "select": 0.122,
+     "test": 0.1261,
+     "mechanism": 0.004
+    },
+    "{\"teachers\": 100, \"queries\": 1000}": {
+     "select": 0.108,
+     "test": 0.1085,
+     "mechanism": 0.002
+    },
+    "{\"teachers\": 100, \"queries\": 2500}": {
+     "select": 0.0984,
+     "test": 0.1024,
+     "mechanism": 0.0008
+    }
+   },
+   "5": {
+    "{\"teachers\": 5, \"queries\": 100}": {
+     "select": 0.1028,
+     "test": 0.1058,
+     "mechanism": 0.05
+    },
+    "{\"teachers\": 5, \"queries\": 250}": {
+     "select": 0.1056,
+     "test": 0.1001,
+     "mechanism": 0.02
+    },
+    "{\"teachers\": 5, \"queries\": 500}": {
+     "select": 0.1132,
+     "test": 0.113,
+     "mechanism": 0.01
+    },
+    "{\"teachers\": 5, \"queries\": 1000}": {
+     "select": 0.0932,
+     "test": 0.094,
+     "mechanism": 0.005
+    },
+    "{\"teachers\": 5, \"queries\": 2500}": {
+     "select": 0.094,
+     "test": 0.0936,
+     "mechanism": 0.002
+    },
+    "{\"teachers\": 10, \"queries\": 100}": {
+     "select": 0.1096,
+     "test": 0.1116,
+     "mechanism": 0.05
+    },
+    "{\"teachers\": 10, \"queries\": 250}": {
+     "select": 0.116,
+     "test": 0.1096,
+     "mechanism": 0.02
+    },
+    "{\"teachers\": 10, \"queries\": 500}": {
+     "select": 0.1132,
+     "test": 0.113,
+     "mechanism": 0.01
+    },
+    "{\"teachers\": 10, \"queries\": 1000}": {
+     "select": 0.0996,
+     "test": 0.1011,
+     "mechanism": 0.005
+    },
+    "{\"teachers\": 10, \"queries\": 2500}": {
+     "select": 0.094,
+     "test": 0.0936,
+     "mechanism": 0.002
+    },
+    "{\"teachers\": 20, \"queries\": 100}": {
+     "select": 0.1192,
+     "test": 0.123,
+     "mechanism": 0.05
+    },
+    "{\"teachers\": 20, \"queries\": 250}": {
+     "select": 0.1236,
+     "test": 0.1199,
+     "mechanism": 0.02
+    },
+    "{\"teachers\": 20, \"queries\": 500}": {
+     "select": 0.1172,
+     "test": 0.121,
+     "mechanism": 0.01
+    },
+    "{\"teachers\": 20, \"queries\": 1000}": {
+     "select": 0.102,
+     "test": 0.102,
+     "mechanism": 0.005
+    },
+    "{\"teachers\": 20, \"queries\": 2500}": {
+     "select": 0.0964,
+     "test": 0.0952,
+     "mechanism": 0.002
+    },
+    "{\"teachers\": 50, \"queries\": 100}": {
+     "select": 0.1704,
+     "test": 0.172,
+     "mechanism": 0.05
+    },
+    "{\"teachers\": 50, \"queries\": 250}": {
+     "select": 0.1424,
+     "test": 0.1452,
+     "mechanism": 0.02
+    },
+    "{\"teachers\": 50, \"queries\": 500}": {
+     "select": 0.1276,
+     "test": 0.135,
+     "mechanism": 0.01
+    },
+    "{\"teachers\": 50, \"queries\": 1000}": {
+     "select": 0.1132,
+     "test": 0.1131,
+     "mechanism": 0.005
+    },
+    "{\"teachers\": 50, \"queries\": 2500}": {
+     "select": 0.0984,
+     "test": 0.1025,
+     "mechanism": 0.002
+    },
+    "{\"teachers\": 100, \"queries\": 100}": {
+     "select": 0.28,
+     "test": 0.2872,
+     "mechanism": 0.05
+    },
+    "{\"teachers\": 100, \"queries\": 250}": {
+     "select": 0.2036,
+     "test": 0.2075,
+     "mechanism": 0.02
+    },
+    "{\"teachers\": 100, \"queries\": 500}": {
+     "select": 0.1536,
+     "test": 0.1605,
+     "mechanism": 0.01
+    },
+    "{\"teachers\": 100, \"queries\": 1000}": {
+     "select": 0.1224,
+     "test": 0.132,
+     "mechanism": 0.005
+    },
+    "{\"teachers\": 100, \"queries\": 2500}": {
+     "select": 0.1112,
+     "test": 0.1129,
+     "mechanism": 0.002
+    }
+   },
+   "10": {
+    "{\"teachers\": 5, \"queries\": 100}": {
+     "select": 0.1088,
+     "test": 0.1124,
+     "mechanism": 0.1
+    },
+    "{\"teachers\": 5, \"queries\": 250}": {
+     "select": 0.116,
+     "test": 0.1096,
+     "mechanism": 0.04
+    },
+    "{\"teachers\": 5, \"queries\": 500}": {
+     "select": 0.114,
+     "test": 0.1175,
+     "mechanism": 0.02
+    },
+    "{\"teachers\": 5, \"queries\": 1000}": {
+     "select": 0.098,
+     "test": 0.0986,
+     "mechanism": 0.01
+    },
+    "{\"teachers\": 5, \"queries\": 2500}": {
+     "select": 0.094,
+     "test": 0.0936,
+     "mechanism": 0.004
+    },
+    "{\"teachers\": 10, \"queries\": 100}": {
+     "select": 0.1216,
+     "test": 0.1269,
+     "mechanism": 0.1
+    },
+    "{\"teachers\": 10, \"queries\": 250}": {
+     "select": 0.1236,
+     "test": 0.1225,
+     "mechanism": 0.04
+    },
+    "{\"teachers\": 10, \"queries\": 500}": {
+     "select": 0.1172,
+     "test": 0.121,
+     "mechanism": 0.02
+    },
+    "{\"teachers\": 10, \"queries\": 1000}": {
+     "select": 0.102,
+     "test": 0.1013,
+     "mechanism": 0.01
+    },
+    "{\"teachers\": 10, \"queries\": 2500}": {
+     "select": 0.094,
+     "test": 0.0952,
+     "mechanism": 0.004
+    },
+    "{\"teachers\": 20, \"queries\": 100}": {
+     "select": 0.1668,
+     "test": 0.1668,
+     "mechanism": 0.1
+    },
+    "{\"teachers\": 20, \"queries\": 250}": {
+     "select": 0.14,
+     "test": 0.1384,
+     "mechanism": 0.04
+    },
+    "{\"teachers\": 20, \"queries\": 500}": {
+     "select": 0.13,
+     "test": 0.133,
+     "mechanism": 0.02
+    },
+    "{\"teachers\": 20, \"queries\": 1000}": {
+     "select": 0.1092,
+     "test": 0.1113,
+     "mechanism": 0.01
+    },
+    "{\"teachers\": 20, \"queries\": 2500}": {
+     "select": 0.0968,
+     "test": 0.1021,
+     "mechanism": 0.004
+    },
+    "{\"teachers\": 50, \"queries\": 100}": {
+     "select": 0.2916,
+     "test": 0.3003,
+     "mechanism": 0.1
+    },
+    "{\"teachers\": 50, \"queries\": 250}": {
+     "select": 0.218,
+     "test": 0.2249,
+     "mechanism": 0.04
+    },
+    "{\"teachers\": 50, \"queries\": 500}": {
+     "select": 0.1556,
+     "test": 0.1627,
+     "mechanism": 0.02
+    },
+    "{\"teachers\": 50, \"queries\": 1000}": {
+     "select": 0.1268,
+     "test": 0.1382,
+     "mechanism": 0.01
+    },
+    "{\"teachers\": 50, \"queries\": 2500}": {
+     "select": 0.1164,
+     "test": 0.1124,
+     "mechanism": 0.004
+    },
+    "{\"teachers\": 100, \"queries\": 100}": {
+     "select": 0.3696,
+     "test": 0.3844,
+     "mechanism": 0.1
+    },
+    "{\"teachers\": 100, \"queries\": 250}": {
+     "select": 0.3172,
+     "test": 0.3341,
+     "mechanism": 0.04
+    },
+    "{\"teachers\": 100, \"queries\": 500}": {
+     "select": 0.228,
+     "test": 0.2438,
+     "mechanism": 0.02
+    },
+    "{\"teachers\": 100, \"queries\": 1000}": {
+     "select": 0.138,
+     "test": 0.1506,
+     "mechanism": 0.01
+    },
+    "{\"teachers\": 100, \"queries\": 2500}": {
+     "select": 0.1364,
+     "test": 0.1351,
+     "mechanism": 0.004
+    }
+   },
+   "15": {
+    "{\"teachers\": 5, \"queries\": 100}": {
+     "select": 0.1124,
+     "test": 0.1171,
+     "mechanism": 0.15
+    },
+    "{\"teachers\": 5, \"queries\": 250}": {
+     "select": 0.1236,
+     "test": 0.1115,
+     "mechanism": 0.06
+    },
+    "{\"teachers\": 5, \"queries\": 500}": {
+     "select": 0.114,
+     "test": 0.1175,
+     "mechanism": 0.03
+    },
+    "{\"teachers\": 5, \"queries\": 1000}": {
+     "select": 0.102,
+     "test": 0.1014,
+     "mechanism": 0.015
+    },
+    "{\"teachers\": 5, \"queries\": 2500}": {
+     "select": 0.094,
+     "test": 0.095,
+     "mechanism": 0.006
+    },
+    "{\"teachers\": 10, \"queries\": 100}": {
+     "select": 0.1364,
+     "test": 0.142,
+     "mechanism": 0.15
+    },
+    "{\"teachers\": 10, \"queries\": 250}": {
+     "select": 0.13,
+     "test": 0.1321,
+     "mechanism": 0.06
+    },
+    "{\"teachers\": 10, \"queries\": 500}": {
+     "select": 0.1212,
+     "test": 0.1219,
+     "mechanism": 0.03
+    },
+    "{\"teachers\": 10, \"queries\": 1000}": {
+     "select": 0.104,
+     "test": 0.1031,
+     "mechanism": 0.015
+    },
+    "{\"teachers\": 10, \"queries\": 2500}": {
+     "select": 0.0948,
+     "test": 0.1011,
+     "mechanism": 0.006
+    },
+    "{\"teachers\": 20, \"queries\": 100}": {
+     "select": 0.2224,
+     "test": 0.2274,
+     "mechanism": 0.15
+    },
+    "{\"teachers\": 20, \"queries\": 250}": {
+     "select": 0.1548,
+     "test": 0.16,
+     "mechanism": 0.06
+    },
+    "{\"teachers\": 20, \"queries\": 500}": {
+     "select": 0.1296,
+     "test": 0.1393,
+     "mechanism": 0.03
+    },
+    "{\"teachers\": 20, \"queries\": 1000}": {
+     "select": 0.1148,
+     "test": 0.1199,
+     "mechanism": 0.015
+    },
+    "{\"teachers\": 20, \"queries\": 2500}": {
+     "select": 0.1052,
+     "test": 0.1095,
+     "mechanism": 0.006
+    },
+    "{\"teachers\": 50, \"queries\": 100}": {
+     "select": 0.3644,
+     "test": 0.3782,
+     "mechanism": 0.15
+    },
+    "{\"teachers\": 50, \"queries\": 250}": {
+     "select": 0.2856,
+     "test": 0.2998,
+     "mechanism": 0.06
+    },
+    "{\"teachers\": 50, \"queries\": 500}": {
+     "select": 0.2108,
+     "test": 0.2125,
+     "mechanism": 0.03
+    },
+    "{\"teachers\": 50, \"queries\": 1000}": {
+     "select": 0.1316,
+     "test": 0.1442,
+     "mechanism": 0.015
+    },
+    "{\"teachers\": 50, \"queries\": 2500}": {
+     "select": 0.1332,
+     "test": 0.132,
+     "mechanism": 0.006
+    },
+    "{\"teachers\": 100, \"queries\": 100}": {
+     "select": 0.3952,
+     "test": 0.4165,
+     "mechanism": 0.15
+    },
+    "{\"teachers\": 100, \"queries\": 250}": {
+     "select": 0.3784,
+     "test": 0.398,
+     "mechanism": 0.06
+    },
+    "{\"teachers\": 100, \"queries\": 500}": {
+     "select": 0.2896,
+     "test": 0.2977,
+     "mechanism": 0.03
+    },
+    "{\"teachers\": 100, \"queries\": 1000}": {
+     "select": 0.194,
+     "test": 0.2093,
+     "mechanism": 0.015
+    },
+    "{\"teachers\": 100, \"queries\": 2500}": {
+     "select": 0.1552,
+     "test": 0.1699,
+     "mechanism": 0.006
+    }
+   },
+   "20": {
+    "{\"teachers\": 5, \"queries\": 100}": {
+     "select": 0.124,
+     "test": 0.1269,
+     "mechanism": 0.2
+    },
+    "{\"teachers\": 5, \"queries\": 250}": {
+     "select": 0.1236,
+     "test": 0.1168,
+     "mechanism": 0.08
+    },
+    "{\"teachers\": 5, \"queries\": 500}": {
+     "select": 0.1216,
+     "test": 0.123,
+     "mechanism": 0.04
+    },
+    "{\"teachers\": 5, \"queries\": 1000}": {
+     "select": 0.102,
+     "test": 0.1013,
+     "mechanism": 0.02
+    },
+    "{\"teachers\": 5, \"queries\": 2500}": {
+     "select": 0.094,
+     "test": 0.0952,
+     "mechanism": 0.008
+    },
+    "{\"teachers\": 10, \"queries\": 100}": {
+     "select": 0.1712,
+     "test": 0.1767,
+     "mechanism": 0.2
+    },
+    "{\"teachers\": 10, \"queries\": 250}": {
+     "select": 0.1396,
+     "test": 0.1409,
+     "mechanism": 0.08
+    },
+    "{\"teachers\": 10, \"queries\": 500}": {
+     "select": 0.1264,
+     "test": 0.1311,
+     "mechanism": 0.04
+    },
+    "{\"teachers\": 10, \"queries\": 1000}": {
+     "select": 0.1108,
+     "test": 0.111,
+     "mechanism": 0.02
+    },
+    "{\"teachers\": 10, \"queries\": 2500}": {
+     "select": 0.0992,
+     "test": 0.1062,
+     "mechanism": 0.008
+    },
+    "{\"teachers\": 20, \"queries\": 100}": {
+     "select": 0.2832,
+     "test": 0.2931,
+     "mechanism": 0.2
+    },
+    "{\"teachers\": 20, \"queries\": 250}": {
+     "select": 0.1872,
+     "test": 0.1854,
+     "mechanism": 0.08
+    },
+    "{\"teachers\": 20, \"queries\": 500}": {
+     "select": 0.1512,
+     "test": 0.154,
+     "mechanism": 0.04
+    },
+    "{\"teachers\": 20, \"queries\": 1000}": {
+     "select": 0.1152,
+     "test": 0.1247,
+     "mechanism": 0.02
+    },
+    "{\"teachers\": 20, \"queries\": 2500}": {
+     "select": 0.1184,
+     "test": 0.1122,
+     "mechanism": 0.008
+    },
+    "{\"teachers\": 50, \"queries\": 100}": {
+     "select": 0.3668,
+     "test": 0.3937,
+     "mechanism": 0.2
+    },
+    "{\"teachers\": 50, \"queries\": 250}": {
+     "select": 0.3512,
+     "test": 0.3476,
+     "mechanism": 0.08
+    },
+    "{\"teachers\": 50, \"queries\": 500}": {
+     "select": 0.2452,
+     "test": 0.2698,
+     "mechanism": 0.04
+    },
+    "{\"teachers\": 50, \"queries\": 1000}": {
+     "select": 0.1564,
+     "test": 0.1652,
+     "mechanism": 0.02
+    },
+    "{\"teachers\": 50, \"queries\": 2500}": {
+     "select": 0.1408,
+     "test": 0.1398,
+     "mechanism": 0.008
+    },
+    "{\"teachers\": 100, \"queries\": 100}": {
+     "select": 0.3928,
+     "test": 0.4188,
+     "mechanism": 0.2
+    },
+    "{\"teachers\": 100, \"queries\": 250}": {
+     "select": 0.4332,
+     "test": 0.4343,
+     "mechanism": 0.08
+    },
+    "{\"teachers\": 100, \"queries\": 500}": {
+     "select": 0.3292,
+     "test": 0.3569,
+     "mechanism": 0.04
+    },
+    "{\"teachers\": 100, \"queries\": 1000}": {
+     "select": 0.2552,
+     "test": 0.2783,
+     "mechanism": 0.02
+    },
+    "{\"teachers\": 100, \"queries\": 2500}": {
+     "select": 0.18,
+     "test": 0.1856,
+     "mechanism": 0.008
+    }
+   },
+   "30": {
+    "{\"teachers\": 5, \"queries\": 100}": {
+     "select": 0.1348,
+     "test": 0.1443,
+     "mechanism": 0.3
+    },
+    "{\"teachers\": 5, \"queries\": 250}": {
+     "select": 0.1296,
+     "test": 0.1332,
+     "mechanism": 0.12
+    },
+    "{\"teachers\": 5, \"queries\": 500}": {
+     "select": 0.1216,
+     "test": 0.1233,
+     "mechanism": 0.06
+    },
+    "{\"teachers\": 5, \"queries\": 1000}": {
+     "select": 0.1032,
+     "test": 0.1031,
+     "mechanism": 0.03
+    },
+    "{\"teachers\": 5, \"queries\": 2500}": {
+     "select": 0.0964,
+     "test": 0.1007,
+     "mechanism": 0.012
+    },
+    "{\"teachers\": 10, \"queries\": 100}": {
+     "select": 0.2416,
+     "test": 0.2403,
+     "mechanism": 0.3
+    },
+    "{\"teachers\": 10, \"queries\": 250}": {
+     "select": 0.1584,
+     "test": 0.1587,
+     "mechanism": 0.12
+    },
+    "{\"teachers\": 10, \"queries\": 500}": {
+     "select": 0.1284,
+     "test": 0.1374,
+     "mechanism": 0.06
+    },
+    "{\"teachers\": 10, \"queries\": 1000}": {
+     "select": 0.1168,
+     "test": 0.1199,
+     "mechanism": 0.03
+    },
+    "{\"teachers\": 10, \"queries\": 2500}": {
+     "select": 0.1064,
+     "test": 0.1098,
+     "mechanism": 0.012
+    },
+    "{\"teachers\": 20, \"queries\": 100}": {
+     "select": 0.3432,
+     "test": 0.3696,
+     "mechanism": 0.3
+    },
+    "{\"teachers\": 20, \"queries\": 250}": {
+     "select": 0.264,
+     "test": 0.2749,
+     "mechanism": 0.12
+    },
+    "{\"teachers\": 20, \"queries\": 500}": {
+     "select": 0.1884,
+     "test": 0.1902,
+     "mechanism": 0.06
+    },
+    "{\"teachers\": 20, \"queries\": 1000}": {
+     "select": 0.1324,
+     "test": 0.1477,
+     "mechanism": 0.03
+    },
+    "{\"teachers\": 20, \"queries\": 2500}": {
+     "select": 0.1256,
+     "test": 0.1225,
+     "mechanism": 0.012
+    },
+    "{\"teachers\": 50, \"queries\": 100}": {
+     "select": 0.3996,
+     "test": 0.4224,
+     "mechanism": 0.3
+    },
+    "{\"teachers\": 50, \"queries\": 250}": {
+     "select": 0.4204,
+     "test": 0.4371,
+     "mechanism": 0.12
+    },
+    "{\"teachers\": 50, \"queries\": 500}": {
+     "select": 0.3236,
+     "test": 0.3336,
+     "mechanism": 0.06
+    },
+    "{\"teachers\": 50, \"queries\": 1000}": {
+     "select": 0.234,
+     "test": 0.2343,
+     "mechanism": 0.03
+    },
+    "{\"teachers\": 50, \"queries\": 2500}": {
+     "select": 0.1668,
+     "test": 0.1755,
+     "mechanism": 0.012
+    },
+    "{\"teachers\": 100, \"queries\": 100}": {
+     "select": 0.4232,
+     "test": 0.4489,
+     "mechanism": 0.3
+    },
+    "{\"teachers\": 100, \"queries\": 250}": {
+     "select": 0.4576,
+     "test": 0.4747,
+     "mechanism": 0.12
+    },
+    "{\"teachers\": 100, \"queries\": 500}": {
+     "select": 0.4112,
+     "test": 0.4248,
+     "mechanism": 0.06
+    },
+    "{\"teachers\": 100, \"queries\": 1000}": {
+     "select": 0.364,
+     "test": 0.3829,
+     "mechanism": 0.03
+    },
+    "{\"teachers\": 100, \"queries\": 2500}": {
+     "select": 0.2308,
+     "test": 0.2378,
+     "mechanism": 0.012
+    }
+   },
+   "50": {
+    "{\"teachers\": 5, \"queries\": 100}": {
+     "select": 0.1976,
+     "test": 0.1998,
+     "mechanism": 0.5
+    },
+    "{\"teachers\": 5, \"queries\": 250}": {
+     "select": 0.1404,
+     "test": 0.1521,
+     "mechanism": 0.2
+    },
+    "{\"teachers\": 5, \"queries\": 500}": {
+     "select": 0.13,
+     "test": 0.1332,
+     "mechanism": 0.1
+    },
+    "{\"teachers\": 5, \"queries\": 1000}": {
+     "select": 0.1116,
+     "test": 0.1177,
+     "mechanism": 0.05
+    },
+    "{\"teachers\": 5, \"queries\": 2500}": {
+     "select": 0.0992,
+     "test": 0.1083,
+     "mechanism": 0.02
+    },
+    "{\"teachers\": 10, \"queries\": 100}": {
+     "select": 0.3296,
+     "test": 0.3522,
+     "mechanism": 0.5
+    },
+    "{\"teachers\": 10, \"queries\": 250}": {
+     "select": 0.2452,
+     "test": 0.2458,
+     "mechanism": 0.2
+    },
+    "{\"teachers\": 10, \"queries\": 500}": {
+     "select": 0.1644,
+     "test": 0.1673,
+     "mechanism": 0.1
+    },
+    "{\"teachers\": 10, \"queries\": 1000}": {
+     "select": 0.1312,
+     "test": 0.1445,
+     "mechanism": 0.05
+    },
+    "{\"teachers\": 10, \"queries\": 2500}": {
+     "select": 0.1236,
+     "test": 0.1191,
+     "mechanism": 0.02
+    },
+    "{\"teachers\": 20, \"queries\": 100}": {
+     "select": 0.4088,
+     "test": 0.4259,
+     "mechanism": 0.5
+    },
+    "{\"teachers\": 20, \"queries\": 250}": {
+     "select": 0.3912,
+     "test": 0.398,
+     "mechanism": 0.2
+    },
+    "{\"teachers\": 20, \"queries\": 500}": {
+     "select": 0.2604,
+     "test": 0.2835,
+     "mechanism": 0.1
+    },
+    "{\"teachers\": 20, \"queries\": 1000}": {
+     "select": 0.17,
+     "test": 0.1821,
+     "mechanism": 0.05
+    },
+    "{\"teachers\": 20, \"queries\": 2500}": {
+     "select": 0.1452,
+     "test": 0.1439,
+     "mechanism": 0.02
+    },
+    "{\"teachers\": 50, \"queries\": 100}": {
+     "select": 0.406,
+     "test": 0.4309,
+     "mechanism": 0.5
+    },
+    "{\"teachers\": 50, \"queries\": 250}": {
+     "select": 0.468,
+     "test": 0.4791,
+     "mechanism": 0.2
+    },
+    "{\"teachers\": 50, \"queries\": 500}": {
+     "select": 0.4352,
+     "test": 0.4543,
+     "mechanism": 0.1
+    },
+    "{\"teachers\": 50, \"queries\": 1000}": {
+     "select": 0.348,
+     "test": 0.3692,
+     "mechanism": 0.05
+    },
+    "{\"teachers\": 50, \"queries\": 2500}": {
+     "select": 0.2208,
+     "test": 0.2286,
+     "mechanism": 0.02
+    },
+    "{\"teachers\": 100, \"queries\": 100}": {
+     "select": 0.4188,
+     "test": 0.4413,
+     "mechanism": 0.5
+    },
+    "{\"teachers\": 100, \"queries\": 250}": {
+     "select": 0.4828,
+     "test": 0.4951,
+     "mechanism": 0.2
+    },
+    "{\"teachers\": 100, \"queries\": 500}": {
+     "select": 0.4668,
+     "test": 0.4899,
+     "mechanism": 0.1
+    },
+    "{\"teachers\": 100, \"queries\": 1000}": {
+     "select": 0.4416,
+     "test": 0.4702,
+     "mechanism": 0.05
+    },
+    "{\"teachers\": 100, \"queries\": 2500}": {
+     "select": 0.3128,
+     "test": 0.3368,
+     "mechanism": 0.02
+    }
+   },
+   "100": {
+    "{\"teachers\": 5, \"queries\": 100}": {
+     "select": 0.3468,
+     "test": 0.3654,
+     "mechanism": 1.0
+    },
+    "{\"teachers\": 5, \"queries\": 250}": {
+     "select": 0.2436,
+     "test": 0.2462,
+     "mechanism": 0.4
+    },
+    "{\"teachers\": 5, \"queries\": 500}": {
+     "select": 0.1636,
+     "test": 0.1626,
+     "mechanism": 0.2
+    },
+    "{\"teachers\": 5, \"queries\": 1000}": {
+     "select": 0.1296,
+     "test": 0.1437,
+     "mechanism": 0.1
+    },
+    "{\"teachers\": 5, \"queries\": 2500}": {
+     "select": 0.1252,
+     "test": 0.1167,
+     "mechanism": 0.04
+    },
+    "{\"teachers\": 10, \"queries\": 100}": {
+     "select": 0.416,
+     "test": 0.4301,
+     "mechanism": 1.0
+    },
+    "{\"teachers\": 10, \"queries\": 250}": {
+     "select": 0.4048,
+     "test": 0.4052,
+     "mechanism": 0.4
+    },
+    "{\"teachers\": 10, \"queries\": 500}": {
+     "select": 0.26,
+     "test": 0.2865,
+     "mechanism": 0.2
+    },
+    "{\"teachers\": 10, \"queries\": 1000}": {
+     "select": 0.176,
+     "test": 0.193,
+     "mechanism": 0.1
+    },
+    "{\"teachers\": 10, \"queries\": 2500}": {
+     "select": 0.1464,
+     "test": 0.1489,
+     "mechanism": 0.04
+    },
+    "{\"teachers\": 20, \"queries\": 100}": {
+     "select": 0.4188,
+     "test": 0.4358,
+     "mechanism": 1.0
+    },
+    "{\"teachers\": 20, \"queries\": 250}": {
+     "select": 0.466,
+     "test": 0.4742,
+     "mechanism": 0.4
+    },
+    "{\"teachers\": 20, \"queries\": 500}": {
+     "select": 0.4272,
+     "test": 0.4387,
+     "mechanism": 0.2
+    },
+    "{\"teachers\": 20, \"queries\": 1000}": {
+     "select": 0.318,
+     "test": 0.3536,
+     "mechanism": 0.1
+    },
+    "{\"teachers\": 20, \"queries\": 2500}": {
+     "select": 0.2048,
+     "test": 0.2176,
+     "mechanism": 0.04
+    },
+    "{\"teachers\": 50, \"queries\": 100}": {
+     "select": 0.4144,
+     "test": 0.4351,
+     "mechanism": 1.0
+    },
+    "{\"teachers\": 50, \"queries\": 250}": {
+     "select": 0.4892,
+     "test": 0.5098,
+     "mechanism": 0.4
+    },
+    "{\"teachers\": 50, \"queries\": 500}": {
+     "select": 0.4968,
+     "test": 0.5023,
+     "mechanism": 0.2
+    },
+    "{\"teachers\": 50, \"queries\": 1000}": {
+     "select": 0.4696,
+     "test": 0.5004,
+     "mechanism": 0.1
+    },
+    "{\"teachers\": 50, \"queries\": 2500}": {
+     "select": 0.3512,
+     "test": 0.374,
+     "mechanism": 0.04
+    },
+    "{\"teachers\": 100, \"queries\": 100}": {
+     "select": 0.428,
+     "test": 0.4498,
+     "mechanism": 1.0
+    },
+    "{\"teachers\": 100, \"queries\": 250}": {
+     "select": 0.4828,
+     "test": 0.5024,
+     "mechanism": 0.4
+    },
+    "{\"teachers\": 100, \"queries\": 500}": {
+     "select": 0.512,
+     "test": 0.5283,
+     "mechanism": 0.2
+    },
+    "{\"teachers\": 100, \"queries\": 1000}": {
+     "select": 0.5128,
+     "test": 0.5375,
+     "mechanism": 0.1
+    },
+    "{\"teachers\": 100, \"queries\": 2500}": {
+     "select": 0.3924,
+     "test": 0.4086,
+     "mechanism": 0.04
+    }
+   }
+  },
+  "selected": {
+   "1": {
+    "select": 0.1056,
+    "test": 0.1054,
+    "mechanism": 0.004,
+    "config": {
+     "teachers": 100,
+     "queries": 250
+    }
+   },
+   "2": {
+    "select": 0.1424,
+    "test": 0.143,
+    "mechanism": 0.02,
+    "config": {
+     "teachers": 100,
+     "queries": 100
+    }
+   },
+   "5": {
+    "select": 0.2668,
+    "test": 0.273,
+    "mechanism": 0.05,
+    "config": {
+     "teachers": 100,
+     "queries": 100
+    }
+   },
+   "10": {
+    "select": 0.3696,
+    "test": 0.3796,
+    "mechanism": 0.1,
+    "config": {
+     "teachers": 100,
+     "queries": 100
+    }
+   },
+   "15": {
+    "select": 0.3952,
+    "test": 0.4165,
+    "mechanism": 0.15,
+    "config": {
+     "teachers": 100,
+     "queries": 100
+    }
+   },
+   "20": {
+    "select": 0.3988,
+    "test": 0.416,
+    "mechanism": 0.08,
+    "config": {
+     "teachers": 100,
+     "queries": 250
+    }
+   },
+   "30": {
+    "select": 0.4528,
+    "test": 0.4623,
+    "mechanism": 0.12,
+    "config": {
+     "teachers": 100,
+     "queries": 250
+    }
+   },
+   "50": {
+    "select": 0.4772,
+    "test": 0.4947,
+    "mechanism": 0.2,
+    "config": {
+     "teachers": 100,
+     "queries": 250
+    }
+   },
+   "100": {
+    "select": 0.5064,
+    "test": 0.5237,
+    "mechanism": 0.1,
+    "config": {
+     "teachers": 100,
+     "queries": 1000
+    }
+   }
+  }
+ },
+ "approx": {
+  "grid": {
+   "1": {
+    "{\"teachers\": 5, \"queries\": 100}": {
+     "select": 0.1068,
+     "test": 0.1101,
+     "mechanism": 808.4859727236467
+    },
+    "{\"teachers\": 5, \"queries\": 250}": {
+     "select": 0.0988,
+     "test": 0.1037,
+     "mechanism": 2077.1091650504727
+    },
+    "{\"teachers\": 5, \"queries\": 500}": {
+     "select": 0.0908,
+     "test": 0.0856,
+     "mechanism": 4236.82394190585
+    },
+    "{\"teachers\": 5, \"queries\": 1000}": {
+     "select": 0.0988,
+     "test": 0.1046,
+     "mechanism": 8635.698997826772
+    },
+    "{\"teachers\": 5, \"queries\": 2500}": {
+     "select": 0.1068,
+     "test": 0.1005,
+     "mechanism": 22113.409408739262
+    },
+    "{\"teachers\": 10, \"queries\": 100}": {
+     "select": 0.1068,
+     "test": 0.1101,
+     "mechanism": 808.4859727236467
+    },
+    "{\"teachers\": 10, \"queries\": 250}": {
+     "select": 0.0988,
+     "test": 0.1037,
+     "mechanism": 2077.1091650504727
+    },
+    "{\"teachers\": 10, \"queries\": 500}": {
+     "select": 0.0908,
+     "test": 0.0849,
+     "mechanism": 4236.82394190585
+    },
+    "{\"teachers\": 10, \"queries\": 1000}": {
+     "select": 0.0988,
+     "test": 0.1046,
+     "mechanism": 8635.698997826772
+    },
+    "{\"teachers\": 10, \"queries\": 2500}": {
+     "select": 0.1068,
+     "test": 0.1005,
+     "mechanism": 22113.409408739262
+    },
+    "{\"teachers\": 20, \"queries\": 100}": {
+     "select": 0.1068,
+     "test": 0.1101,
+     "mechanism": 808.4859727236467
+    },
+    "{\"teachers\": 20, \"queries\": 250}": {
+     "select": 0.0988,
+     "test": 0.1037,
+     "mechanism": 2077.1091650504727
+    },
+    "{\"teachers\": 20, \"queries\": 500}": {
+     "select": 0.0908,
+     "test": 0.0849,
+     "mechanism": 4236.82394190585
+    },
+    "{\"teachers\": 20, \"queries\": 1000}": {
+     "select": 0.0988,
+     "test": 0.1046,
+     "mechanism": 8635.698997826772
+    },
+    "{\"teachers\": 20, \"queries\": 2500}": {
+     "select": 0.1068,
+     "test": 0.1005,
+     "mechanism": 22113.409408739262
+    },
+    "{\"teachers\": 50, \"queries\": 100}": {
+     "select": 0.1068,
+     "test": 0.1101,
+     "mechanism": 808.4859727236467
+    },
+    "{\"teachers\": 50, \"queries\": 250}": {
+     "select": 0.1084,
+     "test": 0.1053,
+     "mechanism": 2077.1091650504727
+    },
+    "{\"teachers\": 50, \"queries\": 500}": {
+     "select": 0.0908,
+     "test": 0.0849,
+     "mechanism": 4236.82394190585
+    },
+    "{\"teachers\": 50, \"queries\": 1000}": {
+     "select": 0.0988,
+     "test": 0.1046,
+     "mechanism": 8635.698997826772
+    },
+    "{\"teachers\": 50, \"queries\": 2500}": {
+     "select": 0.1052,
+     "test": 0.1006,
+     "mechanism": 22113.409408739262
+    },
+    "{\"teachers\": 100, \"queries\": 100}": {
+     "select": 0.1068,
+     "test": 0.1101,
+     "mechanism": 808.4859727236467
+    },
+    "{\"teachers\": 100, \"queries\": 250}": {
+     "select": 0.1088,
+     "test": 0.1045,
+     "mechanism": 2077.1091650504727
+    },
+    "{\"teachers\": 100, \"queries\": 500}": {
+     "select": 0.0908,
+     "test": 0.0896,
+     "mechanism": 4236.82394190585
+    },
+    "{\"teachers\": 100, \"queries\": 1000}": {
+     "select": 0.0988,
+     "test": 0.1046,
+     "mechanism": 8635.698997826772
+    },
+    "{\"teachers\": 100, \"queries\": 2500}": {
+     "select": 0.1064,
+     "test": 0.1006,
+     "mechanism": 22113.409408739262
+    }
+   },
+   "2": {
+    "{\"teachers\": 5, \"queries\": 100}": {
+     "select": 0.1068,
+     "test": 0.1101,
+     "mechanism": 404.24298636182334
+    },
+    "{\"teachers\": 5, \"queries\": 250}": {
+     "select": 0.0988,
+     "test": 0.1037,
+     "mechanism": 1038.5545825252364
+    },
+    "{\"teachers\": 5, \"queries\": 500}": {
+     "select": 0.0908,
+     "test": 0.0849,
+     "mechanism": 2118.411970952925
+    },
+    "{\"teachers\": 5, \"queries\": 1000}": {
+     "select": 0.0988,
+     "test": 0.1046,
+     "mechanism": 4317.849498913386
+    },
+    "{\"teachers\": 5, \"queries\": 2500}": {
+     "select": 0.1068,
+     "test": 0.1005,
+     "mechanism": 11056.704704369631
+    },
+    "{\"teachers\": 10, \"queries\": 100}": {
+     "select": 0.1068,
+     "test": 0.1101,
+     "mechanism": 404.24298636182334
+    },
+    "{\"teachers\": 10, \"queries\": 250}": {
+     "select": 0.0988,
+     "test": 0.1037,
+     "mechanism": 1038.5545825252364
+    },
+    "{\"teachers\": 10, \"queries\": 500}": {
+     "select": 0.0908,
+     "test": 0.0849,
+     "mechanism": 2118.411970952925
+    },
+    "{\"teachers\": 10, \"queries\": 1000}": {
+     "select": 0.0988,
+     "test": 0.1046,
+     "mechanism": 4317.849498913386
+    },
+    "{\"teachers\": 10, \"queries\": 2500}": {
+     "select": 0.1068,
+     "test": 0.1005,
+     "mechanism": 11056.704704369631
+    },
+    "{\"teachers\": 20, \"queries\": 100}": {
+     "select": 0.1068,
+     "test": 0.1101,
+     "mechanism": 404.24298636182334
+    },
+    "{\"teachers\": 20, \"queries\": 250}": {
+     "select": 0.1088,
+     "test": 0.1053,
+     "mechanism": 1038.5545825252364
+    },
+    "{\"teachers\": 20, \"queries\": 500}": {
+     "select": 0.0908,
+     "test": 0.0849,
+     "mechanism": 2118.411970952925
+    },
+    "{\"teachers\": 20, \"queries\": 1000}": {
+     "select": 0.0988,
+     "test": 0.1046,
+     "mechanism": 4317.849498913386
+    },
+    "{\"teachers\": 20, \"queries\": 2500}": {
+     "select": 0.1052,
+     "test": 0.1006,
+     "mechanism": 11056.704704369631
+    },
+    "{\"teachers\": 50, \"queries\": 100}": {
+     "select": 0.114,
+     "test": 0.1165,
+     "mechanism": 404.24298636182334
+    },
+    "{\"teachers\": 50, \"queries\": 250}": {
+     "select": 0.1088,
+     "test": 0.1045,
+     "mechanism": 1038.5545825252364
+    },
+    "{\"teachers\": 50, \"queries\": 500}": {
+     "select": 0.0908,
+     "test": 0.0896,
+     "mechanism": 2118.411970952925
+    },
+    "{\"teachers\": 50, \"queries\": 1000}": {
+     "select": 0.0988,
+     "test": 0.1046,
+     "mechanism": 4317.849498913386
+    },
+    "{\"teachers\": 50, \"queries\": 2500}": {
+     "select": 0.1052,
+     "test": 0.1006,
+     "mechanism": 11056.704704369631
+    },
+    "{\"teachers\": 100, \"queries\": 100}": {
+     "select": 0.1204,
+     "test": 0.1214,
+     "mechanism": 404.24298636182334
+    },
+    "{\"teachers\": 100, \"queries\": 250}": {
+     "select": 0.1084,
+     "test": 0.1098,
+     "mechanism": 1038.5545825252364
+    },
+    "{\"teachers\": 100, \"queries\": 500}": {
+     "select": 0.1016,
+     "test": 0.0989,
+     "mechanism": 2118.411970952925
+    },
+    "{\"teachers\": 100, \"queries\": 1000}": {
+     "select": 0.1012,
+     "test": 0.1045,
+     "mechanism": 4317.849498913386
+    },
+    "{\"teachers\": 100, \"queries\": 2500}": {
+     "select": 0.1068,
+     "test": 0.1038,
+     "mechanism": 11056.704704369631
+    }
+   },
+   "5": {
+    "{\"teachers\": 5, \"queries\": 100}": {
+     "select": 0.1068,
+     "test": 0.1101,
+     "mechanism": 161.69719454472934
+    },
+    "{\"teachers\": 5, \"queries\": 250}": {
+     "select": 0.0988,
+     "test": 0.1037,
+     "mechanism": 415.42183301009453
+    },
+    "{\"teachers\": 5, \"queries\": 500}": {
+     "select": 0.0908,
+     "test": 0.0849,
+     "mechanism": 847.3647883811701
+    },
+    "{\"teachers\": 5, \"queries\": 1000}": {
+     "select": 0.0988,
+     "test": 0.1046,
+     "mechanism": 1727.1397995653542
+    },
+    "{\"teachers\": 5, \"queries\": 2500}": {
+     "select": 0.1052,
+     "test": 0.1005,
+     "mechanism": 4422.6818817478525
+    },
+    "{\"teachers\": 10, \"queries\": 100}": {
+     "select": 0.1068,
+     "test": 0.1101,
+     "mechanism": 161.69719454472934
+    },
+    "{\"teachers\": 10, \"queries\": 250}": {
+     "select": 0.1088,
+     "test": 0.1053,
+     "mechanism": 415.42183301009453
+    },
+    "{\"teachers\": 10, \"queries\": 500}": {
+     "select": 0.0908,
+     "test": 0.0849,
+     "mechanism": 847.3647883811701
+    },
+    "{\"teachers\": 10, \"queries\": 1000}": {
+     "select": 0.0988,
+     "test": 0.1046,
+     "mechanism": 1727.1397995653542
+    },
+    "{\"teachers\": 10, \"queries\": 2500}": {
+     "select": 0.1052,
+     "test": 0.1006,
+     "mechanism": 4422.6818817478525
+    },
+    "{\"teachers\": 20, \"queries\": 100}": {
+     "select": 0.114,
+     "test": 0.1165,
+     "mechanism": 161.69719454472934
+    },
+    "{\"teachers\": 20, \"queries\": 250}": {
+     "select": 0.1088,
+     "test": 0.1095,
+     "mechanism": 415.42183301009453
+    },
+    "{\"teachers\": 20, \"queries\": 500}": {
+     "select": 0.0908,
+     "test": 0.0896,
+     "mechanism": 847.3647883811701
+    },
+    "{\"teachers\": 20, \"queries\": 1000}": {
+     "select": 0.0988,
+     "test": 0.1046,
+     "mechanism": 1727.1397995653542
+    },
+    "{\"teachers\": 20, \"queries\": 2500}": {
+     "select": 0.1056,
+     "test": 0.1028,
+     "mechanism": 4422.6818817478525
+    },
+    "{\"teachers\": 50, \"queries\": 100}": {
+     "select": 0.1324,
+     "test": 0.132,
+     "mechanism": 161.69719454472934
+    },
+    "{\"teachers\": 50, \"queries\": 250}": {
+     "select": 0.1084,
+     "test": 0.1098,
+     "mechanism": 415.42183301009453
+    },
+    "{\"teachers\": 50, \"queries\": 500}": {
+     "select": 0.1044,
+     "test": 0.0984,
+     "mechanism": 847.3647883811701
+    },
+    "{\"teachers\": 50, \"queries\": 1000}": {
+     "select": 0.1028,
+     "test": 0.106,
+     "mechanism": 1727.1397995653542
+    },
+    "{\"teachers\": 50, \"queries\": 2500}": {
+     "select": 0.1068,
+     "test": 0.1038,
+     "mechanism": 4422.6818817478525
+    },
+    "{\"teachers\": 100, \"queries\": 100}": {
+     "select": 0.1484,
+     "test": 0.1576,
+     "mechanism": 161.69719454472934
+    },
+    "{\"teachers\": 100, \"queries\": 250}": {
+     "select": 0.1196,
+     "test": 0.1168,
+     "mechanism": 415.42183301009453
+    },
+    "{\"teachers\": 100, \"queries\": 500}": {
+     "select": 0.1152,
+     "test": 0.1045,
+     "mechanism": 847.3647883811701
+    },
+    "{\"teachers\": 100, \"queries\": 1000}": {
+     "select": 0.1124,
+     "test": 0.1133,
+     "mechanism": 1727.1397995653542
+    },
+    "{\"teachers\": 100, \"queries\": 2500}": {
+     "select": 0.11,
+     "test": 0.1072,
+     "mechanism": 4422.6818817478525
+    }
+   },
+   "10": {
+    "{\"teachers\": 5, \"queries\": 100}": {
+     "select": 0.1068,
+     "test": 0.1101,
+     "mechanism": 80.84859727236467
+    },
+    "{\"teachers\": 5, \"queries\": 250}": {
+     "select": 0.1088,
+     "test": 0.1095,
+     "mechanism": 207.71091650504727
+    },
+    "{\"teachers\": 5, \"queries\": 500}": {
+     "select": 0.0908,
+     "test": 0.0849,
+     "mechanism": 423.68239419058506
+    },
+    "{\"teachers\": 5, \"queries\": 1000}": {
+     "select": 0.0988,
+     "test": 0.1046,
+     "mechanism": 863.5698997826771
+    },
+    "{\"teachers\": 5, \"queries\": 2500}": {
+     "select": 0.1052,
+     "test": 0.1006,
+     "mechanism": 2211.3409408739262
+    },
+    "{\"teachers\": 10, \"queries\": 100}": {
+     "select": 0.114,
+     "test": 0.1165,
+     "mechanism": 80.84859727236467
+    },
+    "{\"teachers\": 10, \"queries\": 250}": {
+     "select": 0.1084,
+     "test": 0.1095,
+     "mechanism": 207.71091650504727
+    },
+    "{\"teachers\": 10, \"queries\": 500}": {
+     "select": 0.094,
+     "test": 0.0898,
+     "mechanism": 423.68239419058506
+    },
+    "{\"teachers\": 10, \"queries\": 1000}": {
+     "select": 0.0988,
+     "test": 0.1046,
+     "mechanism": 863.5698997826771
+    },
+    "{\"teachers\": 10, \"queries\": 2500}": {
+     "select": 0.1056,
+     "test": 0.1028,
+     "mechanism": 2211.3409408739262
+    },
+    "{\"teachers\": 20, \"queries\": 100}": {
+     "select": 0.1264,
+     "test": 0.1335,
+     "mechanism": 80.84859727236467
+    },
+    "{\"teachers\": 20, \"queries\": 250}": {
+     "select": 0.1084,
+     "test": 0.1098,
+     "mechanism": 207.71091650504727
+    },
+    "{\"teachers\": 20, \"queries\": 500}": {
+     "select": 0.1044,
+     "test": 0.0989,
+     "mechanism": 423.68239419058506
+    },
+    "{\"teachers\": 20, \"queries\": 1000}": {
+     "select": 0.1028,
+     "test": 0.1093,
+     "mechanism": 863.5698997826771
+    },
+    "{\"teachers\": 20, \"queries\": 2500}": {
+     "select": 0.1068,
+     "test": 0.1038,
+     "mechanism": 2211.3409408739262
+    },
+    "{\"teachers\": 50, \"queries\": 100}": {
+     "select": 0.1556,
+     "test": 0.1577,
+     "mechanism": 80.84859727236467
+    },
+    "{\"teachers\": 50, \"queries\": 250}": {
+     "select": 0.1208,
+     "test": 0.1155,
+     "mechanism": 207.71091650504727
+    },
+    "{\"teachers\": 50, \"queries\": 500}": {
+     "select": 0.1168,
+     "test": 0.105,
+     "mechanism": 423.68239419058506
+    },
+    "{\"teachers\": 50, \"queries\": 1000}": {
+     "select": 0.1144,
+     "test": 0.1145,
+     "mechanism": 863.5698997826771
+    },
+    "{\"teachers\": 50, \"queries\": 2500}": {
+     "select": 0.1156,
+     "test": 0.1074,
+     "mechanism": 2211.3409408739262
+    },
+    "{\"teachers\": 100, \"queries\": 100}": {
+     "select": 0.2044,
+     "test": 0.2173,
+     "mechanism": 80.84859727236467
+    },
+    "{\"teachers\": 100, \"queries\": 250}": {
+     "select": 0.1456,
+     "test": 0.1498,
+     "mechanism": 207.71091650504727
+    },
+    "{\"teachers\": 100, \"queries\": 500}": {
+     "select": 0.12,
+     "test": 0.1157,
+     "mechanism": 423.68239419058506
+    },
+    "{\"teachers\": 100, \"queries\": 1000}": {
+     "select": 0.1176,
+     "test": 0.1251,
+     "mechanism": 863.5698997826771
+    },
+    "{\"teachers\": 100, \"queries\": 2500}": {
+     "select": 0.1148,
+     "test": 0.1125,
+     "mechanism": 2211.3409408739262
+    }
+   },
+   "15": {
+    "{\"teachers\": 5, \"queries\": 100}": {
+     "select": 0.112,
+     "test": 0.1165,
+     "mechanism": 53.899064848243114
+    },
+    "{\"teachers\": 5, \"queries\": 250}": {
+     "select": 0.1088,
+     "test": 0.1095,
+     "mechanism": 138.4739443366982
+    },
+    "{\"teachers\": 5, \"queries\": 500}": {
+     "select": 0.0908,
+     "test": 0.0864,
+     "mechanism": 282.45492946039
+    },
+    "{\"teachers\": 5, \"queries\": 1000}": {
+     "select": 0.0988,
+     "test": 0.1046,
+     "mechanism": 575.7132665217848
+    },
+    "{\"teachers\": 5, \"queries\": 2500}": {
+     "select": 0.1052,
+     "test": 0.1006,
+     "mechanism": 1474.227293915951
+    },
+    "{\"teachers\": 10, \"queries\": 100}": {
+     "select": 0.122,
+     "test": 0.1219,
+     "mechanism": 53.899064848243114
+    },
+    "{\"teachers\": 10, \"queries\": 250}": {
+     "select": 0.1084,
+     "test": 0.1098,
+     "mechanism": 138.4739443366982
+    },
+    "{\"teachers\": 10, \"queries\": 500}": {
+     "select": 0.1024,
+     "test": 0.0989,
+     "mechanism": 282.45492946039
+    },
+    "{\"teachers\": 10, \"queries\": 1000}": {
+     "select": 0.1012,
+     "test": 0.1064,
+     "mechanism": 575.7132665217848
+    },
+    "{\"teachers\": 10, \"queries\": 2500}": {
+     "select": 0.1068,
+     "test": 0.1038,
+     "mechanism": 1474.227293915951
+    },
+    "{\"teachers\": 20, \"queries\": 100}": {
+     "select": 0.14,
+     "test": 0.1528,
+     "mechanism": 53.899064848243114
+    },
+    "{\"teachers\": 20, \"queries\": 250}": {
+     "select": 0.1108,
+     "test": 0.1127,
+     "mechanism": 138.4739443366982
+    },
+    "{\"teachers\": 20, \"queries\": 500}": {
+     "select": 0.1076,
+     "test": 0.0988,
+     "mechanism": 282.45492946039
+    },
+    "{\"teachers\": 20, \"queries\": 1000}": {
+     "select": 0.108,
+     "test": 0.1063,
+     "mechanism": 575.7132665217848
+    },
+    "{\"teachers\": 20, \"queries\": 2500}": {
+     "select": 0.11,
+     "test": 0.1072,
+     "mechanism": 1474.227293915951
+    },
+    "{\"teachers\": 50, \"queries\": 100}": {
+     "select": 0.1972,
+     "test": 0.196,
+     "mechanism": 53.899064848243114
+    },
+    "{\"teachers\": 50, \"queries\": 250}": {
+     "select": 0.1356,
+     "test": 0.1402,
+     "mechanism": 138.4739443366982
+    },
+    "{\"teachers\": 50, \"queries\": 500}": {
+     "select": 0.1192,
+     "test": 0.1129,
+     "mechanism": 282.45492946039
+    },
+    "{\"teachers\": 50, \"queries\": 1000}": {
+     "select": 0.1176,
+     "test": 0.1229,
+     "mechanism": 575.7132665217848
+    },
+    "{\"teachers\": 50, \"queries\": 2500}": {
+     "select": 0.1164,
+     "test": 0.1079,
+     "mechanism": 1474.227293915951
+    },
+    "{\"teachers\": 100, \"queries\": 100}": {
+     "select": 0.2832,
+     "test": 0.295,
+     "mechanism": 53.899064848243114
+    },
+    "{\"teachers\": 100, \"queries\": 250}": {
+     "select": 0.1812,
+     "test": 0.1984,
+     "mechanism": 138.4739443366982
+    },
+    "{\"teachers\": 100, \"queries\": 500}": {
+     "select": 0.1472,
+     "test": 0.1391,
+     "mechanism": 282.45492946039
+    },
+    "{\"teachers\": 100, \"queries\": 1000}": {
+     "select": 0.1356,
+     "test": 0.1364,
+     "mechanism": 575.7132665217848
+    },
+    "{\"teachers\": 100, \"queries\": 2500}": {
+     "select": 0.122,
+     "test": 0.1193,
+     "mechanism": 1474.227293915951
+    }
+   },
+   "20": {
+    "{\"teachers\": 5, \"queries\": 100}": {
+     "select": 0.1148,
+     "test": 0.1165,
+     "mechanism": 40.424298636182336
+    },
+    "{\"teachers\": 5, \"queries\": 250}": {
+     "select": 0.1088,
+     "test": 0.1095,
+     "mechanism": 103.85545825252363
+    },
+    "{\"teachers\": 5, \"queries\": 500}": {
+     "select": 0.094,
+     "test": 0.0898,
+     "mechanism": 211.84119709529253
+    },
+    "{\"teachers\": 5, \"queries\": 1000}": {
+     "select": 0.0988,
+     "test": 0.1046,
+     "mechanism": 431.78494989133856
+    },
+    "{\"teachers\": 5, \"queries\": 2500}": {
+     "select": 0.1056,
+     "test": 0.1028,
+     "mechanism": 1105.6704704369631
+    },
+    "{\"teachers\": 10, \"queries\": 100}": {
+     "select": 0.1264,
+     "test": 0.1325,
+     "mechanism": 40.424298636182336
+    },
+    "{\"teachers\": 10, \"queries\": 250}": {
+     "select": 0.1084,
+     "test": 0.1098,
+     "mechanism": 103.85545825252363
+    },
+    "{\"teachers\": 10, \"queries\": 500}": {
+     "select": 0.1044,
+     "test": 0.0989,
+     "mechanism": 211.84119709529253
+    },
+    "{\"teachers\": 10, \"queries\": 1000}": {
+     "select": 0.1028,
+     "test": 0.106,
+     "mechanism": 431.78494989133856
+    },
+    "{\"teachers\": 10, \"queries\": 2500}": {
+     "select": 0.1076,
+     "test": 0.1038,
+     "mechanism": 1105.6704704369631
+    },
+    "{\"teachers\": 20, \"queries\": 100}": {
+     "select": 0.1488,
+     "test": 0.1596,
+     "mechanism": 40.424298636182336
+    },
+    "{\"teachers\": 20, \"queries\": 250}": {
+     "select": 0.1092,
+     "test": 0.1121,
+     "mechanism": 103.85545825252363
+    },
+    "{\"teachers\": 20, \"queries\": 500}": {
+     "select": 0.1148,
+     "test": 0.1082,
+     "mechanism": 211.84119709529253
+    },
+    "{\"teachers\": 20, \"queries\": 1000}": {
+     "select": 0.1116,
+     "test": 0.1084,
+     "mechanism": 431.78494989133856
+    },
+    "{\"teachers\": 20, \"queries\": 2500}": {
+     "select": 0.11,
+     "test": 0.1072,
+     "mechanism": 1105.6704704369631
+    },
+    "{\"teachers\": 50, \"queries\": 100}": {
+     "select": 0.2356,
+     "test": 0.2444,
+     "mechanism": 40.424298636182336
+    },
+    "{\"teachers\": 50, \"queries\": 250}": {
+     "select": 0.1612,
+     "test": 0.1582,
+     "mechanism": 103.85545825252363
+    },
+    "{\"teachers\": 50, \"queries\": 500}": {
+     "select": 0.1192,
+     "test": 0.1129,
+     "mechanism": 211.84119709529253
+    },
+    "{\"teachers\": 50, \"queries\": 1000}": {
+     "select": 0.12,
+     "test": 0.1255,
+     "mechanism": 431.78494989133856
+    },
+    "{\"teachers\": 50, \"queries\": 2500}": {
+     "select": 0.118,
+     "test": 0.114,
+     "mechanism": 1105.6704704369631
+    },
+    "{\"teachers\": 100, \"queries\": 100}": {
+     "select": 0.3192,
+     "test": 0.3285,
+     "mechanism": 40.424298636182336
+    },
+    "{\"teachers\": 100, \"queries\": 250}": {
+     "select": 0.2324,
+     "test": 0.2543,
+     "mechanism": 103.85545825252363
+    },
+    "{\"teachers\": 100, \"queries\": 500}": {
+     "select": 0.1632,
+     "test": 0.1532,
+     "mechanism": 211.84119709529253
+    },
+    "{\"teachers\": 100, \"queries\": 1000}": {
+     "select": 0.1528,
+     "test": 0.1567,
+     "mechanism": 431.78494989133856
+    },
+    "{\"teachers\": 100, \"queries\": 2500}": {
+     "select": 0.1308,
+     "test": 0.1275,
+     "mechanism": 1105.6704704369631
+    }
+   },
+   "30": {
+    "{\"teachers\": 5, \"queries\": 100}": {
+     "select": 0.122,
+     "test": 0.1219,
+     "mechanism": 26.949532424121557
+    },
+    "{\"teachers\": 5, \"queries\": 250}": {
+     "select": 0.1088,
+     "test": 0.1098,
+     "mechanism": 69.2369721683491
+    },
+    "{\"teachers\": 5, \"queries\": 500}": {
+     "select": 0.1016,
+     "test": 0.0989,
+     "mechanism": 141.227464730195
+    },
+    "{\"teachers\": 5, \"queries\": 1000}": {
+     "select": 0.1012,
+     "test": 0.106,
+     "mechanism": 287.8566332608924
+    },
+    "{\"teachers\": 5, \"queries\": 2500}": {
+     "select": 0.1076,
+     "test": 0.1038,
+     "mechanism": 737.1136469579754
+    },
+    "{\"teachers\": 10, \"queries\": 100}": {
+     "select": 0.14,
+     "test": 0.1522,
+     "mechanism": 26.949532424121557
+    },
+    "{\"teachers\": 10, \"queries\": 250}": {
+     "select": 0.1084,
+     "test": 0.1127,
+     "mechanism": 69.2369721683491
+    },
+    "{\"teachers\": 10, \"queries\": 500}": {
+     "select": 0.1044,
+     "test": 0.0988,
+     "mechanism": 141.227464730195
+    },
+    "{\"teachers\": 10, \"queries\": 1000}": {
+     "select": 0.1104,
+     "test": 0.107,
+     "mechanism": 287.8566332608924
+    },
+    "{\"teachers\": 10, \"queries\": 2500}": {
+     "select": 0.11,
+     "test": 0.1069,
+     "mechanism": 737.1136469579754
+    },
+    "{\"teachers\": 20, \"queries\": 100}": {
+     "select": 0.1704,
+     "test": 0.1775,
+     "mechanism": 26.949532424121557
+    },
+    "{\"teachers\": 20, \"queries\": 250}": {
+     "select": 0.1292,
+     "test": 0.1276,
+     "mechanism": 69.2369721683491
+    },
+    "{\"teachers\": 20, \"queries\": 500}": {
+     "select": 0.1184,
+     "test": 0.1082,
+     "mechanism": 141.227464730195
+    },
+    "{\"teachers\": 20, \"queries\": 1000}": {
+     "select": 0.1144,
+     "test": 0.1223,
+     "mechanism": 287.8566332608924
+    },
+    "{\"teachers\": 20, \"queries\": 2500}": {
+     "select": 0.114,
+     "test": 0.1079,
+     "mechanism": 737.1136469579754
+    },
+    "{\"teachers\": 50, \"queries\": 100}": {
+     "select": 0.316,
+     "test": 0.3228,
+     "mechanism": 26.949532424121557
+    },
+    "{\"teachers\": 50, \"queries\": 250}": {
+     "select": 0.2032,
+     "test": 0.2152,
+     "mechanism": 69.2369721683491
+    },
+    "{\"teachers\": 50, \"queries\": 500}": {
+     "select": 0.1508,
+     "test": 0.1422,
+     "mechanism": 141.227464730195
+    },
+    "{\"teachers\": 50, \"queries\": 1000}": {
+     "select": 0.1432,
+     "test": 0.1401,
+     "mechanism": 287.8566332608924
+    },
+    "{\"teachers\": 50, \"queries\": 2500}": {
+     "select": 0.1288,
+     "test": 0.1227,
+     "mechanism": 737.1136469579754
+    },
+    "{\"teachers\": 100, \"queries\": 100}": {
+     "select": 0.3636,
+     "test": 0.3718,
+     "mechanism": 26.949532424121557
+    },
+    "{\"teachers\": 100, \"queries\": 250}": {
+     "select": 0.2836,
+     "test": 0.2939,
+     "mechanism": 69.2369721683491
+    },
+    "{\"teachers\": 100, \"queries\": 500}": {
+     "select": 0.2092,
+     "test": 0.2077,
+     "mechanism": 141.227464730195
+    },
+    "{\"teachers\": 100, \"queries\": 1000}": {
+     "select": 0.1888,
+     "test": 0.1988,
+     "mechanism": 287.8566332608924
+    },
+    "{\"teachers\": 100, \"queries\": 2500}": {
+     "select": 0.1404,
+     "test": 0.1335,
+     "mechanism": 737.1136469579754
+    }
+   },
+   "50": {
+    "{\"teachers\": 5, \"queries\": 100}": {
+     "select": 0.1352,
+     "test": 0.1482,
+     "mechanism": 16.169719454472936
+    },
+    "{\"teachers\": 5, \"queries\": 250}": {
+     "select": 0.1084,
+     "test": 0.1114,
+     "mechanism": 41.54218330100945
+    },
+    "{\"teachers\": 5, \"queries\": 500}": {
+     "select": 0.1044,
+     "test": 0.0989,
+     "mechanism": 84.73647883811701
+    },
+    "{\"teachers\": 5, \"queries\": 1000}": {
+     "select": 0.1088,
+     "test": 0.107,
+     "mechanism": 172.71397995653544
+    },
+    "{\"teachers\": 5, \"queries\": 2500}": {
+     "select": 0.1084,
+     "test": 0.1066,
+     "mechanism": 442.2681881747853
+    },
+    "{\"teachers\": 10, \"queries\": 100}": {
+     "select": 0.174,
+     "test": 0.1615,
+     "mechanism": 16.169719454472936
+    },
+    "{\"teachers\": 10, \"queries\": 250}": {
+     "select": 0.1224,
+     "test": 0.1189,
+     "mechanism": 41.54218330100945
+    },
+    "{\"teachers\": 10, \"queries\": 500}": {
+     "select": 0.1172,
+     "test": 0.1075,
+     "mechanism": 84.73647883811701
+    },
+    "{\"teachers\": 10, \"queries\": 1000}": {
+     "select": 0.1108,
+     "test": 0.1145,
+     "mechanism": 172.71397995653544
+    },
+    "{\"teachers\": 10, \"queries\": 2500}": {
+     "select": 0.1156,
+     "test": 0.1075,
+     "mechanism": 442.2681881747853
+    },
+    "{\"teachers\": 20, \"queries\": 100}": {
+     "select": 0.2552,
+     "test": 0.2661,
+     "mechanism": 16.169719454472936
+    },
+    "{\"teachers\": 20, \"queries\": 250}": {
+     "select": 0.1636,
+     "test": 0.1675,
+     "mechanism": 41.54218330100945
+    },
+    "{\"teachers\": 20, \"queries\": 500}": {
+     "select": 0.1376,
+     "test": 0.1305,
+     "mechanism": 84.73647883811701
+    },
+    "{\"teachers\": 20, \"queries\": 1000}": {
+     "select": 0.1264,
+     "test": 0.1314,
+     "mechanism": 172.71397995653544
+    },
+    "{\"teachers\": 20, \"queries\": 2500}": {
+     "select": 0.1204,
+     "test": 0.1155,
+     "mechanism": 442.2681881747853
+    },
+    "{\"teachers\": 50, \"queries\": 100}": {
+     "select": 0.3652,
+     "test": 0.38,
+     "mechanism": 16.169719454472936
+    },
+    "{\"teachers\": 50, \"queries\": 250}": {
+     "select": 0.2796,
+     "test": 0.2935,
+     "mechanism": 41.54218330100945
+    },
+    "{\"teachers\": 50, \"queries\": 500}": {
+     "select": 0.192,
+     "test": 0.2014,
+     "mechanism": 84.73647883811701
+    },
+    "{\"teachers\": 50, \"queries\": 1000}": {
+     "select": 0.1828,
+     "test": 0.1924,
+     "mechanism": 172.71397995653544
+    },
+    "{\"teachers\": 50, \"queries\": 2500}": {
+     "select": 0.1368,
+     "test": 0.1345,
+     "mechanism": 442.2681881747853
+    },
+    "{\"teachers\": 100, \"queries\": 100}": {
+     "select": 0.4216,
+     "test": 0.4394,
+     "mechanism": 16.169719454472936
+    },
+    "{\"teachers\": 100, \"queries\": 250}": {
+     "select": 0.392,
+     "test": 0.3968,
+     "mechanism": 41.54218330100945
+    },
+    "{\"teachers\": 100, \"queries\": 500}": {
+     "select": 0.2964,
+     "test": 0.3154,
+     "mechanism": 84.73647883811701
+    },
+    "{\"teachers\": 100, \"queries\": 1000}": {
+     "select": 0.2396,
+     "test": 0.2486,
+     "mechanism": 172.71397995653544
+    },
+    "{\"teachers\": 100, \"queries\": 2500}": {
+     "select": 0.16,
+     "test": 0.1663,
+     "mechanism": 442.2681881747853
+    }
+   },
+   "100": {
+    "{\"teachers\": 5, \"queries\": 100}": {
+     "select": 0.1728,
+     "test": 0.1684,
+     "mechanism": 8.084859727236468
+    },
+    "{\"teachers\": 5, \"queries\": 250}": {
+     "select": 0.1224,
+     "test": 0.1189,
+     "mechanism": 20.771091650504726
+    },
+    "{\"teachers\": 5, \"queries\": 500}": {
+     "select": 0.1164,
+     "test": 0.1079,
+     "mechanism": 42.368239419058504
+    },
+    "{\"teachers\": 5, \"queries\": 1000}": {
+     "select": 0.1144,
+     "test": 0.1153,
+     "mechanism": 86.35698997826772
+    },
+    "{\"teachers\": 5, \"queries\": 2500}": {
+     "select": 0.1156,
+     "test": 0.1075,
+     "mechanism": 221.13409408739264
+    },
+    "{\"teachers\": 10, \"queries\": 100}": {
+     "select": 0.2588,
+     "test": 0.2621,
+     "mechanism": 8.084859727236468
+    },
+    "{\"teachers\": 10, \"queries\": 250}": {
+     "select": 0.1576,
+     "test": 0.1629,
+     "mechanism": 20.771091650504726
+    },
+    "{\"teachers\": 10, \"queries\": 500}": {
+     "select": 0.1352,
+     "test": 0.1328,
+     "mechanism": 42.368239419058504
+    },
+    "{\"teachers\": 10, \"queries\": 1000}": {
+     "select": 0.1252,
+     "test": 0.1296,
+     "mechanism": 86.35698997826772
+    },
+    "{\"teachers\": 10, \"queries\": 2500}": {
+     "select": 0.1232,
+     "test": 0.1151,
+     "mechanism": 221.13409408739264
+    },
+    "{\"teachers\": 20, \"queries\": 100}": {
+     "select": 0.3928,
+     "test": 0.4129,
+     "mechanism": 8.084859727236468
+    },
+    "{\"teachers\": 20, \"queries\": 250}": {
+     "select": 0.27,
+     "test": 0.2793,
+     "mechanism": 20.771091650504726
+    },
+    "{\"teachers\": 20, \"queries\": 500}": {
+     "select": 0.1712,
+     "test": 0.1741,
+     "mechanism": 42.368239419058504
+    },
+    "{\"teachers\": 20, \"queries\": 1000}": {
+     "select": 0.1704,
+     "test": 0.1843,
+     "mechanism": 86.35698997826772
+    },
+    "{\"teachers\": 20, \"queries\": 2500}": {
+     "select": 0.13,
+     "test": 0.1312,
+     "mechanism": 221.13409408739264
+    },
+    "{\"teachers\": 50, \"queries\": 100}": {
+     "select": 0.4176,
+     "test": 0.4359,
+     "mechanism": 8.084859727236468
+    },
+    "{\"teachers\": 50, \"queries\": 250}": {
+     "select": 0.4092,
+     "test": 0.4287,
+     "mechanism": 20.771091650504726
+    },
+    "{\"teachers\": 50, \"queries\": 500}": {
+     "select": 0.322,
+     "test": 0.3444,
+     "mechanism": 42.368239419058504
+    },
+    "{\"teachers\": 50, \"queries\": 1000}": {
+     "select": 0.2736,
+     "test": 0.2842,
+     "mechanism": 86.35698997826772
+    },
+    "{\"teachers\": 50, \"queries\": 2500}": {
+     "select": 0.1712,
+     "test": 0.1751,
+     "mechanism": 221.13409408739264
+    },
+    "{\"teachers\": 100, \"queries\": 100}": {
+     "select": 0.4316,
+     "test": 0.4447,
+     "mechanism": 8.084859727236468
+    },
+    "{\"teachers\": 100, \"queries\": 250}": {
+     "select": 0.4776,
+     "test": 0.4889,
+     "mechanism": 20.771091650504726
+    },
+    "{\"teachers\": 100, \"queries\": 500}": {
+     "select": 0.4124,
+     "test": 0.4269,
+     "mechanism": 42.368239419058504
+    },
+    "{\"teachers\": 100, \"queries\": 1000}": {
+     "select": 0.3496,
+     "test": 0.3631,
+     "mechanism": 86.35698997826772
+    },
+    "{\"teachers\": 100, \"queries\": 2500}": {
+     "select": 0.2568,
+     "test": 0.2612,
+     "mechanism": 221.13409408739264
+    }
+   }
+  },
+  "selected": {
+   "1": {
+    "select": 0.1068,
+    "test": 0.1086,
+    "mechanism": 2077.1091650504727,
+    "config": {
+     "teachers": 100,
+     "queries": 250
+    }
+   },
+   "2": {
+    "select": 0.1176,
+    "test": 0.1173,
+    "mechanism": 404.24298636182334,
+    "config": {
+     "teachers": 100,
+     "queries": 100
+    }
+   },
+   "5": {
+    "select": 0.1444,
+    "test": 0.1446,
+    "mechanism": 161.69719454472934,
+    "config": {
+     "teachers": 100,
+     "queries": 100
+    }
+   },
+   "10": {
+    "select": 0.204,
+    "test": 0.2094,
+    "mechanism": 80.84859727236467,
+    "config": {
+     "teachers": 100,
+     "queries": 100
+    }
+   },
+   "15": {
+    "select": 0.2768,
+    "test": 0.2831,
+    "mechanism": 53.899064848243114,
+    "config": {
+     "teachers": 100,
+     "queries": 100
+    }
+   },
+   "20": {
+    "select": 0.3196,
+    "test": 0.3285,
+    "mechanism": 40.424298636182336,
+    "config": {
+     "teachers": 100,
+     "queries": 100
+    }
+   },
+   "30": {
+    "select": 0.376,
+    "test": 0.3874,
+    "mechanism": 26.949532424121557,
+    "config": {
+     "teachers": 100,
+     "queries": 100
+    }
+   },
+   "50": {
+    "select": 0.4244,
+    "test": 0.4412,
+    "mechanism": 16.169719454472936,
+    "config": {
+     "teachers": 100,
+     "queries": 100
+    }
+   },
+   "100": {
+    "select": 0.4744,
+    "test": 0.4889,
+    "mechanism": 20.771091650504726,
+    "config": {
+     "teachers": 100,
+     "queries": 250
+    }
+   }
+  }
+ }
+}

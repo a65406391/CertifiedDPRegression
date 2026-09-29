@@ -1,0 +1,23 @@
+{
+ "run_id": "validation_smoke_F2_eps10_d1e-05_K1_seed41_release0000",
+ "status": "failed",
+ "error": "HostID mismatch (licensed to c2205367, hostid is 0)",
+ "finished": "2026-08-26 01:12:15",
+ "wall_s": 0.7169575691223145,
+ "steps_written": 0,
+ "steps_expected": 2,
+ "models_written": 0,
+ "solves_written": 0,
+ "solves_expected": 36,
+ "counts": {
+  "optimal": 0,
+  "time_limit": 0,
+  "infeasible": 0,
+  "other": 0,
+  "dual_fallback": 0,
+  "no_solution": 0
+ },
+ "steps_complete": false,
+ "solves_complete": false,
+ "solves_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

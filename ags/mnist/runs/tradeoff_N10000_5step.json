@@ -1,0 +1,49 @@
+{
+ "N": 10000,
+ "d": 64,
+ "b": 2000,
+ "P": 650,
+ "lr": 15.0,
+ "gamma": 0.12,
+ "steps": [
+  5
+ ],
+ "losses": [
+  "cross_entropy",
+  "hinge_ova"
+ ],
+ "rows": [
+  {
+   "loss": "cross_entropy",
+   "n_s": 5,
+   "n_epochs": 1,
+   "b": 2000,
+   "lr": 15.0,
+   "gamma": 0.12,
+   "test_acc": 0.8135,
+   "width_k1_mean": 0.3635750440147448,
+   "gs_computed_mean": 18.0,
+   "w1_over_gs": 0.02019861355637471,
+   "clipping_ceiling": 18.0,
+   "gs_over_ceiling": 1.0,
+   "A1": 122.67789281406557,
+   "closed_form_per_coord": 0.009
+  },
+  {
+   "loss": "hinge_ova",
+   "n_s": 5,
+   "n_epochs": 1,
+   "b": 2000,
+   "lr": 15.0,
+   "gamma": 0.12,
+   "test_acc": 0.282,
+   "width_k1_mean": 0.8046467911130222,
+   "gs_computed_mean": 18.0,
+   "w1_over_gs": 0.04470259950627901,
+   "clipping_ceiling": 18.0,
+   "gs_over_ceiling": 1.0,
+   "A1": 276.7801117007531,
+   "closed_form_per_coord": 0.009
+  }
+ ]
+}

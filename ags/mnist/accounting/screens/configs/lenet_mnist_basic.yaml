@@ -1,0 +1,16 @@
+experiment: lenet_mnist_basic
+seed: 0
+batch_size: 128
+epochs: 10
+learning_rate: 0.01
+target_epsilon: 4.0
+target_delta: 1.0e-5
+beta_epsilon_ratio: 0.16666666666666666
+coordinate_clip: 0.1
+l2_clip: 1.0
+ags_mechanism: cauchy
+ags_delta_fraction: 0.5
+pld_interval: 0.0001
+gradient_chunk_size: 16
+arms:
+  - nonprivate

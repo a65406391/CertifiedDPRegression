@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+.env/
+venv/
+
+# Editor working dirs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Gurobi licence and loose model dumps. (The serialized runs under ags/blobs/runs/*/models/
+# already track their *.lp.gz; new dumps there are regenerable from meta.json.)
+gurobi.lic
+*.lp
+*.mps
+
+# Experiment scratch
+wandb/
+lightning_logs/
+.tmp/
+*.ckpt
+
+# Data and results are tracked deliberately (ags/**, agtr/**, archive/**): no blanket
+# *.npy / *.log / data / artifacts rules here. Untracked bulky inputs, if any, go under:
+scratch/
+
+# Miscellaneous
+.ruff_cache/
+
+# IMDB: cached encoder embeddings (128 MB, recomputed by ags.imdb.shared) and the smoke run
+ags/imdb/data/*.npz
+ags/imdb/runs/contractive_smoke/
+ags/imdb/runs/contractive/logs/smoke*.log
+ags/imdb/runs/contractive/logs/embed.log
+
+# Adult: cached raw rows (fetched by ags.adult.shared) and the smoke run
+ags/adult/data/*.npz
+ags/adult/runs/contractive_smoke/
+ags/adult/runs/contractive/logs/smoke*.log
+
+# SST-2: cached sentence embeddings (rebuilt by ags.sst2.shared) and the smoke run
+ags/sst2/data/*.npz
+ags/sst2/runs/*smoke*/

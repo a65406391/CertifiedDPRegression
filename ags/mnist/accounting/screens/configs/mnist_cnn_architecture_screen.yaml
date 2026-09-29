@@ -1,0 +1,15 @@
+experiment: mnist_cnn_architecture_screen
+seed: 0
+models: [sample_cnn, compact_selu_cnn]
+batch_size: 256
+selection_epochs: 15
+clip_screen_epochs: 3
+confirmation_epochs: 30
+learning_rates: [0.05, 0.1, 0.15, 0.25]
+coordinate_clips: [0.03, 0.1, 0.3, 1.0, 3.0]
+l2_clips: [0.3, 1.0, 3.0, 10.0, 30.0]
+gradient_chunk_size: 256
+validation_size: 10000
+normalization_mean: 0.1307
+normalization_std: 0.3081
+

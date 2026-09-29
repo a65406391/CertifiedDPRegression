@@ -1,0 +1,18 @@
+{
+ "tag": "lora_eps1_n10000_s0_b512e6",
+ "eps": 1.0,
+ "delta": 5e-06,
+ "eps_spent": 0.9908422635311394,
+ "noise_multiplier": 2.421875,
+ "n_private": 10000,
+ "epochs": 6,
+ "batch": 512,
+ "lr": 0.001,
+ "rank": 16,
+ "clip": 1.0,
+ "seed": 0,
+ "steps": 120,
+ "select": 0.8646788990825688,
+ "test": 0.8654,
+ "train_seconds": 100.48286461830139
+}

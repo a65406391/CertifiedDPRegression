@@ -1,0 +1,464 @@
+{
+  "batch_size": 2000,
+  "calibrations": {
+    "dpsgd": {
+      "accountant": "dp-accounting-pld-replace-one",
+      "accounting_runtime_seconds": 8.332581330090761,
+      "delta": 0.1,
+      "epsilon": 66.69026194878366,
+      "mechanism_parameter": 0.125875,
+      "q": 0.03333333333333333,
+      "steps": 30
+    },
+    "laplace": {
+      "accountant": "generic-pld-conservative",
+      "accounting_runtime_seconds": 0.5393473627045751,
+      "delta": 0.1,
+      "epsilon": 91.62113479227848,
+      "mechanism_parameter": 0.026000000000000002,
+      "q": 0.03333333333333333,
+      "steps": 30
+    }
+  },
+  "grid": {
+    "accountant_search_iterations": 5,
+    "ags_delta_fraction": 0.5,
+    "arms": [
+      "direct_laplace_ss",
+      "laplace_gs",
+      "dpsgd"
+    ],
+    "batch_size": [
+      500,
+      1000,
+      2000,
+      5000,
+      10000,
+      20000
+    ],
+    "cauchy_beta_epsilon_ratio": 0.16666666666666666,
+    "coordinate_clip": 0.1,
+    "epochs": 1,
+    "experiment": "logistic_batch_lr_sweep",
+    "gradient_chunk_size": 256,
+    "l2_clip": 1.0,
+    "laplace_beta_epsilon_ratio": 0.03,
+    "learning_rate": [
+      0.03,
+      0.1,
+      0.3
+    ],
+    "pld_interval": 0.001,
+    "seed": 0,
+    "target_delta": 0.1,
+    "target_epsilon": 100.0
+  },
+  "results": [
+    {
+      "arm": "ags_ss",
+      "batch_size": 2000,
+      "coordinate_clipping_rate": 0.05202186836518045,
+      "layers": {
+        "certificate": {
+          "beta": 0.00078,
+          "exp_minus_beta": 0.9992203041209234,
+          "method": "direct_clipped_mean"
+        },
+        "linear.bias": {
+          "cap_reached_fraction": 1.0,
+          "local_over_gs_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "local_term_selected_fraction": 1.0,
+          "noise_scale_quantiles": [
+            0.00023076921934261918,
+            0.00023076921934261918,
+            0.00023076921934261918,
+            0.00023076921934261918,
+            0.00023076921934261918
+          ],
+          "s_over_gs_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "signal_over_noise_quantiles": [
+            8.943524360656738,
+            9.315523147583008,
+            9.494378089904785,
+            9.71162223815918,
+            10.525007247924805
+          ]
+        },
+        "linear.weight": {
+          "cap_reached_fraction": 0.6908163265306123,
+          "local_over_gs_quantiles": [
+            0.5,
+            0.8450777530670166,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "local_term_selected_fraction": 0.6908163265306123,
+          "noise_scale_quantiles": [
+            0.00023058929946273565,
+            0.00023058929946273565,
+            0.00023076921934261918,
+            0.00023076921934261918,
+            0.00023076921934261918
+          ],
+          "s_over_gs_quantiles": [
+            0.9992203116416931,
+            0.9992203116416931,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "signal_over_noise_quantiles": [
+            0.0,
+            0.005846072919666767,
+            0.25604867935180664,
+            2.350748300552368,
+            6.662262439727783
+          ]
+        }
+      },
+      "learning_rate": 0.03,
+      "peak_rss_mb": 1980.42578125,
+      "privacy": {
+        "accountant": "generic-pld-conservative",
+        "accounting_runtime_seconds": 0.5393473627045751,
+        "delta": 0.1,
+        "epsilon": 91.62113479227848,
+        "mechanism_parameter": 0.026000000000000002,
+        "q": 0.03333333333333333,
+        "steps": 30
+      },
+      "runtime_seconds": 0.6943786637857556,
+      "steps": 30,
+      "sweep_arm": "direct_laplace_ss",
+      "test_accuracy": 0.3865,
+      "test_loss": 2.1446427734375
+    },
+    {
+      "arm": "ags_gs",
+      "batch_size": 2000,
+      "coordinate_clipping_rate": 0.0520220212314225,
+      "layers": {},
+      "learning_rate": 0.03,
+      "peak_rss_mb": 1980.42578125,
+      "privacy": {
+        "accountant": "generic-pld-conservative",
+        "accounting_runtime_seconds": 0.5393473627045751,
+        "delta": 0.1,
+        "epsilon": 91.62113479227848,
+        "mechanism_parameter": 0.026000000000000002,
+        "q": 0.03333333333333333,
+        "steps": 30
+      },
+      "runtime_seconds": 0.627479194663465,
+      "steps": 30,
+      "sweep_arm": "laplace_gs",
+      "test_accuracy": 0.3865,
+      "test_loss": 2.1446427856445314
+    },
+    {
+      "arm": "dpsgd",
+      "batch_size": 2000,
+      "example_l2_clipping_rate": 1.0,
+      "learning_rate": 0.03,
+      "peak_rss_mb": 1980.42578125,
+      "privacy": {
+        "accountant": "dp-accounting-pld-replace-one",
+        "accounting_runtime_seconds": 8.332581330090761,
+        "delta": 0.1,
+        "epsilon": 66.69026194878366,
+        "mechanism_parameter": 0.125875,
+        "q": 0.03333333333333333,
+        "steps": 30
+      },
+      "runtime_seconds": 0.6044465498998761,
+      "steps": 30,
+      "sweep_arm": "dpsgd",
+      "test_accuracy": 0.1609,
+      "test_loss": 2.235131573486328
+    },
+    {
+      "arm": "ags_ss",
+      "batch_size": 2000,
+      "coordinate_clipping_rate": 0.0475198365180467,
+      "layers": {
+        "certificate": {
+          "beta": 0.00078,
+          "exp_minus_beta": 0.9992203041209234,
+          "method": "direct_clipped_mean"
+        },
+        "linear.bias": {
+          "cap_reached_fraction": 1.0,
+          "local_over_gs_quantiles": [
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896
+          ],
+          "local_term_selected_fraction": 1.0,
+          "noise_scale_quantiles": [
+            0.0007692308281548321,
+            0.0007692308281548321,
+            0.0007692308281548321,
+            0.0007692308281548321,
+            0.0007692308281548321
+          ],
+          "s_over_gs_quantiles": [
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896
+          ],
+          "signal_over_noise_quantiles": [
+            7.895177841186523,
+            8.65873908996582,
+            8.741143226623535,
+            8.948229789733887,
+            9.759071350097656
+          ]
+        },
+        "linear.weight": {
+          "cap_reached_fraction": 0.6813775510204082,
+          "local_over_gs_quantiles": [
+            0.5000000596046448,
+            0.8113102316856384,
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896
+          ],
+          "local_term_selected_fraction": 0.6821428571428572,
+          "noise_scale_quantiles": [
+            0.0007686310564167798,
+            0.0007686310564167798,
+            0.0007692308281548321,
+            0.0007692308281548321,
+            0.0007692308281548321
+          ],
+          "s_over_gs_quantiles": [
+            0.9992203712463379,
+            0.9992203712463379,
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896
+          ],
+          "signal_over_noise_quantiles": [
+            0.0,
+            0.005656628869473934,
+            0.23836934566497803,
+            2.1146085262298584,
+            5.874605178833008
+          ]
+        }
+      },
+      "learning_rate": 0.1,
+      "peak_rss_mb": 1980.42578125,
+      "privacy": {
+        "accountant": "generic-pld-conservative",
+        "accounting_runtime_seconds": 0.5393473627045751,
+        "delta": 0.1,
+        "epsilon": 91.62113479227848,
+        "mechanism_parameter": 0.026000000000000002,
+        "q": 0.03333333333333333,
+        "steps": 30
+      },
+      "runtime_seconds": 0.7221360448747873,
+      "steps": 30,
+      "sweep_arm": "direct_laplace_ss",
+      "test_accuracy": 0.6915,
+      "test_loss": 1.7968517150878907
+    },
+    {
+      "arm": "ags_gs",
+      "batch_size": 2000,
+      "coordinate_clipping_rate": 0.047519656050955414,
+      "layers": {},
+      "learning_rate": 0.1,
+      "peak_rss_mb": 1980.42578125,
+      "privacy": {
+        "accountant": "generic-pld-conservative",
+        "accounting_runtime_seconds": 0.5393473627045751,
+        "delta": 0.1,
+        "epsilon": 91.62113479227848,
+        "mechanism_parameter": 0.026000000000000002,
+        "q": 0.03333333333333333,
+        "steps": 30
+      },
+      "runtime_seconds": 0.6150186276063323,
+      "steps": 30,
+      "sweep_arm": "laplace_gs",
+      "test_accuracy": 0.6915,
+      "test_loss": 1.7968517211914063
+    },
+    {
+      "arm": "dpsgd",
+      "batch_size": 2000,
+      "example_l2_clipping_rate": 1.0,
+      "learning_rate": 0.1,
+      "peak_rss_mb": 1980.42578125,
+      "privacy": {
+        "accountant": "dp-accounting-pld-replace-one",
+        "accounting_runtime_seconds": 8.332581330090761,
+        "delta": 0.1,
+        "epsilon": 66.69026194878366,
+        "mechanism_parameter": 0.125875,
+        "q": 0.03333333333333333,
+        "steps": 30
+      },
+      "runtime_seconds": 0.5820407597348094,
+      "steps": 30,
+      "sweep_arm": "dpsgd",
+      "test_accuracy": 0.5989,
+      "test_loss": 2.000322863769531
+    },
+    {
+      "arm": "ags_ss",
+      "batch_size": 2000,
+      "coordinate_clipping_rate": 0.04177733545647558,
+      "layers": {
+        "certificate": {
+          "beta": 0.00078,
+          "exp_minus_beta": 0.9992203041209234,
+          "method": "direct_clipped_mean"
+        },
+        "linear.bias": {
+          "cap_reached_fraction": 1.0,
+          "local_over_gs_quantiles": [
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896
+          ],
+          "local_term_selected_fraction": 1.0,
+          "noise_scale_quantiles": [
+            0.0023076923098415136,
+            0.0023076923098415136,
+            0.0023076923098415136,
+            0.0023076923098415136,
+            0.0023076923098415136
+          ],
+          "s_over_gs_quantiles": [
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896
+          ],
+          "signal_over_noise_quantiles": [
+            5.610596179962158,
+            6.253340721130371,
+            6.5464253425598145,
+            6.841531276702881,
+            7.321220874786377
+          ]
+        },
+        "linear.weight": {
+          "cap_reached_fraction": 0.675,
+          "local_over_gs_quantiles": [
+            0.5000000596046448,
+            0.7315969467163086,
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896
+          ],
+          "local_term_selected_fraction": 0.675,
+          "noise_scale_quantiles": [
+            0.002305893227458,
+            0.002305893227458,
+            0.0023076923098415136,
+            0.0023076923098415136,
+            0.0023076923098415136
+          ],
+          "s_over_gs_quantiles": [
+            0.9992203712463379,
+            0.9992203712463379,
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896
+          ],
+          "signal_over_noise_quantiles": [
+            0.0,
+            0.004417578224092722,
+            0.17003923654556274,
+            1.4886863231658936,
+            4.139438629150391
+          ]
+        }
+      },
+      "learning_rate": 0.3,
+      "peak_rss_mb": 1980.42578125,
+      "privacy": {
+        "accountant": "generic-pld-conservative",
+        "accounting_runtime_seconds": 0.5393473627045751,
+        "delta": 0.1,
+        "epsilon": 91.62113479227848,
+        "mechanism_parameter": 0.026000000000000002,
+        "q": 0.03333333333333333,
+        "steps": 30
+      },
+      "runtime_seconds": 0.7815355127677321,
+      "steps": 30,
+      "sweep_arm": "direct_laplace_ss",
+      "test_accuracy": 0.7418,
+      "test_loss": 1.270730694580078
+    },
+    {
+      "arm": "ags_gs",
+      "batch_size": 2000,
+      "coordinate_clipping_rate": 0.04177741401273886,
+      "layers": {},
+      "learning_rate": 0.3,
+      "peak_rss_mb": 1980.42578125,
+      "privacy": {
+        "accountant": "generic-pld-conservative",
+        "accounting_runtime_seconds": 0.5393473627045751,
+        "delta": 0.1,
+        "epsilon": 91.62113479227848,
+        "mechanism_parameter": 0.026000000000000002,
+        "q": 0.03333333333333333,
+        "steps": 30
+      },
+      "runtime_seconds": 0.6606107400730252,
+      "steps": 30,
+      "sweep_arm": "laplace_gs",
+      "test_accuracy": 0.7418,
+      "test_loss": 1.2707307434082031
+    },
+    {
+      "arm": "dpsgd",
+      "batch_size": 2000,
+      "example_l2_clipping_rate": 1.0,
+      "learning_rate": 0.3,
+      "peak_rss_mb": 1980.42578125,
+      "privacy": {
+        "accountant": "dp-accounting-pld-replace-one",
+        "accounting_runtime_seconds": 8.332581330090761,
+        "delta": 0.1,
+        "epsilon": 66.69026194878366,
+        "mechanism_parameter": 0.125875,
+        "q": 0.03333333333333333,
+        "steps": 30
+      },
+      "runtime_seconds": 0.6229592831805348,
+      "steps": 30,
+      "sweep_arm": "dpsgd",
+      "test_accuracy": 0.7098,
+      "test_loss": 1.490400653076172
+    }
+  ],
+  "schema": 1
+}

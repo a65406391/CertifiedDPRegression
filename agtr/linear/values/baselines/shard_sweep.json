@@ -1,0 +1,46 @@
+{
+ "dataset": "linear",
+ "shard_grid": [
+  8,
+  16,
+  20,
+  32,
+  40,
+  64,
+  80
+ ],
+ "epsilons": [
+  0.1,
+  0.2,
+  0.5,
+  1.0,
+  2.0,
+  5.0,
+  10.0
+ ],
+ "best_fixed_S": 80,
+ "best_fixed_rule": "min geometric-mean MSE over the epsilon grid",
+ "arithmetic_mean_S": 80,
+ "envelope_S": [
+  80,
+  80,
+  80,
+  80,
+  80,
+  80,
+  80
+ ],
+ "noiseless_mse": {
+  "8": 0.01071152540532482,
+  "16": 0.010796562079055836,
+  "20": 0.010947704447257248,
+  "32": 0.23096133932573537,
+  "40": 0.21398783697701718,
+  "64": 1.752276188992547,
+  "80": 1.7433322506591384
+ },
+ "seeds": 3,
+ "n_test": 2000,
+ "accounting": "composed: epsilon split across the n_test released predictions (basic composition)",
+ "best_fixed_S_per_query": 40
+}

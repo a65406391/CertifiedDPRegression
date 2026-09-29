@@ -1,0 +1,18 @@
+{
+ "tag": "smoke_eps1_n2000",
+ "eps": 1.0,
+ "delta": 5e-06,
+ "eps_spent": 0.9974059591629915,
+ "noise_multiplier": 1.982421875,
+ "n_private": 2000,
+ "epochs": 1,
+ "batch": 256,
+ "lr": 0.001,
+ "rank": 16,
+ "clip": 1.0,
+ "seed": 0,
+ "steps": 37,
+ "select": 0.533256880733945,
+ "test": 0.5852,
+ "train_seconds": 8.45400094985962
+}

@@ -1,0 +1,8 @@
+dp-accounting==0.6.0
+numpy==1.26.4
+opacus==1.6.0
+psutil==7.0.0
+PyYAML==6.0.2
+torch==2.9.1
+torchvision==0.24.1
+

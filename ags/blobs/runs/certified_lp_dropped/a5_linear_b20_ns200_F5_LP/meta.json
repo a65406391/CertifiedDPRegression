@@ -1,0 +1,58 @@
+{
+ "run_id": "a5_linear_b20_ns200_F5_LP",
+ "cfg": {
+  "N": 200,
+  "d": 8,
+  "sep": 4.0,
+  "aniso": 5.0,
+  "batch_size": 20,
+  "n_epochs": 20,
+  "n_s": 200,
+  "gamma": 0.05,
+  "lam": 0.0,
+  "lr": 0.5,
+  "loss": "hinge",
+  "F": 5,
+  "b_eff": 100,
+  "semantics": "LP",
+  "k_grid": [
+   1,
+   2,
+   4,
+   8
+  ],
+  "timeout": 600,
+  "threads": 4,
+  "adjacency": "substitution",
+  "arch": "linear",
+  "width": null,
+  "n_param_coords": 9,
+  "data_sha256": "22ffd2a0ebc211172ce4de522d5cdfa1bf5d3f5793156a408b8ecdf3e7a25555"
+ },
+ "k_grid": [
+  1,
+  2,
+  4,
+  8
+ ],
+ "expected_windows_per_k": 40,
+ "n_param_coords": 9,
+ "expected_steps": 160,
+ "expected_solves": 2880,
+ "git_sha": "0ebce93d40e57484603f74f475e0933a3ddc34b2",
+ "git_dirty": true,
+ "host": "<licensed-host>",
+ "pid": 2476205,
+ "versions": {
+  "python": "3.10.12",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "numpy": "1.26.4",
+  "torch": "2.9.1+cu128",
+  "gurobipy": "13.0.0",
+  "scipy": "1.15.3"
+ },
+ "env": {},
+ "agt_opt_max_bound_coords": null,
+ "started": "2026-08-20 10:27:39",
+ "started_epoch": 1787218059.8268082
+}

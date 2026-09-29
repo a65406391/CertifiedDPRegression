@@ -1,0 +1,23 @@
+{
+ "run_id": "SMOKE_rf8_b20_ns10_F1_MILP",
+ "status": "completed",
+ "error": null,
+ "finished": "2026-08-19 23:25:45",
+ "wall_s": 16.49979305267334,
+ "steps_written": 20,
+ "steps_expected": 20,
+ "models_written": 20,
+ "solves_written": 360,
+ "solves_expected": 360,
+ "counts": {
+  "optimal": 360,
+  "time_limit": 0,
+  "infeasible": 0,
+  "other": 0,
+  "dual_fallback": 0,
+  "no_solution": 0
+ },
+ "steps_complete": true,
+ "solves_complete": true,
+ "solves_sha256": "d1af85bb16a60d2354ce1f3043aa0f3b111919dca57014ed82de2a6e2a7e1a3b"
+}

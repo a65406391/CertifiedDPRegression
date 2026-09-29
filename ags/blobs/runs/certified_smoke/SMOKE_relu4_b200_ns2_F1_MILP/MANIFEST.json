@@ -1,0 +1,23 @@
+{
+ "run_id": "SMOKE_relu4_b200_ns2_F1_MILP",
+ "status": "failed",
+ "error": "Per-sample parameter gradients support exactly one trainable layer, found 2.",
+ "finished": "2026-08-19 23:21:48",
+ "wall_s": 6.196335792541504,
+ "steps_written": 0,
+ "steps_expected": 4,
+ "models_written": 0,
+ "solves_written": 0,
+ "solves_expected": 328,
+ "counts": {
+  "optimal": 0,
+  "time_limit": 0,
+  "infeasible": 0,
+  "other": 0,
+  "dual_fallback": 0,
+  "no_solution": 0
+ },
+ "steps_complete": false,
+ "solves_complete": false,
+ "solves_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

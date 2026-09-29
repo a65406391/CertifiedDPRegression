@@ -1,0 +1,40 @@
+{
+ "tag": "n4000_e20_lr0.3_g1",
+ "n_train": 4000,
+ "n_test": 2000,
+ "slope": 2.0,
+ "intercept": 1.0,
+ "x_range": [
+  -2.0,
+  2.0
+ ],
+ "noise_std": 0.1,
+ "clip_y": 6.0,
+ "gs_output_range": 12.0,
+ "T_values": [
+  1,
+  2,
+  4,
+  8,
+  16,
+  32,
+  64,
+  128
+ ],
+ "k_grid": "dense 1..min(64, m//8)",
+ "k_cap": 64,
+ "k_frac": 8,
+ "epochs": 20,
+ "lr": 0.3,
+ "gamma": 1.0,
+ "clip_method": "clamp (per-coordinate)",
+ "batch": "full shard (one step per epoch)",
+ "init": "w=b=0 (public)",
+ "certification": "abstract_gradient_training_opt MILP, concretization_freq=1, best bound on time limit",
+ "time_limit": 1800,
+ "seed": 42,
+ "partition": "one permutation (seed+1), consecutive chunks; shard 0 is a uniform WOR subsample of size N/T",
+ "git_sha": "2ef65719799221d038783fc8735890ff5879ee88",
+ "host": "anonymized-host",
+ "started": "2026-09-15 13:17:03"
+}

@@ -1,0 +1,157 @@
+{
+  "calibration": {
+    "accountant": "generic-pld-conservative",
+    "accounting_runtime_seconds": 0.5929226754233241,
+    "delta": 0.1,
+    "epsilon": 89.09543801002167,
+    "mechanism_parameter": 0.024,
+    "q": 0.016666666666666666,
+    "steps": 60
+  },
+  "config": {
+    "accountant_search_iterations": 5,
+    "ags_delta_fraction": 0.5,
+    "ags_mechanism": "laplace",
+    "arms": [
+      "ags_ss"
+    ],
+    "batch_size": 1000,
+    "beta_epsilon_ratio": 0.001,
+    "coordinate_clip": 0.1,
+    "coordinate_clip_bias": 0.03,
+    "coordinate_clip_weight": 0.03,
+    "epochs": 1,
+    "experiment": "logistic_public_weight_bias_cap_sweep",
+    "gradient_chunk_size": 1000,
+    "l2_clip": 1.0,
+    "learning_rate": 0.3,
+    "model": "logistic",
+    "pld_interval": 0.001,
+    "seed": 0,
+    "sensitivity_method": "direct_clipped_mean",
+    "target_delta": 0.1,
+    "target_epsilon": 100.0
+  },
+  "grid": {
+    "accountant_search_iterations": 5,
+    "ags_delta_fraction": 0.5,
+    "ags_mechanism": "laplace",
+    "batch_size": 1000,
+    "bias_caps": [
+      0.03,
+      0.1,
+      0.3
+    ],
+    "coordinate_clip": 0.1,
+    "epochs": 1,
+    "experiment": "logistic_public_weight_bias_cap_sweep",
+    "gradient_chunk_size": 1000,
+    "l2_clip": 1.0,
+    "laplace_beta_epsilon_ratio": 0.001,
+    "learning_rate": 0.3,
+    "model": "logistic",
+    "pld_interval": 0.001,
+    "seed": 0,
+    "sensitivity_method": "direct_clipped_mean",
+    "target_delta": 0.1,
+    "target_epsilon": 100.0,
+    "weight_caps": [
+      0.01,
+      0.03,
+      0.1,
+      0.3
+    ]
+  },
+  "result": {
+    "arm": "ags_ss",
+    "bias_cap": 0.03,
+    "coordinate_clipping_rate": 0.14462359447983011,
+    "layers": {
+      "certificate": {
+        "beta": 2.4e-05,
+        "exp_minus_beta": 0.9999760002879977,
+        "method": "direct_clipped_mean"
+      },
+      "linear.bias": {
+        "cap_reached_fraction": 1.0,
+        "local_over_gs_quantiles": [
+          1.0000001192092896,
+          1.0000001192092896,
+          1.0000001192092896,
+          1.0000001192092896,
+          1.0000001192092896
+        ],
+        "local_term_selected_fraction": 1.0,
+        "noise_scale_quantiles": [
+          0.0015000002458691597,
+          0.0015000002458691597,
+          0.0015000002458691597,
+          0.0015000002458691597,
+          0.0015000002458691597
+        ],
+        "s_over_gs_quantiles": [
+          1.0000001192092896,
+          1.0000001192092896,
+          1.0000001192092896,
+          1.0000001192092896,
+          1.0000001192092896
+        ],
+        "signal_over_noise_quantiles": [
+          4.112494945526123,
+          4.560720443725586,
+          4.60325813293457,
+          4.704172134399414,
+          4.855347156524658
+        ]
+      },
+      "linear.weight": {
+        "cap_reached_fraction": 0.727295918367347,
+        "local_over_gs_quantiles": [
+          0.5000000596046448,
+          0.7491529583930969,
+          1.0000001192092896,
+          1.0000001192092896,
+          1.0000001192092896
+        ],
+        "local_term_selected_fraction": 0.727295918367347,
+        "noise_scale_quantiles": [
+          0.0014999641571193933,
+          0.0014999641571193933,
+          0.0015000002458691597,
+          0.0015000002458691597,
+          0.0015000002458691597
+        ],
+        "s_over_gs_quantiles": [
+          0.9999760389328003,
+          0.9999760389328003,
+          1.0000001192092896,
+          1.0000001192092896,
+          1.0000001192092896
+        ],
+        "signal_over_noise_quantiles": [
+          0.0,
+          0.00280981557443738,
+          0.1628672033548355,
+          1.3839462995529175,
+          3.695651054382324
+        ]
+      }
+    },
+    "peak_rss_mb": 1645.51953125,
+    "privacy": {
+      "accountant": "generic-pld-conservative",
+      "accounting_runtime_seconds": 0.5929226754233241,
+      "delta": 0.1,
+      "epsilon": 89.09543801002167,
+      "mechanism_parameter": 0.024,
+      "q": 0.016666666666666666,
+      "steps": 60
+    },
+    "runtime_seconds": 0.41224586870521307,
+    "steps": 60,
+    "test_accuracy": 0.712,
+    "test_loss": 1.3430336456298828,
+    "weight_cap": 0.03
+  },
+  "schema": 1
+}

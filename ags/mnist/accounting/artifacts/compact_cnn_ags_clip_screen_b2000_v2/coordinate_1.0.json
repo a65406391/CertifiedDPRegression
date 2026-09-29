@@ -1,0 +1,313 @@
+{
+  "result": {
+    "arm": "ags_ss",
+    "config": {
+      "accountant_search_iterations": 24,
+      "ags_delta_fraction": 0.9,
+      "ags_mechanism": "laplace",
+      "ags_release_mode": "coordinate",
+      "arms": [
+        "ags_ss"
+      ],
+      "batch_size": 2000,
+      "beta_epsilon_ratio": 0.001,
+      "coordinate_clip": 1.0,
+      "coordinate_clip_bias": null,
+      "coordinate_clip_weight": null,
+      "epochs": 15,
+      "experiment": "compact_cnn_ags_clip_screen",
+      "gradient_chunk_size": 256,
+      "l2_clip": 1.0,
+      "learning_rate": 0.1,
+      "model": "compact_selu_cnn",
+      "pld_interval": 0.001,
+      "seed": 0,
+      "sensitivity_method": "direct_clipped_mean",
+      "target_delta": 0.1,
+      "target_epsilon": 100.0
+    },
+    "coordinate_clip": 1.0,
+    "coordinate_clipping_rate": 0.03414853809780332,
+    "evaluation_split": "validation",
+    "layers": {
+      "certificate": {
+        "beta": 1e-05,
+        "exp_minus_beta": 0.9999900000499998,
+        "method": "direct_clipped_mean"
+      },
+      "conv1.bias": {
+        "cap_reached_fraction": 1.0,
+        "local_over_gs_quantiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "local_term_selected_fraction": 1.0,
+        "noise_scale_quantiles": [
+          0.020000001415610313,
+          0.020000001415610313,
+          0.020000001415610313,
+          0.020000001415610313,
+          0.020000001415610313
+        ],
+        "s_over_gs_quantiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signal_over_noise_quantiles": [
+          0.006928153336048126,
+          0.05022422969341278,
+          0.06251896917819977,
+          0.11400096863508224,
+          0.19005945324897766
+        ]
+      },
+      "conv1.weight": {
+        "cap_reached_fraction": 1.0,
+        "local_over_gs_quantiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "local_term_selected_fraction": 1.0,
+        "noise_scale_quantiles": [
+          0.020000001415610313,
+          0.020000001415610313,
+          0.020000001415610313,
+          0.020000001415610313,
+          0.020000001415610313
+        ],
+        "s_over_gs_quantiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signal_over_noise_quantiles": [
+          0.00031747340108267963,
+          0.021075621247291565,
+          0.043038032948970795,
+          0.07318272441625595,
+          0.21262110769748688
+        ]
+      },
+      "conv2.bias": {
+        "cap_reached_fraction": 0.875,
+        "local_over_gs_quantiles": [
+          0.5,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "local_term_selected_fraction": 0.875,
+        "noise_scale_quantiles": [
+          0.019999802112579346,
+          0.020000001415610313,
+          0.020000001415610313,
+          0.020000001415610313,
+          0.020000001415610313
+        ],
+        "s_over_gs_quantiles": [
+          0.9999900460243225,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signal_over_noise_quantiles": [
+          1.2722284337129963e-10,
+          0.005207251291722059,
+          0.011266233399510384,
+          0.03761722147464752,
+          0.19814321398735046
+        ]
+      },
+      "conv2.weight": {
+        "cap_reached_fraction": 0.927734375,
+        "local_over_gs_quantiles": [
+          0.5,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "local_term_selected_fraction": 0.927734375,
+        "noise_scale_quantiles": [
+          0.019999802112579346,
+          0.020000001415610313,
+          0.020000001415610313,
+          0.020000001415610313,
+          0.020000001415610313
+        ],
+        "s_over_gs_quantiles": [
+          0.9999900460243225,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signal_over_noise_quantiles": [
+          1.9315205684877768e-11,
+          0.004179490730166435,
+          0.01374618150293827,
+          0.051342785358428955,
+          0.25155624747276306
+        ]
+      },
+      "fc1.bias": {
+        "cap_reached_fraction": 0.25,
+        "local_over_gs_quantiles": [
+          0.5,
+          0.5,
+          0.5000584125518799,
+          0.9604683518409729,
+          1.0
+        ],
+        "local_term_selected_fraction": 0.25,
+        "noise_scale_quantiles": [
+          0.019999802112579346,
+          0.019999802112579346,
+          0.019999802112579346,
+          0.019999852403998375,
+          0.020000001415610313
+        ],
+        "s_over_gs_quantiles": [
+          0.9999900460243225,
+          0.9999900460243225,
+          0.9999900460243225,
+          0.9999925494194031,
+          1.0
+        ],
+        "signal_over_noise_quantiles": [
+          0.0,
+          1.4616141069679742e-21,
+          2.9493222086784954e-07,
+          0.00347607652656734,
+          0.13564343750476837
+        ]
+      },
+      "fc1.weight": {
+        "cap_reached_fraction": 0.3765869140625,
+        "local_over_gs_quantiles": [
+          0.5,
+          0.5,
+          0.5001941323280334,
+          1.0,
+          1.0
+        ],
+        "local_term_selected_fraction": 0.3765869140625,
+        "noise_scale_quantiles": [
+          0.019999802112579346,
+          0.019999802112579346,
+          0.019999802112579346,
+          0.020000001415610313,
+          0.020000001415610313
+        ],
+        "s_over_gs_quantiles": [
+          0.9999900460243225,
+          0.9999900460243225,
+          0.9999900460243225,
+          1.0,
+          1.0
+        ],
+        "signal_over_noise_quantiles": [
+          0.0,
+          3.348638761529196e-21,
+          9.705743195809191e-07,
+          0.0057504745200276375,
+          0.17317081987857819
+        ]
+      },
+      "fc2.bias": {
+        "cap_reached_fraction": 1.0,
+        "local_over_gs_quantiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "local_term_selected_fraction": 1.0,
+        "noise_scale_quantiles": [
+          0.020000001415610313,
+          0.020000001415610313,
+          0.020000001415610313,
+          0.020000001415610313,
+          0.020000001415610313
+        ],
+        "s_over_gs_quantiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signal_over_noise_quantiles": [
+          0.025305625051259995,
+          0.06839677691459656,
+          0.10036785900592804,
+          0.11693819612264633,
+          0.19818997383117676
+        ]
+      },
+      "fc2.weight": {
+        "cap_reached_fraction": 1.0,
+        "local_over_gs_quantiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "local_term_selected_fraction": 1.0,
+        "noise_scale_quantiles": [
+          0.020000001415610313,
+          0.020000001415610313,
+          0.020000001415610313,
+          0.020000001415610313,
+          0.020000001415610313
+        ],
+        "s_over_gs_quantiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signal_over_noise_quantiles": [
+          0.022015346214175224,
+          0.08345869928598404,
+          0.18745291233062744,
+          0.24929510056972504,
+          0.48433199524879456
+        ]
+      }
+    },
+    "model": "compact_selu_cnn",
+    "peak_rss_mb": 1988.72265625,
+    "privacy": {
+      "accountant": "generic-pld-conservative",
+      "accounting_runtime_seconds": 0.9318054541945457,
+      "delta": 0.1,
+      "epsilon": 77.39411131816037,
+      "mechanism_parameter": 0.01,
+      "q": 0.04,
+      "steps": 375
+    },
+    "runtime_seconds": 15.67872232105583,
+    "status": "completed",
+    "steps": 375,
+    "test_accuracy": 0.2604,
+    "test_loss": 3.446120574951172
+  },
+  "schema": 1
+}

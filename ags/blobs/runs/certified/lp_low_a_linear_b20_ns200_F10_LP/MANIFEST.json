@@ -1,0 +1,23 @@
+{
+ "run_id": "lp_low_a_linear_b20_ns200_F10_LP",
+ "status": "completed",
+ "error": null,
+ "finished": "2026-08-26 03:08:42",
+ "wall_s": 1406.2186176776886,
+ "steps_written": 80,
+ "steps_expected": 80,
+ "models_written": 80,
+ "solves_written": 1440,
+ "solves_expected": 1440,
+ "counts": {
+  "optimal": 595,
+  "time_limit": 845,
+  "infeasible": 0,
+  "other": 0,
+  "dual_fallback": 0,
+  "no_solution": 0
+ },
+ "steps_complete": true,
+ "solves_complete": true,
+ "solves_sha256": "e7be3aba4d781a02e1cd9524a31591cab4081af750ada5fe2eb217ffb7390710"
+}

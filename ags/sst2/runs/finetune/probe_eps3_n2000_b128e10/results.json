@@ -1,0 +1,18 @@
+{
+ "tag": "probe_eps3_n2000_b128e10",
+ "eps": 3.0,
+ "delta": 5e-06,
+ "eps_spent": 2.992913517578844,
+ "noise_multiplier": 1.4404296875,
+ "n_private": 2000,
+ "epochs": 10,
+ "batch": 128,
+ "lr": 0.001,
+ "rank": 16,
+ "clip": 1.0,
+ "seed": 0,
+ "steps": 160,
+ "select": 0.7752293577981652,
+ "test": 0.7782,
+ "train_seconds": 46.93615198135376
+}

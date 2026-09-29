@@ -1,0 +1,143 @@
+{
+  "schema": 1,
+  "arm": "one_shot_ags",
+  "setting": {
+    "arm": "release",
+    "output": "AGS_Accounting/artifacts/pca_extended/release_eps_100.json",
+    "epsilon": 100.0,
+    "delta": 1e-05,
+    "seeds": 10,
+    "N": 2000,
+    "n_test": 1000,
+    "d": 64,
+    "batch_size": 2000,
+    "steps": 40000,
+    "lr": 0.05,
+    "eta": 0.01,
+    "gamma": 0.1,
+    "data_seed": 42,
+    "scale_unit_norm": false,
+    "device": "cuda",
+    "ags_interval": 0.0001,
+    "ags_delta_fraction": 0.9,
+    "dp_interval": 0.001,
+    "dp_search_iterations": 16,
+    "radius": 1,
+    "k_grid": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256,
+      500
+    ]
+  },
+  "pca_private_fit_public_preprocessing_assumption": true,
+  "parameters": 650,
+  "sum_learning_rates": 29.99478645838424,
+  "nonexpansive_neighbor_certificate": 0.0029994786458384243,
+  "nominal_accuracy": 0.825,
+  "historical": {
+    "pure": {
+      "accuracies": [
+        0.135,
+        0.151,
+        0.093,
+        0.128,
+        0.109,
+        0.126,
+        0.086,
+        0.133,
+        0.148,
+        0.112
+      ],
+      "median_accuracy": 0.127,
+      "ss_quantiles": [
+        0.0029994786458384243,
+        0.0029994786458384243,
+        0.0029994786458384243,
+        0.0029994786458384243,
+        0.0029994786458384243
+      ],
+      "scale_quantiles": [
+        0.07798644479179903,
+        0.07798644479179903,
+        0.07798644479179903,
+        0.07798644479179903,
+        0.07798644479179903
+      ]
+    },
+    "approx": {
+      "accuracies": [
+        0.753,
+        0.725,
+        0.775,
+        0.755,
+        0.75,
+        0.76,
+        0.786,
+        0.738,
+        0.745,
+        0.733
+      ],
+      "median_accuracy": 0.7515000000000001,
+      "ss_quantiles": [
+        0.0029994786458384243,
+        0.0029994786458384243,
+        0.0029994786458384243,
+        0.0029994786458384243,
+        0.0029994786458384243
+      ],
+      "scale_quantiles": [
+        0.038993222395899516,
+        0.038993222395899516,
+        0.038993222395899516,
+        0.038993222395899516,
+        0.038993222395899516
+      ]
+    }
+  },
+  "corrected_generic_pld": {
+    "calibration": {
+      "mechanism_parameter": 0.4158,
+      "epsilon": 99.9955989999905,
+      "delta": 1e-05,
+      "steps": 1,
+      "q": 1.0,
+      "accountant": "generic-pld-conservative",
+      "accounting_runtime_seconds": 13.05307646188885
+    },
+    "accuracies": [
+      0.83,
+      0.816,
+      0.833,
+      0.819,
+      0.824,
+      0.83,
+      0.825,
+      0.829,
+      0.818,
+      0.821
+    ],
+    "median_accuracy": 0.8245,
+    "ss_quantiles": [
+      0.0029994786458384243,
+      0.0029994786458384243,
+      0.0029994786458384243,
+      0.0029994786458384243,
+      0.0029994786458384243
+    ],
+    "scale_quantiles": [
+      0.007213753356994767,
+      0.007213753356994767,
+      0.007213753356994767,
+      0.007213753356994767,
+      0.007213753356994767
+    ]
+  },
+  "runtime_seconds": 31.659348683431745
+}

@@ -1,0 +1,23 @@
+{
+ "run_id": "validation_smoke2_F2_eps10_d1e-05_K1_seed41_release0000",
+ "status": "completed",
+ "error": null,
+ "finished": "2026-08-26 01:12:35",
+ "wall_s": 1.8971037864685059,
+ "steps_written": 2,
+ "steps_expected": 2,
+ "models_written": 2,
+ "solves_written": 36,
+ "solves_expected": 36,
+ "counts": {
+  "optimal": 36,
+  "time_limit": 0,
+  "infeasible": 0,
+  "other": 0,
+  "dual_fallback": 0,
+  "no_solution": 0
+ },
+ "steps_complete": true,
+ "solves_complete": true,
+ "solves_sha256": "2366a92605a4a737d56fc802210b9924d22374b715235d182f3333575b4f9f93"
+}

@@ -1,0 +1,41 @@
+{
+  "accounting_note": "AGS uses conservative generic PLDs; coordinates are composed before one WOR amplification.",
+  "config": {
+    "ags_delta_fraction": 0.5,
+    "ags_mechanism": "cauchy",
+    "arms": [
+      "nonprivate"
+    ],
+    "batch_size": 128,
+    "beta_epsilon_ratio": 0.16666666666666666,
+    "coordinate_clip": 0.1,
+    "epochs": 10,
+    "experiment": "lenet_mnist_basic",
+    "gradient_chunk_size": 16,
+    "l2_clip": 1.0,
+    "learning_rate": 0.01,
+    "pld_interval": 0.0001,
+    "seed": 0,
+    "target_delta": 1e-05,
+    "target_epsilon": 4.0
+  },
+  "created_utc": "2026-08-25T18:58:31.912622+00:00",
+  "results": [
+    {
+      "arm": "nonprivate",
+      "peak_rss_mb": 1487.8203125,
+      "privacy": null,
+      "runtime_seconds": 16.056100727058947,
+      "steps": 4690,
+      "test_accuracy": 0.9244,
+      "test_loss": 0.23892081680297853
+    }
+  ],
+  "schema": 1,
+  "versions": {
+    "dp-accounting": "0.6.0",
+    "opacus": "1.6.0",
+    "torch": "2.9.1+cu128",
+    "torchvision": "0.24.1"
+  }
+}

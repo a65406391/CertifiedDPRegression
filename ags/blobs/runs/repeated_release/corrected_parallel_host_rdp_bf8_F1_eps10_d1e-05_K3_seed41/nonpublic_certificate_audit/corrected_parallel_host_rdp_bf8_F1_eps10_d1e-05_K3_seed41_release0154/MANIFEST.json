@@ -1,0 +1,23 @@
+{
+ "run_id": "corrected_parallel_host_rdp_bf8_F1_eps10_d1e-05_K3_seed41_release0154",
+ "status": "completed",
+ "error": null,
+ "finished": "2026-08-26 03:47:11",
+ "wall_s": 1.6924810409545898,
+ "steps_written": 4,
+ "steps_expected": 4,
+ "models_written": 4,
+ "solves_written": 72,
+ "solves_expected": 72,
+ "counts": {
+  "optimal": 72,
+  "time_limit": 0,
+  "infeasible": 0,
+  "other": 0,
+  "dual_fallback": 0,
+  "no_solution": 0
+ },
+ "steps_complete": true,
+ "solves_complete": true,
+ "solves_sha256": "847b295a456c314232ee035cd1a718d88ffb79dfb86b320f08487d15968c937d"
+}

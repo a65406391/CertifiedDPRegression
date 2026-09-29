@@ -1,0 +1,54 @@
+{
+ "run_id": "SMOKE_rf8_b20_ns10_F1_MILP",
+ "cfg": {
+  "N": 200,
+  "d": 8,
+  "sep": 4.0,
+  "aniso": 5.0,
+  "batch_size": 20,
+  "n_epochs": 1,
+  "n_s": 10,
+  "gamma": 0.05,
+  "lam": 0.0,
+  "lr": 0.5,
+  "loss": "hinge",
+  "F": 1,
+  "b_eff": 20,
+  "semantics": "MILP",
+  "k_grid": [
+   1,
+   2
+  ],
+  "timeout": 120,
+  "threads": 8,
+  "adjacency": "substitution",
+  "arch": "rf8",
+  "width": null,
+  "n_param_coords": 9,
+  "data_sha256": "998eaf4742e18edb7426ec16d8ee0da2a9a55c761a8bd38c950dba924bc25b16"
+ },
+ "k_grid": [
+  1,
+  2
+ ],
+ "expected_windows_per_k": 10,
+ "n_param_coords": 9,
+ "expected_steps": 20,
+ "expected_solves": 360,
+ "git_sha": "0ebce93d40e57484603f74f475e0933a3ddc34b2",
+ "git_dirty": true,
+ "host": "<licensed-host>",
+ "pid": 2244010,
+ "versions": {
+  "python": "3.10.12",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "numpy": "1.26.4",
+  "torch": "2.9.1+cu128",
+  "gurobipy": "13.0.0",
+  "scipy": "1.15.3"
+ },
+ "env": {},
+ "agt_opt_max_bound_coords": null,
+ "started": "2026-08-19 23:25:28",
+ "started_epoch": 1787178328.5083299
+}

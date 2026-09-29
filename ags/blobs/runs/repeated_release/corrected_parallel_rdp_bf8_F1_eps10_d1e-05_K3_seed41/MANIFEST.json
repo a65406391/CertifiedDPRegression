@@ -1,0 +1,6 @@
+{
+ "status": "failed",
+ "error": "HostID mismatch (licensed to c2205367, hostid is 0)",
+ "release_records": 0,
+ "release_records_expected": 200
+}

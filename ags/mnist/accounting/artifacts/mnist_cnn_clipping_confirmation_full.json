@@ -1,0 +1,75 @@
+{
+  "created_utc": "2026-08-25T21:02:33.140509+00:00",
+  "grid": {
+    "batch_size": 256,
+    "clip_screen_epochs": 3,
+    "confirmation_epochs": 30,
+    "coordinate_clips": [
+      0.03,
+      0.1,
+      0.3,
+      1.0,
+      3.0
+    ],
+    "experiment": "mnist_cnn_architecture_screen",
+    "gradient_chunk_size": 256,
+    "l2_clips": [
+      0.3,
+      1.0,
+      3.0,
+      10.0,
+      30.0
+    ],
+    "learning_rates": [
+      0.05,
+      0.1,
+      0.15,
+      0.25
+    ],
+    "models": [
+      "sample_cnn",
+      "compact_selu_cnn"
+    ],
+    "normalization_mean": 0.1307,
+    "normalization_std": 0.3081,
+    "seed": 0,
+    "selection_epochs": 15,
+    "validation_size": 10000
+  },
+  "note": "15-epoch public clipping screen on validation data; no noise.",
+  "results": [
+    {
+      "arm": "clipped_coordinate",
+      "clip": 0.3,
+      "clipping_rate": 0.01314039693696106,
+      "evaluation_split": "validation",
+      "geometry": "coordinate",
+      "learning_rate": 0.1,
+      "model": "sample_cnn",
+      "parameter_count": 26010,
+      "peak_rss_mb": 1727.67578125,
+      "privacy": null,
+      "runtime_seconds": 29.15576641727239,
+      "steps": 2940,
+      "test_accuracy": 0.9795,
+      "test_loss": 0.08398285274505615
+    },
+    {
+      "arm": "clipped_l2",
+      "clip": 30.0,
+      "clipping_rate": 0.02866310586734694,
+      "evaluation_split": "validation",
+      "geometry": "l2",
+      "learning_rate": 0.1,
+      "model": "sample_cnn",
+      "parameter_count": 26010,
+      "peak_rss_mb": 1774.67578125,
+      "privacy": null,
+      "runtime_seconds": 25.921872696839273,
+      "steps": 2940,
+      "test_accuracy": 0.988,
+      "test_loss": 0.045597832584381104
+    }
+  ],
+  "schema": 1
+}

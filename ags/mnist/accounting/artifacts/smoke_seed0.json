@@ -1,0 +1,267 @@
+{
+  "accounting_note": "AGS uses conservative generic PLDs; coordinates are composed before one WOR amplification.",
+  "config": {
+    "ags_delta_fraction": 0.5,
+    "ags_mechanism": "cauchy",
+    "arms": [
+      "nonprivate",
+      "ags_ss",
+      "dpsgd",
+      "ags_gs"
+    ],
+    "batch_size": 128,
+    "beta_epsilon_ratio": 0.16666666666666666,
+    "coordinate_clip": 0.1,
+    "epochs": 1,
+    "experiment": "smoke",
+    "gradient_chunk_size": 16,
+    "l2_clip": 1.0,
+    "learning_rate": 0.01,
+    "pld_interval": 0.0001,
+    "seed": 0,
+    "target_delta": 1e-05,
+    "target_epsilon": 4.0
+  },
+  "created_utc": "2026-08-25T18:36:06.587188+00:00",
+  "results": [
+    {
+      "arm": "nonprivate",
+      "peak_rss_mb": 1791.16015625,
+      "privacy": null,
+      "runtime_seconds": 1.9140199841931462,
+      "steps": 469,
+      "test_accuracy": 0.1253,
+      "test_loss": 2.2998507568359376
+    },
+    {
+      "arm": "ags_ss",
+      "coordinate_clipping_rate": 0.31886178884639577,
+      "layers": {
+        "classifier.1.bias": {
+          "noise_scale_quantiles": [
+            0.664134681224823,
+            0.6784805655479431,
+            0.6833934783935547,
+            0.6909922957420349,
+            1.327539086341858
+          ],
+          "s_over_gs_quantiles": [
+            116.88770294189453,
+            119.4125747680664,
+            120.27725219726562,
+            121.61463928222656,
+            233.64686584472656
+          ]
+        },
+        "classifier.1.weight": {
+          "noise_scale_quantiles": [
+            0.0,
+            0.6770431399345398,
+            0.6830080151557922,
+            0.6890450716018677,
+            1.3675583600997925
+          ],
+          "s_over_gs_quantiles": [
+            0.0,
+            119.15959167480469,
+            120.20941162109375,
+            121.27193450927734,
+            240.6902618408203
+          ]
+        },
+        "classifier.3.bias": {
+          "noise_scale_quantiles": [
+            0.664134681224823,
+            0.6774610877037048,
+            0.6832056045532227,
+            0.6905674934387207,
+            0.7032107710838318
+          ],
+          "s_over_gs_quantiles": [
+            116.88770294189453,
+            119.23314666748047,
+            120.24418640136719,
+            121.53988647460938,
+            123.76509094238281
+          ]
+        },
+        "classifier.3.weight": {
+          "noise_scale_quantiles": [
+            0.0,
+            0.6725893616676331,
+            0.6819470524787903,
+            0.6845123171806335,
+            1.3630528450012207
+          ],
+          "s_over_gs_quantiles": [
+            0.0,
+            118.37572479248047,
+            120.0226821899414,
+            120.47416687011719,
+            239.8972930908203
+          ]
+        },
+        "classifier.5.bias": {
+          "noise_scale_quantiles": [
+            0.6645000576972961,
+            0.6689003109931946,
+            0.6744725704193115,
+            0.6793954372406006,
+            0.6875308156013489
+          ],
+          "s_over_gs_quantiles": [
+            116.95201110839844,
+            117.72645568847656,
+            118.70716857910156,
+            119.5735855102539,
+            121.00541687011719
+          ]
+        },
+        "classifier.5.weight": {
+          "noise_scale_quantiles": [
+            0.0,
+            0.6685324907302856,
+            0.6778337359428406,
+            0.6830080151557922,
+            1.3341267108917236
+          ],
+          "s_over_gs_quantiles": [
+            0.0,
+            117.66171264648438,
+            119.29873657226562,
+            120.20941162109375,
+            234.80630493164062
+          ]
+        },
+        "cross_radius_over_next_width": {
+          "quantiles": [
+            0.0,
+            0.9945651888847351,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "features.0.bias": {
+          "noise_scale_quantiles": [
+            0.6689003109931946,
+            0.6883417367935181,
+            0.6949807405471802,
+            0.6979795694351196,
+            0.6993536949157715
+          ],
+          "s_over_gs_quantiles": [
+            117.72645568847656,
+            121.14813232421875,
+            122.31660461425781,
+            122.84439849853516,
+            123.08625030517578
+          ]
+        },
+        "features.0.weight": {
+          "noise_scale_quantiles": [
+            0.0,
+            0.6830080151557922,
+            0.6892443895339966,
+            0.6966100335121155,
+            0.7047595977783203
+          ],
+          "s_over_gs_quantiles": [
+            0.0,
+            120.20941162109375,
+            121.3070068359375,
+            122.6033706665039,
+            124.03768157958984
+          ]
+        },
+        "features.3.bias": {
+          "noise_scale_quantiles": [
+            0.0,
+            0.6804028153419495,
+            0.6923069357872009,
+            0.6940559148788452,
+            1.3615541458129883
+          ],
+          "s_over_gs_quantiles": [
+            0.0,
+            119.75089263916016,
+            121.84602355957031,
+            122.15383911132812,
+            239.63352966308594
+          ]
+        },
+        "features.3.weight": {
+          "noise_scale_quantiles": [
+            0.0,
+            0.6830080151557922,
+            0.6913886070251465,
+            0.6986515522003174,
+            1.3675583600997925
+          ],
+          "s_over_gs_quantiles": [
+            0.0,
+            120.20941162109375,
+            121.68439483642578,
+            122.9626693725586,
+            240.6902618408203
+          ]
+        }
+      },
+      "peak_rss_mb": 2192.16015625,
+      "privacy": {
+        "accountant": "generic-pld-conservative",
+        "delta": 1e-05,
+        "epsilon": 3.852725074638592,
+        "mechanism_parameter": 0.0033,
+        "q": 0.0021333333333333334,
+        "steps": 469
+      },
+      "runtime_seconds": 29.65175276529044,
+      "steps": 469,
+      "test_accuracy": 0.1027,
+      "test_loss": 4.439417160515191e+23
+    },
+    {
+      "arm": "dpsgd",
+      "example_l2_clipping_rate": 1.0,
+      "peak_rss_mb": 2239.16015625,
+      "privacy": {
+        "accountant": "dp-accounting-pld-replace-one",
+        "delta": 1e-05,
+        "epsilon": 3.9999999998262057,
+        "mechanism_parameter": 0.5069333207003477,
+        "q": 0.0021333333333333334,
+        "steps": 469
+      },
+      "runtime_seconds": 18.659726505167782,
+      "steps": 469,
+      "test_accuracy": 0.193,
+      "test_loss": 2.3002323669433595
+    },
+    {
+      "arm": "ags_gs",
+      "coordinate_clipping_rate": 0.31589232220104024,
+      "layers": {},
+      "peak_rss_mb": 2239.16015625,
+      "privacy": {
+        "accountant": "generic-pld-conservative",
+        "delta": 1e-05,
+        "epsilon": 3.852725074638592,
+        "mechanism_parameter": 0.0033,
+        "q": 0.0021333333333333334,
+        "steps": 469
+      },
+      "runtime_seconds": 17.999283795244992,
+      "steps": 469,
+      "test_accuracy": 0.1031,
+      "test_loss": 16276404881797.94
+    }
+  ],
+  "schema": 1,
+  "versions": {
+    "dp-accounting": "0.6.0",
+    "opacus": "1.6.0",
+    "torch": "2.9.1+cu128",
+    "torchvision": "0.24.1"
+  }
+}

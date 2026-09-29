@@ -1,0 +1,16 @@
+{
+  "result": {
+    "arm": "nonprivate",
+    "batch_size": 25000,
+    "evaluation_split": "validation",
+    "learning_rate": 0.15,
+    "peak_rss_mb": 1710.58203125,
+    "privacy": null,
+    "runtime_seconds": 3.429391173645854,
+    "status": "completed",
+    "steps": 100,
+    "test_accuracy": 0.9608,
+    "test_loss": 0.12333054580688477
+  },
+  "schema": 1
+}

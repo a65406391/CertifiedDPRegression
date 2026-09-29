@@ -1,0 +1,23 @@
+{
+ "run_id": "milp_critical_k9_linear_b20_ns200_F10_MILP",
+ "status": "completed",
+ "error": null,
+ "finished": "2026-08-26 03:41:01",
+ "wall_s": 1586.619933605194,
+ "steps_written": 20,
+ "steps_expected": 20,
+ "models_written": 20,
+ "solves_written": 360,
+ "solves_expected": 360,
+ "counts": {
+  "optimal": 225,
+  "time_limit": 135,
+  "infeasible": 0,
+  "other": 0,
+  "dual_fallback": 135,
+  "no_solution": 0
+ },
+ "steps_complete": true,
+ "solves_complete": true,
+ "solves_sha256": "9e1da715a573785154e01c6ce76eea554a7b4187aaeb3abc3a5736ba2c1ad2fe"
+}

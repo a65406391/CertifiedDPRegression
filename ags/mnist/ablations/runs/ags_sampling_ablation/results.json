@@ -1,0 +1,436 @@
+{
+  "runs": [
+    {
+      "timestamp": "2026-06-07T00:14:20.965127",
+      "config": {
+        "n_train": 2000,
+        "n_test": 1000,
+        "batch_size": 2000,
+        "laplace_batch_size": 2000,
+        "ags_batch_size": 2000,
+        "dataset_size": 2000,
+        "total_steps": 40000,
+        "lr_ags": 0.05,
+        "clip_gamma": 0.1,
+        "epsilon_target": 20.0,
+        "bound_mode": "crown",
+        "n_seeds": 1,
+        "eta": 0.01,
+        "loss": "cross_entropy",
+        "hidden_dims": [],
+        "output_dim": 10,
+        "concretization_freq": 100,
+        "sampling_freqs": [
+          2500,
+          5000,
+          10000,
+          20000,
+          40000
+        ],
+        "k_subset": [
+          1,
+          2,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          500
+        ],
+        "privacy_mode": "approx",
+        "delta": 0.0002
+      },
+      "nominal": [
+        {
+          "seed": 42,
+          "test_loss": 0.4845832586288452,
+          "test_accuracy": 0.88
+        }
+      ],
+      "ags": {
+        "2500": [
+          {
+            "seed": 42,
+            "test_loss": 1.0257062911987305,
+            "test_accuracy": 0.802,
+            "avg_ss_per_window": 0.12185381890958524,
+            "n_windows": 16,
+            "time_s": 8920.69196152687,
+            "sampling_freq": 2500
+          }
+        ],
+        "5000": [
+          {
+            "seed": 42,
+            "test_loss": 1.02577805519104,
+            "test_accuracy": 0.804,
+            "avg_ss_per_window": 0.24370764065679396,
+            "n_windows": 8,
+            "time_s": 11865.781983852386,
+            "sampling_freq": 5000
+          }
+        ],
+        "10000": [
+          {
+            "seed": 42,
+            "test_loss": 1.0257436037063599,
+            "test_accuracy": 0.804,
+            "avg_ss_per_window": 0.4874153106356971,
+            "n_windows": 4,
+            "time_s": 9875.93492102623,
+            "sampling_freq": 10000
+          }
+        ],
+        "20000": [
+          {
+            "seed": 42,
+            "test_loss": 1.0256816148757935,
+            "test_accuracy": 0.803,
+            "avg_ss_per_window": 0.9748305001994595,
+            "n_windows": 2,
+            "time_s": 8088.056446790695,
+            "sampling_freq": 20000
+          }
+        ],
+        "40000": [
+          {
+            "seed": 42,
+            "test_loss": 1.0256727933883667,
+            "test_accuracy": 0.803,
+            "avg_ss_per_window": 1.9496610760688782,
+            "n_windows": 1,
+            "time_s": 7998.526045560837,
+            "sampling_freq": 40000
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-06-08T15:34:23.922113",
+      "config": {
+        "n_train": 2000,
+        "n_test": 1000,
+        "batch_size": 2000,
+        "laplace_batch_size": 2000,
+        "ags_batch_size": 2000,
+        "dataset_size": 2000,
+        "total_steps": 9000,
+        "lr_ags": 0.05,
+        "clip_gamma": 0.1,
+        "epsilon_target": 0.5,
+        "bound_mode": "crown",
+        "n_seeds": 1,
+        "eta": 0.01,
+        "loss": "cross_entropy",
+        "hidden_dims": [],
+        "output_dim": 10,
+        "concretization_freq": 100,
+        "sampling_freqs": [
+          1000,
+          1500,
+          3000,
+          4500,
+          9000
+        ],
+        "k_subset": [
+          1,
+          10,
+          20
+        ],
+        "privacy_mode": "approx",
+        "delta": 0.0002
+      },
+      "nominal": [
+        {
+          "seed": 42,
+          "test_loss": 0.3867318034172058,
+          "test_accuracy": 0.886
+        }
+      ],
+      "ags": {
+        "1000": [
+          {
+            "seed": 42,
+            "test_loss": 1.2934763431549072,
+            "test_accuracy": 0.678,
+            "avg_ss_per_window": 0.16307102205852667,
+            "n_windows": 9,
+            "time_s": 5900.472976922989,
+            "sampling_freq": 1000
+          }
+        ],
+        "1500": [
+          {
+            "seed": 42,
+            "test_loss": 1.2643803358078003,
+            "test_accuracy": 0.708,
+            "avg_ss_per_window": 0.24460653813245395,
+            "n_windows": 6,
+            "time_s": 3270.9837267398834,
+            "sampling_freq": 1500
+          }
+        ],
+        "3000": [
+          {
+            "seed": 42,
+            "test_loss": 1.2369312047958374,
+            "test_accuracy": 0.739,
+            "avg_ss_per_window": 0.48921309139889974,
+            "n_windows": 3,
+            "time_s": 2506.783019542694,
+            "sampling_freq": 3000
+          }
+        ],
+        "4500": [
+          {
+            "seed": 42,
+            "test_loss": 1.2290598154067993,
+            "test_accuracy": 0.747,
+            "avg_ss_per_window": 0.7338195689953864,
+            "n_windows": 2,
+            "time_s": 507.364155292511,
+            "sampling_freq": 4500
+          }
+        ],
+        "9000": [
+          {
+            "seed": 42,
+            "test_loss": 1.2229498624801636,
+            "test_accuracy": 0.768,
+            "avg_ss_per_window": 1.4676390774548054,
+            "n_windows": 1,
+            "time_s": 331.15491247177124,
+            "sampling_freq": 9000
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-06-10T18:49:59.857932",
+      "config": {
+        "n_train": 2000,
+        "n_test": 1000,
+        "batch_size": 2000,
+        "laplace_batch_size": 2000,
+        "ags_batch_size": 2000,
+        "dataset_size": 2000,
+        "total_steps": 40000,
+        "lr_ags": 0.05,
+        "clip_gamma": 0.1,
+        "epsilon_target": 20.0,
+        "bound_mode": "crown",
+        "n_seeds": 1,
+        "eta": 0.01,
+        "loss": "cross_entropy",
+        "hidden_dims": [],
+        "output_dim": 10,
+        "concretization_freq": 100,
+        "sampling_freqs": [
+          2500,
+          5000,
+          10000,
+          20000,
+          40000
+        ],
+        "k_subset": [
+          1,
+          5,
+          9
+        ],
+        "privacy_mode": "pure",
+        "delta": 0.0002
+      },
+      "nominal": [
+        {
+          "seed": 42,
+          "test_loss": 0.4845832586288452,
+          "test_accuracy": 0.88
+        }
+      ],
+      "ags": {
+        "2500": [
+          {
+            "seed": 42,
+            "test_loss": 3.21252179145813,
+            "test_accuracy": 0.379,
+            "avg_ss_per_window": 0.12184705762410886,
+            "n_windows": 16,
+            "time_s": 2427.027325153351,
+            "sampling_freq": 2500
+          }
+        ],
+        "5000": [
+          {
+            "seed": 42,
+            "test_loss": 1.9495654106140137,
+            "test_accuracy": 0.509,
+            "avg_ss_per_window": 0.24370764065679396,
+            "n_windows": 8,
+            "time_s": 1608.2128729820251,
+            "sampling_freq": 5000
+          }
+        ],
+        "10000": [
+          {
+            "seed": 42,
+            "test_loss": 1.3687762022018433,
+            "test_accuracy": 0.632,
+            "avg_ss_per_window": 0.4874153106356971,
+            "n_windows": 4,
+            "time_s": 1855.3405079841614,
+            "sampling_freq": 10000
+          }
+        ],
+        "20000": [
+          {
+            "seed": 42,
+            "test_loss": 1.1477057933807373,
+            "test_accuracy": 0.706,
+            "avg_ss_per_window": 0.9748305001994595,
+            "n_windows": 2,
+            "time_s": 1384.7177016735077,
+            "sampling_freq": 20000
+          }
+        ],
+        "40000": [
+          {
+            "seed": 42,
+            "test_loss": 1.0700159072875977,
+            "test_accuracy": 0.758,
+            "avg_ss_per_window": 1.9496610760688782,
+            "n_windows": 1,
+            "time_s": 1741.1185081005096,
+            "sampling_freq": 40000
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-08-13T15:50:47.452962",
+      "config": {
+        "n_train": 2000,
+        "n_test": 1000,
+        "batch_size": 2000,
+        "laplace_batch_size": 2000,
+        "ags_batch_size": 2000,
+        "dataset_size": 2000,
+        "total_steps": 10000,
+        "lr_ags": 0.05,
+        "clip_gamma": 0.1,
+        "epsilon_target": 1000.0,
+        "bound_mode": "crown",
+        "n_seeds": 1,
+        "eta": 0.01,
+        "loss": "cross_entropy",
+        "hidden_dims": [],
+        "output_dim": 10,
+        "concretization_freq": 100,
+        "sampling_freqs": [
+          100,
+          250,
+          500,
+          1000,
+          2500,
+          5000,
+          10000
+        ],
+        "k_subset": [
+          1,
+          5,
+          10,
+          16
+        ],
+        "privacy_mode": "pure",
+        "delta": 0.0002
+      },
+      "nominal": [
+        {
+          "seed": 42,
+          "test_loss": 0.3907735347747803,
+          "test_accuracy": 0.885
+        }
+      ],
+      "ags": {
+        "100": [
+          {
+            "seed": 42,
+            "test_loss": 89.47212982177734,
+            "test_accuracy": 0.09,
+            "avg_ss_per_window": 2.3065213258632867e-05,
+            "n_windows": 100,
+            "time_s": 810.2502698898315,
+            "sampling_freq": 100
+          }
+        ],
+        "250": [
+          {
+            "seed": 42,
+            "test_loss": 47.07529067993164,
+            "test_accuracy": 0.099,
+            "avg_ss_per_window": 5.766705401129002e-05,
+            "n_windows": 40,
+            "time_s": 810.1039204597473,
+            "sampling_freq": 250
+          }
+        ],
+        "500": [
+          {
+            "seed": 42,
+            "test_loss": 28.70049476623535,
+            "test_accuracy": 0.104,
+            "avg_ss_per_window": 0.00011542610054675606,
+            "n_windows": 20,
+            "time_s": 612.258626461029,
+            "sampling_freq": 500
+          }
+        ],
+        "1000": [
+          {
+            "seed": 42,
+            "test_loss": 17.09138298034668,
+            "test_accuracy": 0.125,
+            "avg_ss_per_window": 0.00023097521770978346,
+            "n_windows": 10,
+            "time_s": 551.8280415534973,
+            "sampling_freq": 1000
+          }
+        ],
+        "2500": [
+          {
+            "seed": 42,
+            "test_loss": 8.130208969116211,
+            "test_accuracy": 0.187,
+            "avg_ss_per_window": 0.0005775099052698351,
+            "n_windows": 4,
+            "time_s": 547.7296884059906,
+            "sampling_freq": 2500
+          }
+        ],
+        "5000": [
+          {
+            "seed": 42,
+            "test_loss": 4.628169059753418,
+            "test_accuracy": 0.289,
+            "avg_ss_per_window": 0.0011550198250915855,
+            "n_windows": 2,
+            "time_s": 625.1206820011139,
+            "sampling_freq": 5000
+          }
+        ],
+        "10000": [
+          {
+            "seed": 42,
+            "test_loss": 2.769162893295288,
+            "test_accuracy": 0.44,
+            "avg_ss_per_window": 0.002310039708390832,
+            "n_windows": 1,
+            "time_s": 344.3605864048004,
+            "sampling_freq": 10000
+          }
+        ]
+      }
+    }
+  ]
+}

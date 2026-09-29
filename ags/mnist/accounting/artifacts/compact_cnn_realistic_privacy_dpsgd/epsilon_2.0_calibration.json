@@ -1,0 +1,13 @@
+{
+  "calibration": {
+    "accountant": "dp-accounting-pld-replace-one",
+    "accounting_runtime_seconds": 0.4296934464946389,
+    "delta": 1e-05,
+    "epsilon": 1.9994253548352512,
+    "mechanism_parameter": 3.0881186523437503,
+    "q": 0.04,
+    "steps": 375
+  },
+  "schema": 1,
+  "target_epsilon": 2.0
+}

@@ -1,0 +1,23 @@
+{
+ "run_id": "a5_b20_ns200_F10_MILP",
+ "status": "completed",
+ "error": null,
+ "finished": "2026-08-20 02:40:43",
+ "wall_s": 19888.113325595856,
+ "steps_written": 80,
+ "steps_expected": 80,
+ "models_written": 80,
+ "solves_written": 1440,
+ "solves_expected": 1440,
+ "counts": {
+  "optimal": 1331,
+  "time_limit": 109,
+  "infeasible": 0,
+  "other": 0,
+  "dual_fallback": 0,
+  "no_solution": 0
+ },
+ "steps_complete": true,
+ "solves_complete": true,
+ "solves_sha256": "348d677acef505112e68cc990f9b9978f7fa1a7e1a86d647e5cf56164f415624"
+}

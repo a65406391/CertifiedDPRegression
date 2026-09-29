@@ -1,0 +1,23 @@
+{
+ "run_id": "a5k3_linear_b20_ns200_F5_MILP",
+ "status": "completed",
+ "error": null,
+ "finished": "2026-08-20 21:26:15",
+ "wall_s": 4322.8681399822235,
+ "steps_written": 40,
+ "steps_expected": 40,
+ "models_written": 40,
+ "solves_written": 720,
+ "solves_expected": 720,
+ "counts": {
+  "optimal": 716,
+  "time_limit": 4,
+  "infeasible": 0,
+  "other": 0,
+  "dual_fallback": 1,
+  "no_solution": 0
+ },
+ "steps_complete": true,
+ "solves_complete": true,
+ "solves_sha256": "24ba4e4e701fa679949f5c09791c5b74132e9cfc118bae81134db7719cdf0c64"
+}

@@ -1,0 +1,10 @@
+experiment: ags_accountant_resolution_and_delta_allocation
+target_epsilon: 100.0
+target_delta: 0.1
+coordinates: 7850
+steps: 60
+q: 0.016666666666666666
+mechanism: laplace
+pld_intervals: [0.002, 0.001, 0.0005]
+delta_fractions: [0.1, 0.25, 0.5, 0.75, 0.9]
+

@@ -1,0 +1,157 @@
+{
+  "calibration": {
+    "accountant": "generic-pld-conservative",
+    "accounting_runtime_seconds": 0.5929226754233241,
+    "delta": 0.1,
+    "epsilon": 89.09543801002167,
+    "mechanism_parameter": 0.024,
+    "q": 0.016666666666666666,
+    "steps": 60
+  },
+  "config": {
+    "accountant_search_iterations": 5,
+    "ags_delta_fraction": 0.5,
+    "ags_mechanism": "laplace",
+    "arms": [
+      "ags_ss"
+    ],
+    "batch_size": 1000,
+    "beta_epsilon_ratio": 0.001,
+    "coordinate_clip": 0.1,
+    "coordinate_clip_bias": 0.3,
+    "coordinate_clip_weight": 0.01,
+    "epochs": 1,
+    "experiment": "logistic_public_weight_bias_cap_sweep",
+    "gradient_chunk_size": 1000,
+    "l2_clip": 1.0,
+    "learning_rate": 0.3,
+    "model": "logistic",
+    "pld_interval": 0.001,
+    "seed": 0,
+    "sensitivity_method": "direct_clipped_mean",
+    "target_delta": 0.1,
+    "target_epsilon": 100.0
+  },
+  "grid": {
+    "accountant_search_iterations": 5,
+    "ags_delta_fraction": 0.5,
+    "ags_mechanism": "laplace",
+    "batch_size": 1000,
+    "bias_caps": [
+      0.03,
+      0.1,
+      0.3
+    ],
+    "coordinate_clip": 0.1,
+    "epochs": 1,
+    "experiment": "logistic_public_weight_bias_cap_sweep",
+    "gradient_chunk_size": 1000,
+    "l2_clip": 1.0,
+    "laplace_beta_epsilon_ratio": 0.001,
+    "learning_rate": 0.3,
+    "model": "logistic",
+    "pld_interval": 0.001,
+    "seed": 0,
+    "sensitivity_method": "direct_clipped_mean",
+    "target_delta": 0.1,
+    "target_epsilon": 100.0,
+    "weight_caps": [
+      0.01,
+      0.03,
+      0.1,
+      0.3
+    ]
+  },
+  "result": {
+    "arm": "ags_ss",
+    "bias_cap": 0.3,
+    "coordinate_clipping_rate": 0.174720042462845,
+    "layers": {
+      "certificate": {
+        "beta": 2.4e-05,
+        "exp_minus_beta": 0.9999760002879977,
+        "method": "direct_clipped_mean"
+      },
+      "linear.bias": {
+        "cap_reached_fraction": 1.0,
+        "local_over_gs_quantiles": [
+          1.0000001192092896,
+          1.0000001192092896,
+          1.0000001192092896,
+          1.0000001192092896,
+          1.0000001192092896
+        ],
+        "local_term_selected_fraction": 1.0,
+        "noise_scale_quantiles": [
+          0.015000001527369022,
+          0.015000001527369022,
+          0.015000001527369022,
+          0.015000001527369022,
+          0.015000001527369022
+        ],
+        "s_over_gs_quantiles": [
+          1.0000001192092896,
+          1.0000001192092896,
+          1.0000001192092896,
+          1.0000001192092896,
+          1.0000001192092896
+        ],
+        "signal_over_noise_quantiles": [
+          0.6674246788024902,
+          1.005551815032959,
+          1.0926518440246582,
+          1.1977969408035278,
+          1.361473798751831
+        ]
+      },
+      "linear.weight": {
+        "cap_reached_fraction": 0.7628826530612246,
+        "local_over_gs_quantiles": [
+          0.5,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "local_term_selected_fraction": 0.7628826530612246,
+        "noise_scale_quantiles": [
+          0.0004999880329705775,
+          0.0005000000237487257,
+          0.0005000000237487257,
+          0.0005000000237487257,
+          0.0005000000237487257
+        ],
+        "s_over_gs_quantiles": [
+          0.9999759793281555,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signal_over_noise_quantiles": [
+          0.0,
+          0.0060000005178153515,
+          0.2316104918718338,
+          1.7667441368103027,
+          4.160284996032715
+        ]
+      }
+    },
+    "peak_rss_mb": 1645.51953125,
+    "privacy": {
+      "accountant": "generic-pld-conservative",
+      "accounting_runtime_seconds": 0.5929226754233241,
+      "delta": 0.1,
+      "epsilon": 89.09543801002167,
+      "mechanism_parameter": 0.024,
+      "q": 0.016666666666666666,
+      "steps": 60
+    },
+    "runtime_seconds": 0.47722168173640966,
+    "steps": 60,
+    "test_accuracy": 0.628,
+    "test_loss": 1.8951133911132811,
+    "weight_cap": 0.01
+  },
+  "schema": 1
+}

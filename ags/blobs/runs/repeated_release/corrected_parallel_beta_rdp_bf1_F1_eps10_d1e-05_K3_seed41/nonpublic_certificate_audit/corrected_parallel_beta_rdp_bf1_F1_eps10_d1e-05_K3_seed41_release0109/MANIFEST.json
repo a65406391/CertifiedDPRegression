@@ -1,0 +1,23 @@
+{
+ "run_id": "corrected_parallel_beta_rdp_bf1_F1_eps10_d1e-05_K3_seed41_release0109",
+ "status": "completed",
+ "error": null,
+ "finished": "2026-08-26 03:52:10",
+ "wall_s": 1.6645257472991943,
+ "steps_written": 4,
+ "steps_expected": 4,
+ "models_written": 4,
+ "solves_written": 72,
+ "solves_expected": 72,
+ "counts": {
+  "optimal": 72,
+  "time_limit": 0,
+  "infeasible": 0,
+  "other": 0,
+  "dual_fallback": 0,
+  "no_solution": 0
+ },
+ "steps_complete": true,
+ "solves_complete": true,
+ "solves_sha256": "b7f72b2257e6e2cb9dbfd1c6b364caa88484f2cdb67804875b92925d0b389b8f"
+}

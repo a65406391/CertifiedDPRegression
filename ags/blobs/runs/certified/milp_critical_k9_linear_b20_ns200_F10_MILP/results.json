@@ -1,0 +1,102 @@
+{
+ "cfg": {
+  "N": 200,
+  "d": 8,
+  "sep": 4.0,
+  "aniso": 5.0,
+  "batch_size": 20,
+  "n_epochs": 20,
+  "n_s": 200,
+  "gamma": 0.05,
+  "lam": 0.0,
+  "lr": 0.5,
+  "loss": "hinge",
+  "F": 10,
+  "b_eff": 200,
+  "semantics": "MILP",
+  "k_grid": [
+   9
+  ],
+  "timeout": 10,
+  "threads": 16,
+  "adjacency": "substitution",
+  "obbt": false,
+  "obbt_timeout": 60,
+  "arch": "linear",
+  "width": null,
+  "n_param_coords": 9,
+  "data_sha256": "22ffd2a0ebc211172ce4de522d5cdfa1bf5d3f5793156a408b8ecdf3e7a25555"
+ },
+ "run_id": "milp_critical_k9_linear_b20_ns200_F10_MILP",
+ "k_grid": [
+  9
+ ],
+ "A_grid": [
+  7.358082111706732
+ ],
+ "gs_per_coord": 0.5,
+ "nominal": 0.90175,
+ "rows": [
+  {
+   "eps": 1,
+   "ags": 0.4975,
+   "ss_mean": 0.5,
+   "sigma_mean": 18.0
+  },
+  {
+   "eps": 2,
+   "ags": 0.5005,
+   "ss_mean": 0.5,
+   "sigma_mean": 9.0
+  },
+  {
+   "eps": 5,
+   "ags": 0.5105,
+   "ss_mean": 0.5,
+   "sigma_mean": 3.5999999999999996
+  },
+  {
+   "eps": 10,
+   "ags": 0.519,
+   "ss_mean": 0.5,
+   "sigma_mean": 1.7999999999999998
+  },
+  {
+   "eps": 15,
+   "ags": 0.54125,
+   "ss_mean": 0.5,
+   "sigma_mean": 1.2
+  },
+  {
+   "eps": 20,
+   "ags": 0.5605,
+   "ss_mean": 0.5,
+   "sigma_mean": 0.8999999999999999
+  },
+  {
+   "eps": 30,
+   "ags": 0.5935,
+   "ss_mean": 0.5,
+   "sigma_mean": 0.6
+  },
+  {
+   "eps": 50,
+   "ags": 0.67925,
+   "ss_mean": 0.5,
+   "sigma_mean": 0.36
+  },
+  {
+   "eps": 100,
+   "ags": 0.788,
+   "ss_mean": 0.5,
+   "sigma_mean": 0.18
+  },
+  {
+   "eps": 200,
+   "ags": 0.87175,
+   "ss_mean": 0.5,
+   "sigma_mean": 0.09
+  }
+ ],
+ "wall_s": 1585.8532409667969
+}

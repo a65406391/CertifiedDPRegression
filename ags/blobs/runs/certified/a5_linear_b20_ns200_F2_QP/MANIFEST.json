@@ -1,0 +1,23 @@
+{
+ "run_id": "a5_linear_b20_ns200_F2_QP",
+ "status": "completed",
+ "error": null,
+ "finished": "2026-08-20 11:47:56",
+ "wall_s": 4816.354119300842,
+ "steps_written": 400,
+ "steps_expected": 400,
+ "models_written": 400,
+ "solves_written": 7200,
+ "solves_expected": 7200,
+ "counts": {
+  "optimal": 7200,
+  "time_limit": 0,
+  "infeasible": 0,
+  "other": 0,
+  "dual_fallback": 0,
+  "no_solution": 0
+ },
+ "steps_complete": true,
+ "solves_complete": true,
+ "solves_sha256": "99ebb517a0d31bf95a09134574f82a25bbd8731e3931b2d15f0304b2742ed4b5"
+}

@@ -1,0 +1,23 @@
+{
+ "run_id": "lp_sparse_b_linear_b20_ns200_F10_LP",
+ "status": "completed",
+ "error": null,
+ "finished": "2026-08-26 02:52:26",
+ "wall_s": 846.899998664856,
+ "steps_written": 40,
+ "steps_expected": 40,
+ "models_written": 40,
+ "solves_written": 720,
+ "solves_expected": 720,
+ "counts": {
+  "optimal": 146,
+  "time_limit": 574,
+  "infeasible": 0,
+  "other": 0,
+  "dual_fallback": 0,
+  "no_solution": 0
+ },
+ "steps_complete": true,
+ "solves_complete": true,
+ "solves_sha256": "f38abdbb39198662015dea3e64785c3c653bb56c6c3337d9cbb1d9c00f70ac12"
+}

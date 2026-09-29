@@ -1,0 +1,114 @@
+{
+  "accounting_note": "AGS uses conservative generic PLDs; coordinates are composed before one WOR amplification.",
+  "config": {
+    "accountant_search_iterations": 5,
+    "ags_delta_fraction": 0.5,
+    "ags_mechanism": "cauchy",
+    "arms": [
+      "ags_ss",
+      "dpsgd"
+    ],
+    "batch_size": 2000,
+    "beta_epsilon_ratio": 0.16666666666666666,
+    "coordinate_clip": 1.0,
+    "epochs": 1,
+    "experiment": "logistic_mnist_private_eps100_b2000_clip10x",
+    "gradient_chunk_size": 256,
+    "l2_clip": 10.0,
+    "learning_rate": 0.1,
+    "model": "logistic",
+    "pld_interval": 0.001,
+    "seed": 0,
+    "target_delta": 0.1,
+    "target_epsilon": 100.0
+  },
+  "created_utc": "2026-08-25T19:52:09.580389+00:00",
+  "results": [
+    {
+      "arm": "ags_ss",
+      "coordinate_clipping_rate": 0.0,
+      "layers": {
+        "cross_radius_over_next_width": {
+          "quantiles": [
+            0.0,
+            0.9990553855895996,
+            0.9995177984237671,
+            0.9996762275695801,
+            1.0
+          ]
+        },
+        "linear.bias": {
+          "noise_scale_quantiles": [
+            0.5115242004394531,
+            0.5204077959060669,
+            0.5393312573432922,
+            0.6127146482467651,
+            0.6769300699234009
+          ],
+          "s_over_gs_quantiles": [
+            119.35564422607422,
+            121.42848205566406,
+            125.84394836425781,
+            142.96673583984375,
+            157.95034790039062
+          ]
+        },
+        "linear.weight": {
+          "noise_scale_quantiles": [
+            0.33863726258277893,
+            0.33864903450012207,
+            0.3438552916049957,
+            0.39857640862464905,
+            0.6716994643211365
+          ],
+          "s_over_gs_quantiles": [
+            79.0153579711914,
+            79.01810455322266,
+            80.23289489746094,
+            93.00115966796875,
+            156.7298583984375
+          ]
+        }
+      },
+      "peak_rss_mb": 1631.10546875,
+      "privacy": {
+        "accountant": "generic-pld-conservative",
+        "accounting_runtime_seconds": 0.564223563298583,
+        "delta": 0.1,
+        "epsilon": 91.1961486313369,
+        "mechanism_parameter": 0.028,
+        "q": 0.03333333333333333,
+        "steps": 30
+      },
+      "runtime_seconds": 7.698229404166341,
+      "steps": 30,
+      "test_accuracy": 0.1025,
+      "test_loss": 5072.641375
+    },
+    {
+      "arm": "dpsgd",
+      "example_l2_clipping_rate": 0.06798950614197559,
+      "peak_rss_mb": 1869.09375,
+      "privacy": {
+        "accountant": "dp-accounting-pld-replace-one",
+        "accounting_runtime_seconds": 8.386536826379597,
+        "delta": 0.1,
+        "epsilon": 66.69026194878366,
+        "mechanism_parameter": 0.125875,
+        "q": 0.03333333333333333,
+        "steps": 30
+      },
+      "runtime_seconds": 0.6800527479499578,
+      "steps": 30,
+      "test_accuracy": 0.8258,
+      "test_loss": 0.9772526397705078
+    }
+  ],
+  "schema": 1,
+  "versions": {
+    "dp-accounting": "0.6.0",
+    "opacus": "1.6.0",
+    "torch": "2.9.1+cu128",
+    "torchvision": "0.24.1"
+  }
+}

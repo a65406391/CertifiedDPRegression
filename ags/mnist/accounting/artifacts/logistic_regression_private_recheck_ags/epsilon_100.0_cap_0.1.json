@@ -1,0 +1,123 @@
+{
+  "result": {
+    "arm": "ags_ss",
+    "clip": 0.1,
+    "config": {
+      "accountant_search_iterations": 24,
+      "ags_delta_fraction": 0.9,
+      "ags_mechanism": "laplace",
+      "ags_release_mode": "coordinate",
+      "arms": [
+        "ags_ss"
+      ],
+      "batch_size": 10000,
+      "beta_epsilon_ratio": 0.001,
+      "coordinate_clip": 0.1,
+      "coordinate_clip_bias": null,
+      "coordinate_clip_weight": null,
+      "epochs": 1,
+      "experiment": "logistic_regression_private_recheck",
+      "gradient_chunk_size": 1000,
+      "l2_clip": 1.0,
+      "learning_rate": 0.3,
+      "model": "logistic",
+      "pld_interval": 0.0001,
+      "seed": 0,
+      "sensitivity_method": "direct_clipped_mean",
+      "target_delta": 0.1,
+      "target_epsilon": 100.0
+    },
+    "coordinate_clipping_rate": 0.0512595770700637,
+    "evaluation_split": "validation",
+    "layers": {
+      "certificate": {
+        "beta": 5.92e-05,
+        "exp_minus_beta": 0.9999408017522854,
+        "method": "direct_clipped_mean"
+      },
+      "linear.bias": {
+        "cap_reached_fraction": 1.0,
+        "local_over_gs_quantiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "local_term_selected_fraction": 1.0,
+        "noise_scale_quantiles": [
+          0.00020270270761102438,
+          0.00020270270761102438,
+          0.00020270270761102438,
+          0.00020270270761102438,
+          0.00020270270761102438
+        ],
+        "s_over_gs_quantiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signal_over_noise_quantiles": [
+          98.06982421875,
+          105.91261291503906,
+          108.88993072509766,
+          109.90321350097656,
+          113.34281158447266
+        ]
+      },
+      "linear.weight": {
+        "cap_reached_fraction": 0.7508928571428573,
+        "local_over_gs_quantiles": [
+          0.5,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "local_term_selected_fraction": 0.7508928571428573,
+        "noise_scale_quantiles": [
+          0.00020269070228096098,
+          0.00020270270761102438,
+          0.00020270270761102438,
+          0.00020270270761102438,
+          0.00020270270761102438
+        ],
+        "s_over_gs_quantiles": [
+          0.999940812587738,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signal_over_noise_quantiles": [
+          0.0,
+          0.05999462679028511,
+          2.8064992427825928,
+          26.745880126953125,
+          76.35798645019531
+        ]
+      }
+    },
+    "model": "logistic",
+    "peak_rss_mb": 2470.3984375,
+    "privacy": {
+      "accountant": "generic-pld-conservative",
+      "accounting_runtime_seconds": 16.661382220685482,
+      "delta": 0.1,
+      "epsilon": 99.98595933732959,
+      "mechanism_parameter": 0.0592,
+      "q": 0.2,
+      "steps": 5
+    },
+    "runtime_seconds": 0.24233770556747913,
+    "screen_arm": "ags",
+    "status": "completed",
+    "steps": 5,
+    "target_epsilon": 100.0,
+    "test_accuracy": 0.5783,
+    "test_loss": 2.0349269958496095
+  },
+  "schema": 1
+}

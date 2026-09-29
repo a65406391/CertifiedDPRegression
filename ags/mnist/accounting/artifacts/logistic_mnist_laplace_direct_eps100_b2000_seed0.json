@@ -1,0 +1,90 @@
+{
+  "accounting_note": "AGS uses conservative generic PLDs; coordinates are composed before one WOR amplification.",
+  "config": {
+    "accountant_search_iterations": 5,
+    "ags_delta_fraction": 0.5,
+    "ags_mechanism": "laplace",
+    "arms": [
+      "ags_ss"
+    ],
+    "batch_size": 2000,
+    "beta_epsilon_ratio": 0.03,
+    "coordinate_clip": 0.1,
+    "epochs": 1,
+    "experiment": "logistic_mnist_laplace_direct_eps100_b2000",
+    "gradient_chunk_size": 256,
+    "l2_clip": 1.0,
+    "learning_rate": 0.1,
+    "model": "logistic",
+    "pld_interval": 0.001,
+    "seed": 0,
+    "sensitivity_method": "direct_clipped_mean",
+    "target_delta": 0.1,
+    "target_epsilon": 100.0
+  },
+  "created_utc": "2026-08-25T20:09:52.247627+00:00",
+  "results": [
+    {
+      "arm": "ags_ss",
+      "coordinate_clipping_rate": 0.0475198365180467,
+      "layers": {
+        "certificate": {
+          "method": "direct_clipped_mean"
+        },
+        "linear.bias": {
+          "noise_scale_quantiles": [
+            0.0007692308281548321,
+            0.0007692308281548321,
+            0.0007692308281548321,
+            0.0007692308281548321,
+            0.0007692308281548321
+          ],
+          "s_over_gs_quantiles": [
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896
+          ]
+        },
+        "linear.weight": {
+          "noise_scale_quantiles": [
+            0.0007686310564167798,
+            0.0007686310564167798,
+            0.0007692308281548321,
+            0.0007692308281548321,
+            0.0007692308281548321
+          ],
+          "s_over_gs_quantiles": [
+            0.9992203712463379,
+            0.9992203712463379,
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896
+          ]
+        }
+      },
+      "peak_rss_mb": 1611.74609375,
+      "privacy": {
+        "accountant": "generic-pld-conservative",
+        "accounting_runtime_seconds": 0.5463432976976037,
+        "delta": 0.1,
+        "epsilon": 91.62113479227848,
+        "mechanism_parameter": 0.026000000000000002,
+        "q": 0.03333333333333333,
+        "steps": 30
+      },
+      "runtime_seconds": 1.3211868908256292,
+      "steps": 30,
+      "test_accuracy": 0.6915,
+      "test_loss": 1.7968517150878907
+    }
+  ],
+  "schema": 1,
+  "versions": {
+    "dp-accounting": "0.6.0",
+    "opacus": "1.6.0",
+    "torch": "2.9.1+cu128",
+    "torchvision": "0.24.1"
+  }
+}

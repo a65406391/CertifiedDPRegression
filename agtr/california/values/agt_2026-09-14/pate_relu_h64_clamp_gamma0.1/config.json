@@ -1,0 +1,30 @@
+{
+ "tag": "pate_relu_h64_clamp_gamma0.1",
+ "T_values": [
+  2,
+  4,
+  8,
+  16,
+  32,
+  64
+ ],
+ "k_grid": "dense 1..28",
+ "steps": 330,
+ "batch": "full shard",
+ "gamma": 0.1,
+ "clip_method": "clamp",
+ "hidden": [
+  64
+ ],
+ "activation": "relu",
+ "lr": 0.01,
+ "n_train": 16512,
+ "perm_seed": 123,
+ "partition": "one permutation, consecutive chunks; shard 0 = uniform WOR subsample of N/T",
+ "t1_arm": "relu_h64_clamp_gamma0.1/bs16512_k*.npz (same schedule: 330 full-batch steps)",
+ "y_min": -5.0,
+ "y_max": 5.0,
+ "git_sha": "4e74baf50feb012bf76c57bbd256464adafee96c",
+ "host": "anonymized-host",
+ "started": "2026-09-15 17:55:12"
+}

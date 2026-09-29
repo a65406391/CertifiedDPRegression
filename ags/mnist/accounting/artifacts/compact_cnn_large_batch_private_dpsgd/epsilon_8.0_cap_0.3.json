@@ -1,0 +1,52 @@
+{
+  "result": {
+    "arm": "dpsgd",
+    "clip": 0.3,
+    "config": {
+      "accountant_search_iterations": 12,
+      "ags_delta_fraction": 0.9,
+      "ags_mechanism": "laplace",
+      "ags_release_mode": "coordinate",
+      "arms": [
+        "dpsgd"
+      ],
+      "batch_size": 25000,
+      "beta_epsilon_ratio": 0.001,
+      "coordinate_clip": 0.1,
+      "coordinate_clip_bias": null,
+      "coordinate_clip_weight": null,
+      "epochs": 50,
+      "experiment": "compact_cnn_large_batch_private_screen",
+      "gradient_chunk_size": 256,
+      "l2_clip": 0.3,
+      "learning_rate": 0.2,
+      "model": "compact_selu_cnn",
+      "pld_interval": 0.001,
+      "seed": 0,
+      "sensitivity_method": "direct_clipped_mean",
+      "target_delta": 1e-05,
+      "target_epsilon": 8.0
+    },
+    "evaluation_split": "validation",
+    "example_l2_clipping_rate": 1.0,
+    "model": "compact_selu_cnn",
+    "peak_rss_mb": 8397.44140625,
+    "privacy": {
+      "accountant": "dp-accounting-pld-replace-one",
+      "accounting_runtime_seconds": 0.8736593397334218,
+      "delta": 1e-05,
+      "epsilon": 7.998057009034449,
+      "mechanism_parameter": 5.982674072265625,
+      "q": 0.5,
+      "steps": 100
+    },
+    "runtime_seconds": 106.38710288796574,
+    "screen_arm": "dpsgd",
+    "status": "completed",
+    "steps": 100,
+    "target_epsilon": 8.0,
+    "test_accuracy": 0.5621,
+    "test_loss": 1.775372332763672
+  },
+  "schema": 1
+}

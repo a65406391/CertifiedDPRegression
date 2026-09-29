@@ -1,0 +1,23 @@
+{
+ "run_id": "lp_critical_a_linear_b20_ns200_F10_LP",
+ "status": "completed",
+ "error": null,
+ "finished": "2026-08-26 04:11:39",
+ "wall_s": 4094.6103546619415,
+ "steps_written": 40,
+ "steps_expected": 40,
+ "models_written": 40,
+ "solves_written": 720,
+ "solves_expected": 720,
+ "counts": {
+  "optimal": 355,
+  "time_limit": 365,
+  "infeasible": 0,
+  "other": 0,
+  "dual_fallback": 365,
+  "no_solution": 0
+ },
+ "steps_complete": true,
+ "solves_complete": true,
+ "solves_sha256": "d8ffcbaf0bdbc353bbb6353a18c3a04835e14c5c2785612363df3b96027d196f"
+}

@@ -1,0 +1,315 @@
+{
+  "result": {
+    "arm": "ags_ss",
+    "clip": 0.03,
+    "config": {
+      "accountant_search_iterations": 12,
+      "ags_delta_fraction": 0.9,
+      "ags_mechanism": "laplace",
+      "ags_release_mode": "coordinate",
+      "arms": [
+        "ags_ss"
+      ],
+      "batch_size": 2000,
+      "beta_epsilon_ratio": 0.001,
+      "coordinate_clip": 0.03,
+      "coordinate_clip_bias": null,
+      "coordinate_clip_weight": null,
+      "epochs": 15,
+      "experiment": "compact_cnn_realistic_privacy_screen",
+      "gradient_chunk_size": 256,
+      "l2_clip": 1.0,
+      "learning_rate": 0.1,
+      "model": "compact_selu_cnn",
+      "pld_interval": 1e-05,
+      "seed": 0,
+      "sensitivity_method": "direct_clipped_mean",
+      "target_delta": 1e-05,
+      "target_epsilon": 2.0
+    },
+    "coordinate_clipping_rate": 0.49596467648291137,
+    "evaluation_split": "validation",
+    "layers": {
+      "certificate": {
+        "beta": 1.0200000000000002e-06,
+        "exp_minus_beta": 0.9999989800005202,
+        "method": "direct_clipped_mean"
+      },
+      "conv1.bias": {
+        "cap_reached_fraction": 1.0,
+        "local_over_gs_quantiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "local_term_selected_fraction": 1.0,
+        "noise_scale_quantiles": [
+          0.005882353521883488,
+          0.005882353521883488,
+          0.005882353521883488,
+          0.005882353521883488,
+          0.005882353521883488
+        ],
+        "s_over_gs_quantiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signal_over_noise_quantiles": [
+          0.009300370700657368,
+          0.025716640055179596,
+          0.04560523480176926,
+          0.05983133241534233,
+          0.0782163143157959
+        ]
+      },
+      "conv1.weight": {
+        "cap_reached_fraction": 1.0,
+        "local_over_gs_quantiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "local_term_selected_fraction": 1.0,
+        "noise_scale_quantiles": [
+          0.005882353521883488,
+          0.005882353521883488,
+          0.005882353521883488,
+          0.005882353521883488,
+          0.005882353521883488
+        ],
+        "s_over_gs_quantiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signal_over_noise_quantiles": [
+          4.943901876686141e-05,
+          0.009120162576436996,
+          0.01916663907468319,
+          0.03349047154188156,
+          0.08574258536100388
+        ]
+      },
+      "conv2.bias": {
+        "cap_reached_fraction": 1.0,
+        "local_over_gs_quantiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "local_term_selected_fraction": 1.0,
+        "noise_scale_quantiles": [
+          0.005882353521883488,
+          0.005882353521883488,
+          0.005882353521883488,
+          0.005882353521883488,
+          0.005882353521883488
+        ],
+        "s_over_gs_quantiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signal_over_noise_quantiles": [
+          0.0013467454118654132,
+          0.018955186009407043,
+          0.024921350181102753,
+          0.04501431807875633,
+          0.08147568255662918
+        ]
+      },
+      "conv2.weight": {
+        "cap_reached_fraction": 1.0,
+        "local_over_gs_quantiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "local_term_selected_fraction": 1.0,
+        "noise_scale_quantiles": [
+          0.005882353521883488,
+          0.005882353521883488,
+          0.005882353521883488,
+          0.005882353521883488,
+          0.005882353521883488
+        ],
+        "s_over_gs_quantiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signal_over_noise_quantiles": [
+          9.017929187393747e-06,
+          0.0109767597168684,
+          0.022150591015815735,
+          0.03727713227272034,
+          0.09843791276216507
+        ]
+      },
+      "fc1.bias": {
+        "cap_reached_fraction": 1.0,
+        "local_over_gs_quantiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "local_term_selected_fraction": 1.0,
+        "noise_scale_quantiles": [
+          0.005882353521883488,
+          0.005882353521883488,
+          0.005882353521883488,
+          0.005882353521883488,
+          0.005882353521883488
+        ],
+        "s_over_gs_quantiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signal_over_noise_quantiles": [
+          0.002628595568239689,
+          0.010892725549638271,
+          0.01837744005024433,
+          0.02768119052052498,
+          0.061370208859443665
+        ]
+      },
+      "fc1.weight": {
+        "cap_reached_fraction": 1.0,
+        "local_over_gs_quantiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "local_term_selected_fraction": 1.0,
+        "noise_scale_quantiles": [
+          0.005882353521883488,
+          0.005882353521883488,
+          0.005882353521883488,
+          0.005882353521883488,
+          0.005882353521883488
+        ],
+        "s_over_gs_quantiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signal_over_noise_quantiles": [
+          3.0362905363290338e-06,
+          0.006152321584522724,
+          0.014794664457440376,
+          0.026858830824494362,
+          0.07776932418346405
+        ]
+      },
+      "fc2.bias": {
+        "cap_reached_fraction": 1.0,
+        "local_over_gs_quantiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "local_term_selected_fraction": 1.0,
+        "noise_scale_quantiles": [
+          0.005882353521883488,
+          0.005882353521883488,
+          0.005882353521883488,
+          0.005882353521883488,
+          0.005882353521883488
+        ],
+        "s_over_gs_quantiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signal_over_noise_quantiles": [
+          0.0069005051627755165,
+          0.018885336816310883,
+          0.03426826745271683,
+          0.05787041410803795,
+          0.0862654596567154
+        ]
+      },
+      "fc2.weight": {
+        "cap_reached_fraction": 1.0,
+        "local_over_gs_quantiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "local_term_selected_fraction": 1.0,
+        "noise_scale_quantiles": [
+          0.005882353521883488,
+          0.005882353521883488,
+          0.005882353521883488,
+          0.005882353521883488,
+          0.005882353521883488
+        ],
+        "s_over_gs_quantiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signal_over_noise_quantiles": [
+          0.000362444669008255,
+          0.026767026633024216,
+          0.06454364955425262,
+          0.09038813412189484,
+          0.16109110414981842
+        ]
+      }
+    },
+    "model": "compact_selu_cnn",
+    "peak_rss_mb": 2644.45703125,
+    "privacy": {
+      "accountant": "generic-pld-conservative",
+      "accounting_runtime_seconds": 5.180489247664809,
+      "delta": 1e-05,
+      "epsilon": 1.9778504005232518,
+      "mechanism_parameter": 0.00102,
+      "q": 0.04,
+      "steps": 375
+    },
+    "runtime_seconds": 14.372364479117095,
+    "screen_arm": "ags",
+    "status": "completed",
+    "steps": 375,
+    "target_epsilon": 2.0,
+    "test_accuracy": 0.6295,
+    "test_loss": 2.02103583984375
+  },
+  "schema": 1
+}

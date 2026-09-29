@@ -1,0 +1,95 @@
+{
+  "accounting_note": "AGS uses conservative generic PLDs; coordinates are composed before one WOR amplification.",
+  "config": {
+    "accountant_search_iterations": 5,
+    "ags_delta_fraction": 0.5,
+    "ags_mechanism": "laplace",
+    "arms": [
+      "ags_ss"
+    ],
+    "batch_size": 2000,
+    "beta_epsilon_ratio": 0.03,
+    "coordinate_clip": 0.1,
+    "epochs": 1,
+    "experiment": "logistic_mnist_laplace_eps100_b2000",
+    "gradient_chunk_size": 256,
+    "l2_clip": 1.0,
+    "learning_rate": 0.1,
+    "model": "logistic",
+    "pld_interval": 0.001,
+    "seed": 0,
+    "target_delta": 0.1,
+    "target_epsilon": 100.0
+  },
+  "created_utc": "2026-08-25T19:54:19.608577+00:00",
+  "results": [
+    {
+      "arm": "ags_ss",
+      "coordinate_clipping_rate": 0.0345146263269639,
+      "layers": {
+        "cross_radius_over_next_width": {
+          "quantiles": [
+            0.5,
+            0.9990649819374084,
+            0.9995187520980835,
+            0.9996755123138428,
+            1.000025987625122
+          ]
+        },
+        "linear.bias": {
+          "noise_scale_quantiles": [
+            0.3924366235733032,
+            0.3973219394683838,
+            0.3999604880809784,
+            0.43255355954170227,
+            0.5322546362876892
+          ],
+          "s_over_gs_quantiles": [
+            510.1676330566406,
+            516.5185546875,
+            519.9486083984375,
+            562.3196411132812,
+            691.9310302734375
+          ]
+        },
+        "linear.weight": {
+          "noise_scale_quantiles": [
+            0.3629416525363922,
+            0.36294785141944885,
+            0.36450934410095215,
+            0.3769477307796478,
+            0.4768070876598358
+          ],
+          "s_over_gs_quantiles": [
+            471.82415771484375,
+            471.83221435546875,
+            473.8621826171875,
+            490.03204345703125,
+            619.8491821289062
+          ]
+        }
+      },
+      "peak_rss_mb": 1619.6640625,
+      "privacy": {
+        "accountant": "generic-pld-conservative",
+        "accounting_runtime_seconds": 0.5585957393050194,
+        "delta": 0.1,
+        "epsilon": 91.62113479227848,
+        "mechanism_parameter": 0.026000000000000002,
+        "q": 0.03333333333333333,
+        "steps": 30
+      },
+      "runtime_seconds": 7.871796014718711,
+      "steps": 30,
+      "test_accuracy": 0.108,
+      "test_loss": 51.1320962890625
+    }
+  ],
+  "schema": 1,
+  "versions": {
+    "dp-accounting": "0.6.0",
+    "opacus": "1.6.0",
+    "torch": "2.9.1+cu128",
+    "torchvision": "0.24.1"
+  }
+}

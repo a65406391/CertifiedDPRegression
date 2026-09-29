@@ -1,0 +1,193 @@
+{
+  "created_utc": "2026-08-25T20:25:49.611095+00:00",
+  "grid": {
+    "coordinates": 7850,
+    "delta_fractions": [
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      0.9
+    ],
+    "experiment": "ags_accountant_resolution_and_delta_allocation",
+    "mechanism": "laplace",
+    "pld_intervals": [
+      0.002,
+      0.001,
+      0.0005
+    ],
+    "q": 0.016666666666666666,
+    "steps": 60,
+    "target_delta": 0.1,
+    "target_epsilon": 100.0
+  },
+  "note": "Public accountant-only sweep; larger eps_coord means less AGS noise.",
+  "results": [
+    {
+      "accountant": "generic-pld-conservative",
+      "accounting_runtime_seconds": 0.2823060192167759,
+      "delta": 0.1,
+      "delta_fraction": 0.1,
+      "epsilon": 77.92283983143041,
+      "mechanism_parameter": 0.02,
+      "pld_interval": 0.002,
+      "q": 0.016666666666666666,
+      "steps": 60
+    },
+    {
+      "accountant": "generic-pld-conservative",
+      "accounting_runtime_seconds": 0.2659527137875557,
+      "delta": 0.1,
+      "delta_fraction": 0.25,
+      "epsilon": 82.84804497395643,
+      "mechanism_parameter": 0.022,
+      "pld_interval": 0.002,
+      "q": 0.016666666666666666,
+      "steps": 60
+    },
+    {
+      "accountant": "generic-pld-conservative",
+      "accounting_runtime_seconds": 0.27244776766747236,
+      "delta": 0.1,
+      "delta_fraction": 0.5,
+      "epsilon": 89.10042284505012,
+      "mechanism_parameter": 0.024,
+      "pld_interval": 0.002,
+      "q": 0.016666666666666666,
+      "steps": 60
+    },
+    {
+      "accountant": "generic-pld-conservative",
+      "accounting_runtime_seconds": 0.2708181897178292,
+      "delta": 0.1,
+      "delta_fraction": 0.75,
+      "epsilon": 68.71237036976963,
+      "mechanism_parameter": 0.024,
+      "pld_interval": 0.002,
+      "q": 0.016666666666666666,
+      "steps": 60
+    },
+    {
+      "accountant": "generic-pld-conservative",
+      "accounting_runtime_seconds": 0.2697753757238388,
+      "delta": 0.1,
+      "delta_fraction": 0.9,
+      "epsilon": 97.9030804465405,
+      "mechanism_parameter": 0.026000000000000002,
+      "pld_interval": 0.002,
+      "q": 0.016666666666666666,
+      "steps": 60
+    },
+    {
+      "accountant": "generic-pld-conservative",
+      "accounting_runtime_seconds": 0.549670715816319,
+      "delta": 0.1,
+      "delta_fraction": 0.1,
+      "epsilon": 77.86881831484564,
+      "mechanism_parameter": 0.02,
+      "pld_interval": 0.001,
+      "q": 0.016666666666666666,
+      "steps": 60
+    },
+    {
+      "accountant": "generic-pld-conservative",
+      "accounting_runtime_seconds": 0.5459136897698045,
+      "delta": 0.1,
+      "delta_fraction": 0.25,
+      "epsilon": 82.79302853105398,
+      "mechanism_parameter": 0.022,
+      "pld_interval": 0.001,
+      "q": 0.016666666666666666,
+      "steps": 60
+    },
+    {
+      "accountant": "generic-pld-conservative",
+      "accounting_runtime_seconds": 0.5508007491007447,
+      "delta": 0.1,
+      "delta_fraction": 0.5,
+      "epsilon": 89.09543801002167,
+      "mechanism_parameter": 0.024,
+      "pld_interval": 0.001,
+      "q": 0.016666666666666666,
+      "steps": 60
+    },
+    {
+      "accountant": "generic-pld-conservative",
+      "accounting_runtime_seconds": 0.5439100060611963,
+      "delta": 0.1,
+      "delta_fraction": 0.75,
+      "epsilon": 88.10713406864208,
+      "mechanism_parameter": 0.025,
+      "pld_interval": 0.001,
+      "q": 0.016666666666666666,
+      "steps": 60
+    },
+    {
+      "accountant": "generic-pld-conservative",
+      "accounting_runtime_seconds": 0.548702553845942,
+      "delta": 0.1,
+      "delta_fraction": 0.9,
+      "epsilon": 97.84607206666355,
+      "mechanism_parameter": 0.026000000000000002,
+      "pld_interval": 0.001,
+      "q": 0.016666666666666666,
+      "steps": 60
+    },
+    {
+      "accountant": "generic-pld-conservative",
+      "accounting_runtime_seconds": 1.139000067487359,
+      "delta": 0.1,
+      "delta_fraction": 0.1,
+      "epsilon": 88.89530726776276,
+      "mechanism_parameter": 0.0205,
+      "pld_interval": 0.0005,
+      "q": 0.016666666666666666,
+      "steps": 60
+    },
+    {
+      "accountant": "generic-pld-conservative",
+      "accounting_runtime_seconds": 1.1271438114345074,
+      "delta": 0.1,
+      "delta_fraction": 0.25,
+      "epsilon": 92.58136218146574,
+      "mechanism_parameter": 0.0225,
+      "pld_interval": 0.0005,
+      "q": 0.016666666666666666,
+      "steps": 60
+    },
+    {
+      "accountant": "generic-pld-conservative",
+      "accounting_runtime_seconds": 1.1752378195524216,
+      "delta": 0.1,
+      "delta_fraction": 0.5,
+      "epsilon": 89.06793042919206,
+      "mechanism_parameter": 0.024,
+      "pld_interval": 0.0005,
+      "q": 0.016666666666666666,
+      "steps": 60
+    },
+    {
+      "accountant": "generic-pld-conservative",
+      "accounting_runtime_seconds": 1.173381115309894,
+      "delta": 0.1,
+      "delta_fraction": 0.75,
+      "epsilon": 97.39810892759161,
+      "mechanism_parameter": 0.025500000000000002,
+      "pld_interval": 0.0005,
+      "q": 0.016666666666666666,
+      "steps": 60
+    },
+    {
+      "accountant": "generic-pld-conservative",
+      "accounting_runtime_seconds": 1.1751690981909633,
+      "delta": 0.1,
+      "delta_fraction": 0.9,
+      "epsilon": 97.84457625702417,
+      "mechanism_parameter": 0.026000000000000002,
+      "pld_interval": 0.0005,
+      "q": 0.016666666666666666,
+      "steps": 60
+    }
+  ],
+  "schema": 1
+}

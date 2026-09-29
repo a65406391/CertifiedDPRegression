@@ -1,0 +1,13 @@
+{
+  "calibration": {
+    "accountant": "generic-pld-conservative",
+    "accounting_runtime_seconds": 16.661382220685482,
+    "delta": 0.1,
+    "epsilon": 99.98595933732959,
+    "mechanism_parameter": 0.0592,
+    "q": 0.2,
+    "steps": 5
+  },
+  "schema": 1,
+  "target_epsilon": 100.0
+}

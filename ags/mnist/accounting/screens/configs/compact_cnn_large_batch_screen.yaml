@@ -1,0 +1,10 @@
+experiment: compact_cnn_large_batch_nonprivate_screen
+model: compact_selu_cnn
+seed: 0
+batch_sizes: [10000, 25000, 50000]
+epochs: 15
+learning_rates: [0.1, 0.3, 1.0, 3.0]
+validation_size: 10000
+normalization_mean: 0.1307
+normalization_std: 0.3081
+

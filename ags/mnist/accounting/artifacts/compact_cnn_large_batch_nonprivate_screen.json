@@ -1,0 +1,183 @@
+{
+  "created_utc": "2026-08-25T22:02:03.659867+00:00",
+  "grid": {
+    "batch_sizes": [
+      10000,
+      25000,
+      50000
+    ],
+    "epochs": 15,
+    "experiment": "compact_cnn_large_batch_nonprivate_screen",
+    "learning_rates": [
+      0.1,
+      0.3,
+      1.0,
+      3.0
+    ],
+    "model": "compact_selu_cnn",
+    "normalization_mean": 0.1307,
+    "normalization_std": 0.3081,
+    "seed": 0,
+    "validation_size": 10000
+  },
+  "note": "Validation-only nonprivate large-batch learning-rate screen.",
+  "results": [
+    {
+      "arm": "nonprivate",
+      "batch_size": 10000,
+      "evaluation_split": "validation",
+      "learning_rate": 0.1,
+      "peak_rss_mb": 1667.48046875,
+      "privacy": null,
+      "runtime_seconds": 1.4460358181968331,
+      "status": "completed",
+      "steps": 75,
+      "test_accuracy": 0.9442,
+      "test_loss": 0.18398321304321288
+    },
+    {
+      "arm": "nonprivate",
+      "batch_size": 10000,
+      "evaluation_split": "validation",
+      "learning_rate": 0.3,
+      "peak_rss_mb": 1777.01953125,
+      "privacy": null,
+      "runtime_seconds": 0.9371278919279575,
+      "status": "diverged_nonfinite",
+      "steps": 75,
+      "test_accuracy": 0.0973,
+      "test_loss": null
+    },
+    {
+      "arm": "nonprivate",
+      "batch_size": 10000,
+      "evaluation_split": "validation",
+      "learning_rate": 1.0,
+      "peak_rss_mb": 1777.01953125,
+      "privacy": null,
+      "runtime_seconds": 0.8792602522298694,
+      "status": "diverged_nonfinite",
+      "steps": 75,
+      "test_accuracy": 0.0973,
+      "test_loss": null
+    },
+    {
+      "arm": "nonprivate",
+      "batch_size": 10000,
+      "evaluation_split": "validation",
+      "learning_rate": 3.0,
+      "peak_rss_mb": 1777.01953125,
+      "privacy": null,
+      "runtime_seconds": 0.8849977953359485,
+      "status": "diverged_nonfinite",
+      "steps": 75,
+      "test_accuracy": 0.0973,
+      "test_loss": null
+    },
+    {
+      "arm": "nonprivate",
+      "batch_size": 25000,
+      "evaluation_split": "validation",
+      "learning_rate": 0.1,
+      "peak_rss_mb": 1852.46875,
+      "privacy": null,
+      "runtime_seconds": 1.2833569645881653,
+      "status": "completed",
+      "steps": 30,
+      "test_accuracy": 0.8981,
+      "test_loss": 0.3871173187255859
+    },
+    {
+      "arm": "nonprivate",
+      "batch_size": 25000,
+      "evaluation_split": "validation",
+      "learning_rate": 0.3,
+      "peak_rss_mb": 1852.46875,
+      "privacy": null,
+      "runtime_seconds": 1.3935678787529469,
+      "status": "completed",
+      "steps": 30,
+      "test_accuracy": 0.0945,
+      "test_loss": 804237551.2064
+    },
+    {
+      "arm": "nonprivate",
+      "batch_size": 25000,
+      "evaluation_split": "validation",
+      "learning_rate": 1.0,
+      "peak_rss_mb": 1852.46875,
+      "privacy": null,
+      "runtime_seconds": 1.3873895881697536,
+      "status": "diverged_nonfinite",
+      "steps": 30,
+      "test_accuracy": 0.0973,
+      "test_loss": null
+    },
+    {
+      "arm": "nonprivate",
+      "batch_size": 25000,
+      "evaluation_split": "validation",
+      "learning_rate": 3.0,
+      "peak_rss_mb": 1852.46875,
+      "privacy": null,
+      "runtime_seconds": 1.387582466006279,
+      "status": "diverged_nonfinite",
+      "steps": 30,
+      "test_accuracy": 0.0973,
+      "test_loss": null
+    },
+    {
+      "arm": "nonprivate",
+      "batch_size": 50000,
+      "evaluation_split": "validation",
+      "learning_rate": 0.1,
+      "peak_rss_mb": 1694.4765625,
+      "privacy": null,
+      "runtime_seconds": 1.6298715509474277,
+      "status": "completed",
+      "steps": 15,
+      "test_accuracy": 0.4984,
+      "test_loss": 1.4304907043457031
+    },
+    {
+      "arm": "nonprivate",
+      "batch_size": 50000,
+      "evaluation_split": "validation",
+      "learning_rate": 0.3,
+      "peak_rss_mb": 1737.2734375,
+      "privacy": null,
+      "runtime_seconds": 0.9253439484164119,
+      "status": "completed",
+      "steps": 15,
+      "test_accuracy": 0.1016,
+      "test_loss": 1.1101383939145596e+16
+    },
+    {
+      "arm": "nonprivate",
+      "batch_size": 50000,
+      "evaluation_split": "validation",
+      "learning_rate": 1.0,
+      "peak_rss_mb": 1738.09375,
+      "privacy": null,
+      "runtime_seconds": 0.9311828911304474,
+      "status": "diverged_nonfinite",
+      "steps": 15,
+      "test_accuracy": 0.0973,
+      "test_loss": null
+    },
+    {
+      "arm": "nonprivate",
+      "batch_size": 50000,
+      "evaluation_split": "validation",
+      "learning_rate": 3.0,
+      "peak_rss_mb": 1738.09375,
+      "privacy": null,
+      "runtime_seconds": 0.9339501820504665,
+      "status": "diverged_nonfinite",
+      "steps": 15,
+      "test_accuracy": 0.0973,
+      "test_loss": null
+    }
+  ],
+  "schema": 1
+}

@@ -1,0 +1,147 @@
+{
+  "created_utc": "2026-08-25T20:59:15.057863+00:00",
+  "grid": {
+    "batch_size": 256,
+    "confirmation_epochs": 30,
+    "coordinate_clips": [
+      0.03,
+      0.1,
+      0.3,
+      1.0,
+      3.0
+    ],
+    "experiment": "mnist_cnn_architecture_screen",
+    "gradient_chunk_size": 256,
+    "l2_clips": [
+      0.3,
+      1.0,
+      3.0,
+      10.0,
+      30.0
+    ],
+    "learning_rates": [
+      0.05,
+      0.1,
+      0.15,
+      0.25
+    ],
+    "models": [
+      "sample_cnn",
+      "compact_selu_cnn"
+    ],
+    "normalization_mean": 0.1307,
+    "normalization_std": 0.3081,
+    "seed": 0,
+    "selection_epochs": 15,
+    "validation_size": 10000
+  },
+  "note": "Architecture and LR selection uses only a deterministic validation split.",
+  "results": [
+    {
+      "arm": "nonprivate",
+      "evaluation_split": "validation",
+      "learning_rate": 0.05,
+      "model": "sample_cnn",
+      "parameter_count": 26010,
+      "peak_rss_mb": 1624.26953125,
+      "privacy": null,
+      "runtime_seconds": 10.311859213747084,
+      "steps": 2940,
+      "test_accuracy": 0.9855,
+      "test_loss": 0.04353246355056763
+    },
+    {
+      "arm": "nonprivate",
+      "evaluation_split": "validation",
+      "learning_rate": 0.1,
+      "model": "sample_cnn",
+      "parameter_count": 26010,
+      "peak_rss_mb": 1624.26953125,
+      "privacy": null,
+      "runtime_seconds": 9.084552029147744,
+      "steps": 2940,
+      "test_accuracy": 0.9866,
+      "test_loss": 0.04355772180557251
+    },
+    {
+      "arm": "nonprivate",
+      "evaluation_split": "validation",
+      "learning_rate": 0.15,
+      "model": "sample_cnn",
+      "parameter_count": 26010,
+      "peak_rss_mb": 1624.6640625,
+      "privacy": null,
+      "runtime_seconds": 8.751265007071197,
+      "steps": 2940,
+      "test_accuracy": 0.9848,
+      "test_loss": 0.053169471597671505
+    },
+    {
+      "arm": "nonprivate",
+      "evaluation_split": "validation",
+      "learning_rate": 0.25,
+      "model": "sample_cnn",
+      "parameter_count": 26010,
+      "peak_rss_mb": 1624.6640625,
+      "privacy": null,
+      "runtime_seconds": 7.200023567304015,
+      "steps": 2940,
+      "test_accuracy": 0.1075,
+      "test_loss": 2.3021865600585936
+    },
+    {
+      "arm": "nonprivate",
+      "evaluation_split": "validation",
+      "learning_rate": 0.05,
+      "model": "compact_selu_cnn",
+      "parameter_count": 11138,
+      "peak_rss_mb": 1637.39453125,
+      "privacy": null,
+      "runtime_seconds": 7.453976678662002,
+      "steps": 2940,
+      "test_accuracy": 0.985,
+      "test_loss": 0.05031361713409424
+    },
+    {
+      "arm": "nonprivate",
+      "evaluation_split": "validation",
+      "learning_rate": 0.1,
+      "model": "compact_selu_cnn",
+      "parameter_count": 11138,
+      "peak_rss_mb": 1637.39453125,
+      "privacy": null,
+      "runtime_seconds": 7.429613539017737,
+      "steps": 2940,
+      "test_accuracy": 0.9865,
+      "test_loss": 0.04931317000389099
+    },
+    {
+      "arm": "nonprivate",
+      "evaluation_split": "validation",
+      "learning_rate": 0.15,
+      "model": "compact_selu_cnn",
+      "parameter_count": 11138,
+      "peak_rss_mb": 1637.39453125,
+      "privacy": null,
+      "runtime_seconds": 7.7777775172144175,
+      "steps": 2940,
+      "test_accuracy": 0.9863,
+      "test_loss": 0.04888414845466614
+    },
+    {
+      "arm": "nonprivate",
+      "evaluation_split": "validation",
+      "learning_rate": 0.25,
+      "model": "compact_selu_cnn",
+      "parameter_count": 11138,
+      "peak_rss_mb": 1602.89453125,
+      "privacy": null,
+      "runtime_seconds": 8.141957734711468,
+      "status": "completed",
+      "steps": 2940,
+      "test_accuracy": 0.0949,
+      "test_loss": 2548869947214686.0
+    }
+  ],
+  "schema": 1
+}

@@ -1,0 +1,260 @@
+{
+  "runs": [
+    {
+      "timestamp": "2026-06-06T21:19:42.971132",
+      "config": {
+        "total_steps": 10,
+        "batch_size": 2000,
+        "laplace_batch_size": 2000,
+        "ags_batch_size": 2000,
+        "dataset_size": 2000,
+        "lr_ags": 0.05,
+        "lr_laplace": 0.05,
+        "eta": 0.01,
+        "clip_gamma": 0.1,
+        "bound_mode": "crown",
+        "hidden_dims": [],
+        "epsilon_totals": [
+          10.0
+        ],
+        "n_seeds": 1,
+        "k_subset": [
+          1,
+          2,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          500
+        ]
+      },
+      "ags": {
+        "10.0": [
+          {
+            "seed": 42,
+            "test_loss": 2.428174228668213,
+            "test_accuracy": 0.088,
+            "epsilon_total": 10.0,
+            "n_windows": 1,
+            "avg_ss_per_window": 0.03112400576355867,
+            "time_s": 0.8340010643005371
+          }
+        ]
+      },
+      "laplace": {
+        "10.0": [
+          {
+            "seed": 42,
+            "test_loss": 2.426024726867676,
+            "test_accuracy": 0.092,
+            "epsilon_total": 10.0,
+            "noise_scale": 0.0001,
+            "time_s": 0.19972944259643555
+          }
+        ]
+      },
+      "nominal": [
+        {
+          "seed": 42,
+          "test_loss": 2.4260255012512206,
+          "test_accuracy": 0.092,
+          "epsilon_total": 0.0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-06T21:22:17.196548",
+      "config": {
+        "total_steps": 10,
+        "batch_size": 2000,
+        "laplace_batch_size": 2000,
+        "ags_batch_size": 2000,
+        "dataset_size": 2000,
+        "lr_ags": 0.05,
+        "lr_laplace": 0.05,
+        "eta": 0.01,
+        "clip_gamma": 0.1,
+        "bound_mode": "crown",
+        "hidden_dims": [],
+        "epsilon_totals": [
+          10.0
+        ],
+        "n_seeds": 1,
+        "k_subset": [
+          1,
+          5,
+          10,
+          50,
+          100
+        ]
+      },
+      "ags": {
+        "10.0": [
+          {
+            "seed": 42,
+            "test_loss": 2.4312226066589355,
+            "test_accuracy": 0.117,
+            "epsilon_total": 10.0,
+            "n_windows": 1,
+            "avg_ss_per_window": 0.03112400576355867,
+            "time_s": 0.5974960327148438
+          }
+        ]
+      },
+      "laplace": {
+        "10.0": [
+          {
+            "seed": 42,
+            "test_loss": 2.4290489234924317,
+            "test_accuracy": 0.119,
+            "epsilon_total": 10.0,
+            "noise_scale": 0.0001,
+            "time_s": 0.19223690032958984
+          }
+        ]
+      },
+      "nominal": [
+        {
+          "seed": 42,
+          "test_loss": 2.42904482460022,
+          "test_accuracy": 0.119,
+          "epsilon_total": 0.0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-07T09:58:20.765331",
+      "config": {
+        "total_steps": 40000,
+        "batch_size": 2000,
+        "laplace_batch_size": 2000,
+        "ags_batch_size": 2000,
+        "dataset_size": 2000,
+        "lr_ags": 0.05,
+        "lr_laplace": 0.05,
+        "eta": 0.01,
+        "clip_gamma": 0.1,
+        "bound_mode": "crown",
+        "hidden_dims": [],
+        "epsilon_totals": [
+          5.0,
+          10.0,
+          15.0,
+          20.0
+        ],
+        "n_seeds": 1,
+        "k_subset": [
+          1,
+          2,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          500
+        ]
+      },
+      "ags": {
+        "5.0": [
+          {
+            "seed": 42,
+            "test_loss": 1.8216585264205933,
+            "test_accuracy": 0.515,
+            "epsilon_total": 5.0,
+            "n_windows": 1,
+            "avg_ss_per_window": 1.9496610760688782,
+            "time_s": 3993.6599123477936
+          }
+        ],
+        "10.0": [
+          {
+            "seed": 42,
+            "test_loss": 1.2762042942047118,
+            "test_accuracy": 0.655,
+            "epsilon_total": 10.0,
+            "n_windows": 1,
+            "avg_ss_per_window": 1.9496610760688782,
+            "time_s": 8568.336894273758
+          }
+        ],
+        "15.0": [
+          {
+            "seed": 42,
+            "test_loss": 1.1608654212951661,
+            "test_accuracy": 0.706,
+            "epsilon_total": 15.0,
+            "n_windows": 1,
+            "avg_ss_per_window": 1.9496610760688782,
+            "time_s": 11574.0259141922
+          }
+        ],
+        "20.0": [
+          {
+            "seed": 42,
+            "test_loss": 1.119935112953186,
+            "test_accuracy": 0.731,
+            "epsilon_total": 20.0,
+            "n_windows": 1,
+            "avg_ss_per_window": 1.9496610760688782,
+            "time_s": 15658.090495824814
+          }
+        ]
+      },
+      "laplace": {
+        "5.0": [
+          {
+            "seed": 42,
+            "test_loss": 61.01365231323242,
+            "test_accuracy": 0.341,
+            "epsilon_total": 5.0,
+            "noise_scale": 0.8,
+            "time_s": 807.6258702278137
+          }
+        ],
+        "10.0": [
+          {
+            "seed": 42,
+            "test_loss": 17.648263259887695,
+            "test_accuracy": 0.509,
+            "epsilon_total": 10.0,
+            "noise_scale": 0.4,
+            "time_s": 815.3359954357147
+          }
+        ],
+        "15.0": [
+          {
+            "seed": 42,
+            "test_loss": 8.475016716003418,
+            "test_accuracy": 0.608,
+            "epsilon_total": 15.0,
+            "noise_scale": 0.26666666666666666,
+            "time_s": 846.2811899185181
+          }
+        ],
+        "20.0": [
+          {
+            "seed": 42,
+            "test_loss": 5.191616497039795,
+            "test_accuracy": 0.677,
+            "epsilon_total": 20.0,
+            "noise_scale": 0.2,
+            "time_s": 936.6130557060242
+          }
+        ]
+      },
+      "nominal": [
+        {
+          "seed": 42,
+          "test_loss": 0.4394385709762573,
+          "test_accuracy": 0.872,
+          "epsilon_total": 0.0
+        }
+      ]
+    }
+  ]
+}

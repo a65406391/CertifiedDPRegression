@@ -1,0 +1,182 @@
+[
+ {
+  "run_id": "ibp_N10000_b2000_ns5_k1",
+  "path": "AGS_Ablation/mnist_pca/runs/parameter_bounds/ibp_N10000_b2000_ns5_k1.npz",
+  "t": "2026-08-24 15:55:01",
+  "cfg": {
+   "N": 10000,
+   "d": 64,
+   "b": 2000,
+   "epochs": 1,
+   "n_s": 5,
+   "lr": 15.0,
+   "gamma": 0.12,
+   "lam": 0.0,
+   "loss": "cross_entropy",
+   "k": 1,
+   "bound": "IBP"
+  }
+ },
+ {
+  "run_id": "ibp_N10000_b2000_ns5_k2",
+  "path": "AGS_Ablation/mnist_pca/runs/parameter_bounds/ibp_N10000_b2000_ns5_k2.npz",
+  "t": "2026-08-24 15:55:02",
+  "cfg": {
+   "N": 10000,
+   "d": 64,
+   "b": 2000,
+   "epochs": 1,
+   "n_s": 5,
+   "lr": 15.0,
+   "gamma": 0.12,
+   "lam": 0.0,
+   "loss": "cross_entropy",
+   "k": 2,
+   "bound": "IBP"
+  }
+ },
+ {
+  "run_id": "ibp_N10000_b2000_ns5_k3",
+  "path": "AGS_Ablation/mnist_pca/runs/parameter_bounds/ibp_N10000_b2000_ns5_k3.npz",
+  "t": "2026-08-24 15:55:03",
+  "cfg": {
+   "N": 10000,
+   "d": 64,
+   "b": 2000,
+   "epochs": 1,
+   "n_s": 5,
+   "lr": 15.0,
+   "gamma": 0.12,
+   "lam": 0.0,
+   "loss": "cross_entropy",
+   "k": 3,
+   "bound": "IBP"
+  }
+ },
+ {
+  "run_id": "ibp_N10000_b2000_ns5_k4",
+  "path": "AGS_Ablation/mnist_pca/runs/parameter_bounds/ibp_N10000_b2000_ns5_k4.npz",
+  "t": "2026-08-24 15:55:04",
+  "cfg": {
+   "N": 10000,
+   "d": 64,
+   "b": 2000,
+   "epochs": 1,
+   "n_s": 5,
+   "lr": 15.0,
+   "gamma": 0.12,
+   "lam": 0.0,
+   "loss": "cross_entropy",
+   "k": 4,
+   "bound": "IBP"
+  }
+ },
+ {
+  "run_id": "ibp_N10000_b2000_ns5_k8",
+  "path": "AGS_Ablation/mnist_pca/runs/parameter_bounds/ibp_N10000_b2000_ns5_k8.npz",
+  "t": "2026-08-24 15:55:05",
+  "cfg": {
+   "N": 10000,
+   "d": 64,
+   "b": 2000,
+   "epochs": 1,
+   "n_s": 5,
+   "lr": 15.0,
+   "gamma": 0.12,
+   "lam": 0.0,
+   "loss": "cross_entropy",
+   "k": 8,
+   "bound": "IBP"
+  }
+ },
+ {
+  "run_id": "ibp_N10000_b2000_ns5_k16",
+  "path": "AGS_Ablation/mnist_pca/runs/parameter_bounds/ibp_N10000_b2000_ns5_k16.npz",
+  "t": "2026-08-24 15:55:06",
+  "cfg": {
+   "N": 10000,
+   "d": 64,
+   "b": 2000,
+   "epochs": 1,
+   "n_s": 5,
+   "lr": 15.0,
+   "gamma": 0.12,
+   "lam": 0.0,
+   "loss": "cross_entropy",
+   "k": 16,
+   "bound": "IBP"
+  }
+ },
+ {
+  "run_id": "ibp_N10000_b2000_ns5_k32",
+  "path": "AGS_Ablation/mnist_pca/runs/parameter_bounds/ibp_N10000_b2000_ns5_k32.npz",
+  "t": "2026-08-24 15:55:06",
+  "cfg": {
+   "N": 10000,
+   "d": 64,
+   "b": 2000,
+   "epochs": 1,
+   "n_s": 5,
+   "lr": 15.0,
+   "gamma": 0.12,
+   "lam": 0.0,
+   "loss": "cross_entropy",
+   "k": 32,
+   "bound": "IBP"
+  }
+ },
+ {
+  "run_id": "ibp_N10000_b2000_ns5_k128",
+  "path": "AGS_Ablation/mnist_pca/runs/parameter_bounds/ibp_N10000_b2000_ns5_k128.npz",
+  "t": "2026-08-24 15:55:07",
+  "cfg": {
+   "N": 10000,
+   "d": 64,
+   "b": 2000,
+   "epochs": 1,
+   "n_s": 5,
+   "lr": 15.0,
+   "gamma": 0.12,
+   "lam": 0.0,
+   "loss": "cross_entropy",
+   "k": 128,
+   "bound": "IBP"
+  }
+ },
+ {
+  "run_id": "ibp_N10000_b2000_ns5_k1024",
+  "path": "AGS_Ablation/mnist_pca/runs/parameter_bounds/ibp_N10000_b2000_ns5_k1024.npz",
+  "t": "2026-08-24 15:55:08",
+  "cfg": {
+   "N": 10000,
+   "d": 64,
+   "b": 2000,
+   "epochs": 1,
+   "n_s": 5,
+   "lr": 15.0,
+   "gamma": 0.12,
+   "lam": 0.0,
+   "loss": "cross_entropy",
+   "k": 1024,
+   "bound": "IBP"
+  }
+ },
+ {
+  "run_id": "ibp_N10000_b2000_ns5_k2000",
+  "path": "AGS_Ablation/mnist_pca/runs/parameter_bounds/ibp_N10000_b2000_ns5_k2000.npz",
+  "t": "2026-08-24 15:55:10",
+  "cfg": {
+   "N": 10000,
+   "d": 64,
+   "b": 2000,
+   "epochs": 1,
+   "n_s": 5,
+   "lr": 15.0,
+   "gamma": 0.12,
+   "lam": 0.0,
+   "loss": "cross_entropy",
+   "k": 2000,
+   "bound": "IBP"
+  }
+ }
+]

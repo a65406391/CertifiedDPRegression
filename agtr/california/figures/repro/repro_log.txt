@@ -1,0 +1,23 @@
+k grid: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 13, 16, 19, 22, 25, 28]
+y_std = 1.153928   GS (real units) = 11.539282   n_test = 4128
+
+    BS    stored S      radius  stored/rad   staircase  stair/rad       width  width/rad   nom MSE
+   250    4.589629    4.589629    1.000000    4.589629     1.0000    8.371633     1.8240   0.68864
+   500    3.742602    3.742602    1.000000    3.742602     1.0000    6.826206     1.8239   0.68997
+  1000    2.381459    2.381459    1.000000    2.381459     1.0000    4.311564     1.8105   0.70536
+  2000    1.062799    1.062799    1.000000    1.133547     1.0666    1.887067     1.7756   0.70544
+  4000    0.483114    0.483114    1.000000    0.509109     1.0538    0.690596     1.4295   0.70538
+
+staircase-panel SS peak at the single plotted test point (right axis):
+   BS=250   peak = 4.0379
+   BS=500   peak = 2.9025
+   BS=1000  peak = 1.4921
+   BS=2000  peak = 0.5319
+   BS=4000  peak = 0.3178
+
+pure-DP  MSE at eps=0.1 : GS=7.968e+07  BS250=1.134e+07  BS500=8.808e+06  BS1000=3.180e+06  BS2000=6.151e+05  BS4000=1.565e+05
+pure-DP  MSE at eps=10  : GS=6.859e+03  BS250=1.187e+03  BS500=9.111e+02  BS1000=2.792e+02  BS2000=6.989e+01  BS4000=1.353e+01
+approx   MSE at eps=0.1 : GS=3.066e+05  BS250=4.848e+04  BS500=3.231e+04  BS1000=1.307e+04  BS2000=2.603e+03  BS4000=5.373e+02
+approx   MSE at eps=10  : GS=3.066e+01  BS250=5.536e+00  BS500=3.921e+00  BS1000=2.012e+00  BS2000=9.653e-01  BS4000=7.592e-01
+
+figures written to AGS_Ablation/california/figures/

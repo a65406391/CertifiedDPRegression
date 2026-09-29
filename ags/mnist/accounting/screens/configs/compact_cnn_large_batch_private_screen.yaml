@@ -1,0 +1,19 @@
+experiment: compact_cnn_large_batch_private_screen
+model: compact_selu_cnn
+seed: 0
+batch_size: 25000
+epochs: 50
+learning_rate: 0.2
+epsilons: [8.0]
+target_delta: 1.0e-5
+ags_coordinate_clips: [0.001, 0.003, 0.01, 0.03, 0.1]
+dpsgd_l2_clips: [0.3, 1.0, 3.0, 10.0, 30.0]
+beta_epsilon_ratio: 0.001
+ags_delta_fraction: 0.9
+ags_pld_interval: 1.0e-5
+dpsgd_pld_interval: 0.001
+dpsgd_search_iterations: 12
+gradient_chunk_size: 256
+validation_size: 10000
+normalization_mean: 0.1307
+normalization_std: 0.3081

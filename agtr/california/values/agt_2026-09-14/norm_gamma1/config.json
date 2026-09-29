@@ -1,0 +1,41 @@
+{
+ "variant": "norm",
+ "gamma": 1.0,
+ "clip_method": "norm",
+ "lr": 0.01,
+ "base_epochs": 20,
+ "base_batch_size": 1000,
+ "fixed_steps_mode": true,
+ "k_values": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  13,
+  16,
+  19,
+  22,
+  25,
+  28
+ ],
+ "batch_sizes": [
+  2000
+ ],
+ "y_min": -5.0,
+ "y_max": 5.0,
+ "dtype": "float64",
+ "device": "cuda",
+ "loss": "mse (package BoundedMSELoss)",
+ "note": "genuine privacy_certified_training; local norm-branch patch; differs from original in clipping (per-tensor l2 / per-coordinate vs joint l2 + Huber clamp)",
+ "git_sha": "c6c202fc902d03334f07caabe3f5f51741bbe5a1",
+ "torch": "2.9.1+cu128",
+ "host": "anonymized-host",
+ "started": "2026-09-14 22:41:27"
+}

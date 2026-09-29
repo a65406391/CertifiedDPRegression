@@ -1,0 +1,35 @@
+{
+  "grid": {
+    "coordinates": 7850,
+    "delta_fractions": [
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      0.9
+    ],
+    "experiment": "ags_accountant_resolution_and_delta_allocation",
+    "mechanism": "laplace",
+    "pld_intervals": [
+      0.002,
+      0.001,
+      0.0005
+    ],
+    "q": 0.016666666666666666,
+    "steps": 60,
+    "target_delta": 0.1,
+    "target_epsilon": 100.0
+  },
+  "result": {
+    "accountant": "generic-pld-conservative",
+    "accounting_runtime_seconds": 1.139000067487359,
+    "delta": 0.1,
+    "delta_fraction": 0.1,
+    "epsilon": 88.89530726776276,
+    "mechanism_parameter": 0.0205,
+    "pld_interval": 0.0005,
+    "q": 0.016666666666666666,
+    "steps": 60
+  },
+  "schema": 1
+}
